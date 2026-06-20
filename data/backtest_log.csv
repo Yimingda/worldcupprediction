@@ -1,0 +1,3 @@
+﻿date,match,actual,pred_score,hit_1x2,pred_1x2,act_1x2,over25_hit,over35_hit,exact_hit,handicap_hit,verdict_hit,brier,total_goals
+2026-06-20,突尼斯 vs 日本,1-1,1-2,False,A,D,False,True,True,False,False,0.755,2
+2026-06-20,荷兰 vs 瑞典,5-1,2-1,True,H,H,True,False,False,True,True,0.377,6

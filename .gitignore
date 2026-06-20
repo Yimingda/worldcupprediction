@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.venv/
+venv/
+
+# 仅保留 JSON / CSV 作为数据真相源；忽略生成的静态页与报告
+data/**/*.html
+data/**/*.md

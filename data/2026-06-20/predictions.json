@@ -1,0 +1,134 @@
+[
+  {
+    "home_flag": "🇹🇳", "home_name": "突尼斯", "home_prev": "1-5 ❌ 负瑞典", "home_pts": 0,
+    "away_flag": "🇯🇵", "away_name": "日本", "away_prev": "2-2 🤝 平荷兰", "away_pts": 1,
+    "match_group": "F组 第2轮", "match_date": "6月20日 · 北京时间 12:00",
+    "match_venue": "蒙特雷 Estadio BBVA",
+    "h_poss": 45, "h_shots": 9, "h_sot": 3, "h_bc": 1, "h_xg": 0.9, "h_goals": 1,
+    "h_xga": 3.2, "h_oshots": 18, "h_osot": 9,
+    "a_poss": 48, "a_shots": 14, "a_sot": 6, "a_bc": 3, "a_xg": 1.8, "a_goals": 2,
+    "a_xga": 1.9, "a_oshots": 15, "a_osot": 5,
+    "home_prob": 25, "draw_prob": 30, "home_odds": "+200", "draw_odds": "+220", "away_odds": "+130",
+    "home_form": "4-4-2", "away_form": "4-2-3-1",
+    "home_strategy": "背水一战，必须取胜才能保留出线希望，开场加强逼抢",
+    "away_strategy": "控球推进、稳中求胜，一场胜利基本锁定出线主动权",
+    "home_tactics": ["主场气势", "边路冲击", "定位球搏命"],
+    "away_tactics": ["控球主导", "中场渗透", "前场压迫"],
+    "home_mentality": [
+      {"title": "生死战压力", "desc": "首轮惨败瑞典后已无退路，必须拿分自救", "quote": "我们要为荣誉和出线而战。"},
+      {"title": "防线信心受挫", "desc": "上轮丢5球让后防士气低落，需要重建稳定性", "quote": "失球太多，必须先把门守住。"}
+    ],
+    "away_mentality": [
+      {"title": "逼平强敌的底气", "desc": "首轮2-2逼平荷兰，全队信心高涨", "quote": "我们证明了能与任何对手抗衡。"},
+      {"title": "出线主动权在握", "desc": "再拿3分基本提前出线，目标明确", "quote": "把握机会，掌控自己的命运。"}
+    ],
+    "metric_labels": ["当前信心", "求胜紧迫", "进攻实力", "防守组织", "战术执行", "无压力感"],
+    "home_metrics": [5, 10, 6, 4, 6, 4],
+    "away_metrics": [8, 8, 8, 7, 8, 6],
+    "over25": 60, "over35": 35, "away_score_prob": 78, "handicap": 45, "handicap_label": "日本让球 -1 胜",
+    "likely_scores": ["1-2", "0-2", "1-1", "2-1"],
+    "home_risks": ["后防上轮崩盘，面对日本快速传切恐再失球", "急于求胜压上后易遭反击"],
+    "away_risks": ["客场作战、气温与草皮考验体能", "若早早领先可能松懈被突尼斯扳回"],
+    "verdict_rec": "买日本不败 · 偏大球（过2.5）", "verdict_score": "1-2", "verdict_stars": 3,
+    "verdict_logic": ["日本技术与状态全面占优，逼平荷兰证明实力", "突尼斯防线脆弱，难挡日本的渗透", "突尼斯求胜心切会留出反击空间，利于打出进球"]
+  },
+  {
+    "home_flag": "🇳🇱", "home_name": "荷兰", "home_prev": "2-2 🤝 平日本", "home_pts": 1,
+    "away_flag": "🇸🇪", "away_name": "瑞典", "away_prev": "5-1 ✅ 胜突尼斯", "away_pts": 3,
+    "match_group": "F组 第2轮", "match_date": "6月21日 · 北京时间 01:00",
+    "match_venue": "休斯敦 NRG Stadium",
+    "h_poss": 62, "h_shots": 17, "h_sot": 6, "h_bc": 3, "h_xg": 2.1, "h_goals": 2,
+    "h_xga": 1.6, "h_oshots": 12, "h_osot": 5,
+    "a_poss": 52, "a_shots": 18, "a_sot": 9, "a_bc": 5, "a_xg": 3.0, "a_goals": 5,
+    "a_xga": 0.8, "a_oshots": 9, "a_osot": 3,
+    "home_prob": 50, "draw_prob": 28, "home_odds": "-135", "draw_odds": "+260", "away_odds": "+340",
+    "home_form": "4-3-3", "away_form": "4-4-2",
+    "home_strategy": "主导控球、提速边路，力争抢回小组第一的位置",
+    "away_strategy": "依靠高效反击与高中锋支点，巩固领头羊优势",
+    "home_tactics": ["控球主导", "两翼齐飞", "高位压迫"],
+    "away_tactics": ["快速反击", "高点冲击", "定位球"],
+    "home_mentality": [
+      {"title": "被逼平的不甘", "desc": "首轮被日本逼平后亟需用胜利正名", "quote": "我们必须展现荷兰应有的水准。"},
+      {"title": "夺回主导权", "desc": "战胜瑞典即可重返小组榜首", "quote": "三分是唯一目标。"}
+    ],
+    "away_mentality": [
+      {"title": "大胜后的高昂士气", "desc": "5-1血洗突尼斯，攻击线状态火热", "quote": "锋线找到了感觉，我们无所畏惧。"},
+      {"title": "冲击提前出线", "desc": "再胜一场有望锁定淘汰赛席位", "quote": "继续保持，机会就在眼前。"}
+    ],
+    "metric_labels": ["当前信心", "求胜紧迫", "进攻实力", "防守组织", "战术执行", "无压力感"],
+    "home_metrics": [7, 9, 9, 6, 8, 5],
+    "away_metrics": [9, 7, 9, 7, 7, 7],
+    "over25": 65, "over35": 40, "away_score_prob": 55, "handicap": 50, "handicap_label": "荷兰让球 -0.5/-1",
+    "likely_scores": ["2-1", "1-1", "2-0", "3-1"],
+    "home_risks": ["后防对快速反击的保护不足，上轮被日本两度破门", "若久攻不下易心急露出空当"],
+    "away_risks": ["面对荷兰控球压制，反击空间被压缩", "防线遭遇荷兰边路群将承受巨大压力"],
+    "verdict_rec": "买荷兰赢 · 大球（过2.5）", "verdict_score": "2-1", "verdict_stars": 3,
+    "verdict_logic": ["荷兰整体实力与控球占优，主场动力十足", "瑞典锋线状态火热，比赛大概率有进球", "两队均具攻击力，互交白卷概率低"]
+  },
+  {
+    "home_flag": "🇩🇪", "home_name": "德国", "home_prev": "7-1 ✅ 胜库拉索", "home_pts": 3,
+    "away_flag": "🇨🇮", "away_name": "科特迪瓦", "away_prev": "1-0 ✅ 胜厄瓜多尔", "away_pts": 3,
+    "match_group": "E组 第2轮", "match_date": "6月21日 · 北京时间 04:00",
+    "match_venue": "多伦多 BMO Field",
+    "h_poss": 68, "h_shots": 24, "h_sot": 11, "h_bc": 7, "h_xg": 3.8, "h_goals": 7,
+    "h_xga": 0.9, "h_oshots": 6, "h_osot": 2,
+    "a_poss": 47, "a_shots": 12, "a_sot": 4, "a_bc": 2, "a_xg": 1.1, "a_goals": 1,
+    "a_xga": 1.0, "a_oshots": 13, "a_osot": 4,
+    "home_prob": 62, "draw_prob": 23, "home_odds": "-250", "draw_odds": "+340", "away_odds": "+650",
+    "home_form": "4-2-3-1", "away_form": "4-3-3",
+    "home_strategy": "延续高压控球，争取再下一城提前出线",
+    "away_strategy": "稳固防守、限制德国中路，伺机利用速度反击",
+    "home_tactics": ["控球主导", "高位压迫", "中路渗透"],
+    "away_tactics": ["低位防守", "快速反击", "边路速度"],
+    "home_mentality": [
+      {"title": "开门红的自信", "desc": "7-1狂胜库拉索，全队气势如虹", "quote": "这只是开始，我们要走得更远。"},
+      {"title": "提前出线的诱惑", "desc": "再胜即可锁定小组出线", "quote": "保持专注，把优势延续下去。"}
+    ],
+    "away_mentality": [
+      {"title": "绝杀带来的凝聚力", "desc": "末段绝杀厄瓜多尔，士气与团结度高", "quote": "我们为彼此拼到最后一秒。"},
+      {"title": "挑战强敌无压力", "desc": "面对夺冠热门，放手一搏即可", "quote": "没人看好我们，正好轻装上阵。"}
+    ],
+    "metric_labels": ["当前信心", "求胜紧迫", "进攻实力", "防守组织", "战术执行", "无压力感"],
+    "home_metrics": [9, 7, 10, 8, 9, 6],
+    "away_metrics": [8, 6, 6, 8, 7, 8],
+    "over25": 60, "over35": 38, "away_score_prob": 40, "handicap": 52, "handicap_label": "德国让球 -1.5 胜",
+    "likely_scores": ["2-0", "2-1", "3-1", "1-0"],
+    "home_risks": ["大胜后或有轻敌情绪", "压上进攻被科特迪瓦速度型边锋反击"],
+    "away_risks": ["面对德国整体压制，控球与出球困难", "防线需长时间承压，体能与专注度受考验"],
+    "verdict_rec": "买德国赢 · 让球 -1", "verdict_score": "2-0", "verdict_stars": 4,
+    "verdict_logic": ["德国实力与状态全面碾压，开门7球展现火力", "科特迪瓦进攻乏力，上轮全场仅靠绝杀取胜", "德国主导控球，多点开花概率高"]
+  },
+  {
+    "home_flag": "🇪🇨", "home_name": "厄瓜多尔", "home_prev": "0-1 ❌ 负科特迪瓦", "home_pts": 0,
+    "away_flag": "🇨🇼", "away_name": "库拉索", "away_prev": "1-7 ❌ 负德国", "away_pts": 0,
+    "match_group": "E组 第2轮", "match_date": "6月21日 · 北京时间 08:00",
+    "match_venue": "堪萨斯城 Arrowhead Stadium",
+    "h_poss": 53, "h_shots": 13, "h_sot": 4, "h_bc": 2, "h_xg": 1.2, "h_goals": 0,
+    "h_xga": 0.8, "h_oshots": 12, "h_osot": 4,
+    "a_poss": 32, "a_shots": 7, "a_sot": 3, "a_bc": 1, "a_xg": 0.8, "a_goals": 1,
+    "a_xga": 4.5, "a_oshots": 24, "a_osot": 11,
+    "home_prob": 68, "draw_prob": 22, "home_odds": "-300", "draw_odds": "+330", "away_odds": "+750",
+    "home_form": "4-4-2", "away_form": "5-3-2",
+    "home_strategy": "把握主动、提升射门转化，全力争取首胜保留出线希望",
+    "away_strategy": "收缩防守、减少失球，力求避免再度崩盘",
+    "home_tactics": ["控球推进", "两翼下底", "定位球"],
+    "away_tactics": ["密集防守", "快速反击", "拖慢节奏"],
+    "home_mentality": [
+      {"title": "首战遗憾的不甘", "desc": "0-1惜败科特迪瓦，全队急需用胜利证明", "quote": "我们踢得不差，只是缺少进球。"},
+      {"title": "生死攸关的紧迫", "desc": "再不取胜出线将极度被动", "quote": "这是必须拿下的一战。"}
+    ],
+    "away_mentality": [
+      {"title": "惨败后的低谷", "desc": "1-7惨败德国，需重整士气", "quote": "我们要从失利中站起来。"},
+      {"title": "世界杯首胜的渴望", "desc": "作为最小参赛国，仍渴望创造历史", "quote": "能站上这舞台，我们已无所畏惧。"}
+    ],
+    "metric_labels": ["当前信心", "求胜紧迫", "进攻实力", "防守组织", "战术执行", "无压力感"],
+    "home_metrics": [6, 10, 7, 7, 7, 4],
+    "away_metrics": [4, 8, 5, 4, 5, 8],
+    "over25": 50, "over35": 28, "away_score_prob": 35, "handicap": 55, "handicap_label": "厄瓜多尔让球 -1 胜",
+    "likely_scores": ["2-0", "1-0", "2-1", "3-0"],
+    "home_risks": ["射门转化率低，上轮13射颗粒无收", "急于进球若久攻不下心态易失衡"],
+    "away_risks": ["后防刚遭德国狂灌7球，信心与稳定性存疑", "控球与出球能力薄弱，易被持续压制"],
+    "verdict_rec": "买厄瓜多尔赢 · 让球 -1", "verdict_score": "2-0", "verdict_stars": 4,
+    "verdict_logic": ["厄瓜多尔实力明显占优，主场志在首胜", "库拉索防线脆弱、上轮失7球，难挡持续施压", "厄瓜多尔防守稳健，零封并取胜概率高"]
+  }
+]

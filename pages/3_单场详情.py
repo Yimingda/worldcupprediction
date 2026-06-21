@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""单场完整赛前分析详情。原样嵌入与静态模板一致的 HTML（render_match）。
+"""单场完整赛前分析详情。复用 view.render_detail 渲染（与静态模板视觉一致）。
 通过 ?match=日期|序号 或下拉选择进入。"""
 
 import streamlit as st
-import streamlit.components.v1 as components
 
-from core import data, loader, match_html, view
+from core import data, loader, view
 
 st.set_page_config(page_title="单场详情", page_icon="🔎", layout="wide")
 view.inject_css()
@@ -33,5 +32,4 @@ if not rec:
     st.error("未找到该比赛。")
     st.stop()
 
-if rec["actual"]:
-    view.md
+view.render_detail(rec["p"], rec["actual"], rec["scored"])

@@ -1,6 +1,9 @@
 {
   "西班牙 vs 沙特": {
-    "status": "scheduled"
+    "h": 4,
+    "a": 0,
+    "status": "final",
+    "source": "https://sports.yahoo.com/soccer/live/world-cup-2026-scores-results-schedule-live-updates-195336732.html"
   },
   "比利时 vs 伊朗": {
     "status": "scheduled"

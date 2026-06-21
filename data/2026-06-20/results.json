@@ -1,6 +1,6 @@
 {
-  "突尼斯 vs 日本": {"h": null, "a": null},
-  "荷兰 vs 瑞典": {"h": 5, "a": 1},
-  "德国 vs 科特迪瓦": {"h": 2, "a": 1},
-  "厄瓜多尔 vs 库拉索": {"h": null, "a": null}
+  "突尼斯 vs 日本": {"h": 0, "a": 3, "status": "final", "source": "https://www.espn.com/soccer/match/_/gameId/760449/japan-tunisia"},
+  "荷兰 vs 瑞典": {"h": 5, "a": 1, "status": "final", "source": "https://sports.yahoo.com/soccer/live/world-cup-2026-scores-results-schedule-live-updates-195336732.html"},
+  "德国 vs 科特迪瓦": {"h": 2, "a": 1, "status": "final", "source": "https://sports.yahoo.com/soccer/live/world-cup-2026-scores-results-schedule-live-updates-195336732.html"},
+  "厄瓜多尔 vs 库拉索": {"status": "scheduled"}
 }

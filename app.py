@@ -17,6 +17,10 @@ today = all_dates[-1] if all_dates else None
 st.title("⚽ 世界杯预测中心 · 总览")
 st.caption(f"累计 {agg['days']} 个比赛日 / {agg['total']} 场预测 · 已评分 {agg['graded']} 场")
 
+if st.button("🔄 刷新最新数据", help="清缓存重新读取；注意：仅当已 push 到 GitHub，云端数据才会变"):
+    loader.clear_cache()
+    st.rerun()
+
 # ── 战绩看板 ──
 st.subheader("📊 累计战绩看板")
 c = st.columns(4)
@@ -61,7 +65,7 @@ st.divider()
 # ── 历史时间线（最近 12 场） ──
 st.subheader("🗂 历史归档 · 时间线")
 ordered = sorted(recs, key=lambda x: (x["date"], -x["idx"]), reverse=True)
-for r in ordered[:12]:
+for r in ordered[:50]:
     p, sc = r["p"], r["scored"]
     left, mid, right = st.columns([1.2, 3, 1.2])
     left.markdown(f"<span style='font-size:12px;color:#888'>{r['date']}</span>", unsafe_allow_html=True)
@@ -72,7 +76,7 @@ for r in ordered[:12]:
     actual = f"{r['actual'][0]}-{r['actual'][1]}" if r["actual"] else "—"
     right.markdown(f"<div style='text-align:right'>预测 <b>{p.get('verdict_score','-')}</b><br>"
                    f"实际 <b>{actual}</b></div>", unsafe_allow_html=True)
-if len(ordered) > 12:
-    st.caption(f"仅显示最近 12 场，完整列表见「历史回测」页。")
+if len(ordered) > 50:
+    st.caption(f"仅显示最近 50 场，完整列表见「历史回测」页。")
 
 st.caption("⚠ 全部分析由模型基于公开数据自动生成，仅供参考。请理性博彩，量力而行。")

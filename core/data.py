@@ -28,8 +28,17 @@ def list_dates(data_dir=DATA_DIR):
     return out
 
 
+def _is_final(v):
+    """只认已确认终场：有比分且 status 不是 scheduled。"""
+    if not isinstance(v, dict):
+        return False
+    if v.get("h") is None or v.get("a") is None:
+        return False
+    return str(v.get("status", "final")).lower() != "scheduled"
+
+
 def _load_results(path):
-    """返回 {(norm(home), norm(away)): (h, a)}，跳过空结果。"""
+    """返回 {(norm(home), norm(away)): (h, a)}，只含已确认终场。"""
     out = {}
     if not Path(path).exists():
         return out
@@ -37,20 +46,16 @@ def _load_results(path):
         data = json.load(f)
     if isinstance(data, dict):
         for k, v in data.items():
-            if not isinstance(v, dict):
-                continue
-            h, a = v.get("h"), v.get("a")
-            if h is None or a is None:
+            if not _is_final(v):
                 continue
             parts = re.split(r"\s*vs\s*|\s*VS\s*|\s*-\s*", k)
             if len(parts) >= 2:
-                out[(norm(parts[0]), norm(parts[1]))] = (int(h), int(a))
+                out[(norm(parts[0]), norm(parts[1]))] = (int(v["h"]), int(v["a"]))
     elif isinstance(data, list):
         for v in data:
-            h, a = v.get("h"), v.get("a")
-            if h is None or a is None:
+            if not _is_final(v):
                 continue
-            out[(norm(v.get("home_name", "")), norm(v.get("away_name", "")))] = (int(h), int(a))
+            out[(norm(v.get("home_name", "")), norm(v.get("away_name", "")))] = (int(v["h"]), int(v["a"]))
     return out
 
 

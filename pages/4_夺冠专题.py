@@ -19,6 +19,7 @@ champs = data.get("champions", [])
 
 st.title("🏆 " + data.get("title", "四强 & 冠军预测"))
 st.caption(f"基准日 {data.get('as_of','')} · {data.get('stage','')} · {data.get('final_info','')}")
+st.caption("📌 概率基于公开赔率与实力推断，非自建模型；签表未定，不确定性高。")
 
 # ── 最终结论 ──
 v = data.get("verdict", {})

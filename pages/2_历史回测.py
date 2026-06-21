@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""历史回测：累计指标 + 趋势图 + 全量明细表。"""
+"""历史回测：累计指标 + 趋势图 + 校准追踪 + 全量明细表。"""
 
 import pandas as pd
 import streamlit as st
 
-from core import loader, view
+from core import loader, view, calibration
 
 st.set_page_config(page_title="历史回测", page_icon="📈", layout="wide")
 view.inject_css()
@@ -33,6 +33,20 @@ if daily:
             columns={"hit_1x2": "1X2命中", "hit_over25": "大小球命中"}))
     with t2:
         st.line_chart(df[["brier"]].rename(columns={"brier": "Brier"}))
+
+# ── 校准追踪 ──
+st.subheader("校准追踪")
+cal = calibration.summary(recs)
+cc = st.columns(2)
+cc[0].metric("对数损失 log-loss", "—" if cal["log_loss"] is None else f"{cal['log_loss']:.3f}",
+             help="衡量概率本身的准度（不只看命中），越低越好")
+cc[1].metric("校准误差 ECE", "—" if cal["ece"] is None else f"{cal['ece']:.0f}%",
+             help="平均 |置信度 - 实际命中率|，越低越校准")
+if cal["buckets"]:
+    st.caption("置信度分桶：校准良好时「平均置信度」应≈「实际命中率」")
+    st.dataframe(pd.DataFrame(cal["buckets"]), use_container_width=True, hide_index=True)
+else:
+    st.caption("样本不足，暂无法分桶。")
 
 # ── 明细表 ──
 st.subheader("全量明细")

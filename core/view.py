@@ -178,6 +178,27 @@ def render_detail(p, actual, scored):
     st.caption("⚠ 分析由模型基于公开数据自动生成，仅供参考。体育赛事充满不确定性，请理性博彩，量力而行。")
 
 
+def _grade_boxes(xg, xga):
+    """进攻/防守评分（与静态渲染器 match_html.last_match_panel 保持一致）。"""
+    xv, xav = float(xg or 0), float(xga or 0)
+    atk = "A" if xv > 1.5 else ("B" if xv > 1.0 else ("C" if xv > 0.5 else "D"))
+    dfd = "A" if xav < 0.5 else ("B" if xav < 1.0 else ("C" if xav < 1.5 else "D"))
+    atk_clr = "#1D9E75" if atk in ("A", "B") else "#BA7517"
+    dfd_clr = "#1D9E75" if dfd in ("A", "B") else ("#BA7517" if dfd == "C" else "#c0392b")
+    atk_note = f"xG {esc(xg)}，{'机会质量高' if xv > 1.2 else '有待提升'}"
+    dfd_note = f"对手xG {esc(xga)}，{'防守稳健' if xav < 1.0 else '承压较大'}"
+
+    def box(lbl, grade, note, clr):
+        return (f'<div style="background:#f5f4f0;border-radius:8px;padding:8px 10px">'
+                f'<div style="font-size:9px;color:#888;margin-bottom:2px">{lbl}</div>'
+                f'<div style="font-size:18px;font-weight:700;color:{clr}">{grade}</div>'
+                f'<div style="font-size:9px;color:#888;margin-top:2px;line-height:1.3">{note}</div></div>')
+
+    return ('<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px">'
+            + box("进攻评分", atk, atk_note, atk_clr)
+            + box("防守评分", dfd, dfd_note, dfd_clr) + '</div>')
+
+
 def _last_round(col, flag, name, prev, poss, shots, sot, bc, xg, goals, xga, oshots, osot, color):
     body = (f'<div class="wc-label">{flag} {esc(name)} — 上轮 {esc(prev)}</div>'
             + bar("控球率", poss, 100, color, "%") + bar("总射门", shots, 30, color)
@@ -185,7 +206,8 @@ def _last_round(col, flag, name, prev, poss, shots, sot, bc, xg, goals, xga, osh
             + f'<div style="font-size:10px;color:#999;margin:6px 0 2px">xG {esc(xg)} → 实际 {esc(goals)} 球</div>'
             + '<div class="wc-label" style="margin-top:8px">防守（对手）</div>'
             + bar("对手射门", oshots, 30, "#378ADD") + bar("对手射正", osot, 15, "#378ADD")
-            + bar("对手xG", xga, 3.0, "#c0392b" if float(xga or 0) > 1.2 else "#378ADD"))
+            + bar("对手xG", xga, 3.0, "#c0392b" if float(xga or 0) > 1.2 else "#378ADD")
+            + _grade_boxes(xg, xga))
     col.markdown(f'<div class="wc-card">{body}</div>', unsafe_allow_html=True)
 
 
@@ -212,10 +234,10 @@ def _mentality(col, flag, name, factors):
         return
     items = ""
     for f in factors:
-        q = f'<div class="wc-quote">{esc(f.get("quote",""))}</div>' if f.get("quote") else ""
+        q = f'<div class="wc-quote">{esc(f.get("quote", ""))}</div>' if f.get("quote") else ""
         items += (f'<div style="border-left:2px solid #e2e0d8;padding-left:8px;margin-bottom:8px">'
-                  f'<div style="font-size:9px;font-weight:700;color:#999">{esc(f.get("title",""))}</div>'
-                  f'<div style="font-size:11px;color:#444;margin-top:2px;line-height:1.5">{esc(f.get("desc",""))}</div>{q}</div>')
+                  f'<div style="font-size:9px;font-weight:700;color:#999">{esc(f.get("title", ""))}</div>'
+                  f'<div style="font-size:11px;color:#444;margin-top:2px;line-height:1.5">{esc(f.get("desc", ""))}</div>{q}</div>')
     col.markdown(f'<div class="wc-card"><div class="wc-label">{flag} {esc(name)} 赛前心态</div>{items}</div>',
                  unsafe_allow_html=True)
 
@@ -226,4 +248,5 @@ def _risks(col, title, risks):
                      unsafe_allow_html=True)
         return
     items = "".join(f'<div style="font-size:11px;margin-bottom:5px">• {esc(r)}</div>' for r in risks)
-    col.markdown(f'<div class="wc-card"><div class="wc-label">{esc(title)}</div>{items}</div>', unsafe_allow_html=True)
+    col.markdown(f'<div class="wc-card"><div class="wc-label">{esc(title)}</div>{items}</div>',
+                 unsafe_allow_html=True)

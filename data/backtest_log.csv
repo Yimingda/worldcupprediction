@@ -1,4 +1,5 @@
-﻿date,match,actual,pred_score,hit_1x2,pred_1x2,act_1x2,over25_hit,over35_hit,exact_hit,handicap_hit,verdict_hit,brier,total_goals
-2026-06-20,突尼斯 vs 日本,0-3,1-2,True,A,A,True,True,False,True,True,0.455,3
-2026-06-20,荷兰 vs 瑞典,5-1,2-1,True,H,H,True,False,False,True,True,0.377,6
-2026-06-20,德国 vs 科特迪瓦,2-1,2-0,True,H,H,True,True,True,False,True,0.198,3
+﻿date,match,actual,pred_score,hit_1x2,pred_1x2,act_1x2,over25_hit,over35_hit,exact_hit,handicap_hit,verdict_hit,brier,total_goals,score_mae,tier
+2026-06-20,突尼斯 vs 日本,0-3,1-2,True,A,A,True,True,False,True,True,0.455,3,1.0,接近
+2026-06-20,荷兰 vs 瑞典,5-1,2-1,True,H,H,True,False,False,True,True,0.377,6,1.5,接近
+2026-06-20,德国 vs 科特迪瓦,2-1,2-0,True,H,H,True,True,True,False,True,0.198,3,0.5,中等
+2026-06-20,厄瓜多尔 vs 库拉索,0-0,2-0,False,H,D,False,True,False,False,False,1.081,0,1.0,中等

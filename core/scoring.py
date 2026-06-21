@@ -5,11 +5,27 @@
 import re
 
 __all__ = ["norm", "predicted_outcome", "actual_outcome", "brier", "eval_handicap",
-           "verdict_hit", "score_match", "rate", "aggregate"]
+           "verdict_hit", "score_match", "rate", "aggregate", "parse_score", "strength_tier"]
 
 
 def norm(s):
     return re.sub(r"\s+", "", str(s)).lower()
+
+
+def parse_score(s):
+    """'2-1' / '2:1' -> (2, 1)；解析失败返回 None。"""
+    m = re.match(r"\s*(\d+)\s*[-:]\s*(\d+)\s*", str(s))
+    return (int(m.group(1)), int(m.group(2))) if m else None
+
+
+def strength_tier(hp, dp, ap):
+    """按头号选择置信度把对阵分层：悬殊 / 中等 / 接近。用于分层命中率统计。"""
+    conf = max(hp, dp, ap)
+    if conf >= 70:
+        return "悬殊"
+    if conf >= 55:
+        return "中等"
+    return "接近"
 
 
 def predicted_outcome(hp, dp, ap):
@@ -84,6 +100,15 @@ def score_match(pred, h, a):
     likely = [str(s) for s in pred.get("likely_scores", [])]
     vscore = str(pred.get("verdict_score", ""))
     actual_str = f"{h}-{a}"
+    # 比分误差（MAE）：优先用 verdict_score，缺失则用 likely_scores 第一个
+    ps = parse_score(vscore) or (parse_score(likely[0]) if likely else None)
+    if ps is not None:
+        ph, pa = ps
+        score_mae = (abs(ph - h) + abs(pa - a)) / 2.0   # 每场平均每队进球误差
+        total_err = abs((ph + pa) - total)               # 总进球数误差
+        margin_err = abs((ph - pa) - (h - a))            # 净胜球误差
+    else:
+        score_mae = total_err = margin_err = None
     r = {
         "actual": actual_str, "total_goals": total,
         "pred_1x2": pout, "act_1x2": out, "hit_1x2": pout == out,
@@ -94,6 +119,8 @@ def score_match(pred, h, a):
         "handicap_hit": eval_handicap(pred.get("handicap_label"), hn, an, h, a),
         "verdict_hit": verdict_hit(pred.get("verdict_rec", ""), hn, an, out, total, h, a),
         "brier": round(brier(hp, dp, ap, out), 3),
+        "score_mae": score_mae, "total_err": total_err, "margin_err": margin_err,
+        "fav_conf": max(hp, dp, ap), "tier": strength_tier(hp, dp, ap),
     }
     r["over25_hit"] = r["over25_pred"] == r["over25_act"]
     r["over35_hit"] = r["over35_pred"] == r["over35_act"]
@@ -105,9 +132,20 @@ def rate(vals):
     return (sum(1 for v in vals if v) / len(vals)) if vals else None
 
 
+def _mean(vals):
+    vals = [v for v in vals if v is not None]
+    return (sum(vals) / len(vals)) if vals else None
+
+
 def aggregate(scored_list, total, days):
     s = scored_list
     n = len(s)
+    by_tier = {}
+    for t in ("悬殊", "中等", "接近"):
+        sub = [x for x in s if x.get("tier") == t]
+        if sub:
+            by_tier[t] = {"n": len(sub), "1x2": rate([x["hit_1x2"] for x in sub]),
+                          "score_mae": _mean([x.get("score_mae") for x in sub])}
     return {
         "graded": n, "total": total, "days": days,
         "1x2": rate([x["hit_1x2"] for x in s]),
@@ -117,6 +155,9 @@ def aggregate(scored_list, total, days):
         "verdict": rate([x["verdict_hit"] for x in s]),
         "exact": rate([x["exact_hit"] for x in s]),
         "brier": (sum(x["brier"] for x in s) / n) if n else None,
+        "score_mae": _mean([x.get("score_mae") for x in s]),
+        "total_mae": _mean([x.get("total_err") for x in s]),
         "over_bias": ((sum(1 for x in s if x["over25_pred"]) -
                        sum(1 for x in s if x["over25_act"])) / n) if n else None,
+        "by_tier": by_tier,
     }

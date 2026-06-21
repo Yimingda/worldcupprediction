@@ -1,0 +1,165 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""赛前预测 · 确定性校准后处理器（无 streamlit 依赖，可单测、幂等）。
+
+把 LLM 原始预测里"系统性偏差"用规则修正，再交给渲染器。
+偏差来源 = 历史回测（见 校准与改进记录.md）。规则均 mild & 可解释 & 幂等，
+小样本下不过拟合。
+
+规则：
+  R1 强弱悬殊补射：顶级大热(置信≥68 且 净置信≥50 且 xG 净差≥1.3)
+      → 上调比分至净胜≥3、over3.5≥52、补大比分、推荐含"过3.5"。
+  R2 窄优平局风险：中等大热(置信 58~74、xG 净差<1.0) 且【低分预期(over2.5≤52)
+      或 对手防强攻弱】→ 顶号置信封顶 62(多出给平局)、改 lean under、补低比分/平局。
+      （纠正：厄瓜多尔 2-0 高置信→实际 0-0）
+  R3 全局自信封顶：任一 1X2 概率封顶 85，多余给平局（防爆冷 Brier 崩盘）。
+  R4 内部一致性旗标：若"按概率的大热"其 xG 反而低于对手 → 仅给出告警 note，
+      不强改（方向通常没错，提示分析者复核 xG）。（对应：荷兰 50% 却 xG 2.1<瑞典 3.0）
+
+用法： calibrate_all(matches) -> (new_matches, notes)
+CLI ：python3 calibrate.py in.json out.json
+"""
+
+import copy
+import re
+
+__all__ = ["calibrate_match", "calibrate_all", "PARAMS"]
+
+PARAMS = {
+    "r1_fav_conf": 68, "r1_gap": 50, "r1_xg": 1.3, "r1_over35": 52, "r1_margin": 3,
+    "r2_lo": 58, "r2_hi": 74, "r2_xg": 1.0, "r2_lowscore": 52, "r2_def": 7, "r2_atk": 5,
+    "r2_cap": 62, "r2_over25_cap": 48, "r2_over35_cap": 40,
+    "r3_cap": 85,
+    "r4_lead": 10, "r4_xg_margin": 0.0,
+}
+
+
+def _i(m, k, d=0):
+    try:
+        return int(m.get(k, d))
+    except (TypeError, ValueError):
+        return d
+
+
+def _f(m, k, d=0.0):
+    try:
+        return float(m.get(k, d))
+    except (TypeError, ValueError):
+        return d
+
+
+def _probs(m):
+    hp = _i(m, "home_prob")
+    dp = _i(m, "draw_prob")
+    ap = _i(m, "away_prob", 100 - hp - dp)
+    return hp, dp, ap
+
+
+def _set_probs(m, hp, dp, ap):
+    hp, dp, ap = int(round(hp)), int(round(dp)), int(round(ap))
+    dp = 100 - hp - ap
+    m["home_prob"], m["draw_prob"] = hp, dp
+    if "away_prob" in m:
+        m["away_prob"] = ap
+
+
+def _parse(s):
+    mt = re.match(r"\s*(\d+)\s*[-:]\s*(\d+)\s*", str(s))
+    return (int(mt.group(1)), int(mt.group(2))) if mt else None
+
+
+def calibrate_match(m):
+    """返回 (校准后副本, 说明列表)。幂等。"""
+    m = copy.deepcopy(m)
+    notes = []
+    P = PARAMS
+    hp, dp, ap = _probs(m)
+    fav_home = hp >= ap
+    fav_p, opp_p = (hp, ap) if fav_home else (ap, hp)
+    h_xg, a_xg = _f(m, "h_xg"), _f(m, "a_xg")
+    xg_gap = (h_xg - a_xg) if fav_home else (a_xg - h_xg)
+    hm = m.get("home_metrics") or []
+    am = m.get("away_metrics") or []
+    opp_m = am if fav_home else hm
+    opp_def = opp_m[3] if len(opp_m) > 3 else 5
+    opp_atk = opp_m[2] if len(opp_m) > 2 else 5
+    over25 = _i(m, "over25", 50)
+    fav_name = m.get("home_name", "") if fav_home else m.get("away_name", "")
+
+    # ---- R1 强弱悬殊补射 ----
+    r1 = (fav_p >= P["r1_fav_conf"] and (fav_p - opp_p) >= P["r1_gap"] and xg_gap >= P["r1_xg"])
+    if r1:
+        if _i(m, "over35") < P["r1_over35"]:
+            m["over35"] = P["r1_over35"]
+        ps = _parse(m.get("verdict_score"))
+        if ps:
+            fh, fa = (ps if fav_home else (ps[1], ps[0]))
+            fh2 = max(fh, P["r1_margin"])
+            fa2 = max(min(fa, fh2 - P["r1_margin"]), 0)
+            new = (fh2, fa2) if fav_home else (fa2, fh2)
+            m["verdict_score"] = f"{new[0]}-{new[1]}"
+        likely = [str(s) for s in (m.get("likely_scores") or [])]
+        has_big = any((lambda p: p and ((p[0]-p[1] if fav_home else p[1]-p[0]) >= P["r1_margin"]))(_parse(x)) for x in likely)
+        if not has_big:
+            likely = [("3-0" if fav_home else "0-3")] + likely
+            m["likely_scores"] = likely[:4]
+        rec = str(m.get("verdict_rec", ""))
+        if "3.5" not in rec:
+            m["verdict_rec"] = (rec + " · 过3.5").strip(" ·")
+        notes.append(f"R1 悬殊补射：{fav_name} 上调至净胜≥{P['r1_margin']}、over3.5≥{P['r1_over35']}、推荐含过3.5")
+
+    # ---- R2 窄优平局风险 ----
+    low_scoring = over25 <= P["r2_lowscore"]
+    stingy_opp = (opp_def >= P["r2_def"] and opp_atk <= P["r2_atk"])
+    r2 = (not r1 and P["r2_lo"] <= fav_p <= P["r2_hi"] and xg_gap < P["r2_xg"]
+          and (low_scoring or stingy_opp))
+    if r2:
+        changed = False
+        if fav_p > P["r2_cap"]:
+            delta = fav_p - P["r2_cap"]
+            if fav_home:
+                _set_probs(m, P["r2_cap"], dp + delta, ap)
+            else:
+                _set_probs(m, hp, dp + delta, P["r2_cap"])
+            changed = True
+        if _i(m, "over25", 50) > P["r2_over25_cap"]:
+            m["over25"] = P["r2_over25_cap"]
+            changed = True
+        if _i(m, "over35", 30) > P["r2_over35_cap"]:
+            m["over35"] = P["r2_over35_cap"]
+        likely = [str(s) for s in (m.get("likely_scores") or [])]
+        low = ("1-0" if fav_home else "0-1")
+        for opt in (low, "0-0", "1-1"):
+            if opt not in likely:
+                likely.append(opt)
+                changed = True
+        m["likely_scores"] = likely[:5]
+        why = "低分预期" if low_scoring else "对手防强攻弱"
+        if changed:
+            notes.append(f"R2 平局风险({why})：{fav_name} 置信封顶 {P['r2_cap']}%、lean under、补低比分/平局")
+
+    # ---- R3 全局自信封顶 ----
+    hp, dp, ap = _probs(m)
+    cap = P["r3_cap"]
+    if hp > cap:
+        _set_probs(m, cap, dp + (hp - cap), ap)
+        notes.append(f"R3 自信封顶：主胜 {hp}%→{cap}%")
+    elif ap > cap:
+        _set_probs(m, hp, dp + (ap - cap), cap)
+        notes.append(f"R3 自信封顶：客胜 {ap}%→{cap}%")
+
+    # ---- R4 内部一致性旗标（仅告警，不强改）----
+    if fav_p >= dp and (fav_p - opp_p) >= P["r4_lead"] and xg_gap < -P["r4_xg_margin"]:
+        notes.append(f"⚠ R4 一致性：{fav_name} 被看好({fav_p}%) 但 xG 低于对手({xg_gap:+.1f})，请复核 xG/比分")
+
+    return m, notes
+
+
+def calibrate_all(matches):
+    out, allnotes = [], []
+    for m in matches:
+        cm, notes = calibrate_match(m)
+        out.append(cm)
+        if notes:
+            allnotes.append((f'{m.get("home_name","")} vs {m.get("away_name","")}', notes))
+    return out, allnotes

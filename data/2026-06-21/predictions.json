@@ -1,0 +1,814 @@
+[
+  {
+    "home_flag": "🇪🇸",
+    "home_name": "西班牙",
+    "home_prev": "0-0 🤝 平佛得角",
+    "home_pts": 1,
+    "away_flag": "🇸🇦",
+    "away_name": "沙特",
+    "away_prev": "1-1 🤝 平乌拉圭",
+    "away_pts": 1,
+    "match_group": "H组 第2轮",
+    "match_date": "6月22日 · 北京时间 00:00",
+    "match_venue": "亚特兰大 Mercedes-Benz Stadium",
+    "h_poss": 74,
+    "h_shots": 27,
+    "h_sot": 8,
+    "h_bc": 5,
+    "h_xg": 2.8,
+    "h_goals": 0,
+    "h_xga": 0.3,
+    "h_oshots": 3,
+    "h_osot": 1,
+    "a_poss": 38,
+    "a_shots": 8,
+    "a_sot": 3,
+    "a_bc": 1,
+    "a_xg": 0.9,
+    "a_goals": 1,
+    "a_xga": 1.6,
+    "a_oshots": 16,
+    "a_osot": 5,
+    "home_prob": 78,
+    "draw_prob": 16,
+    "home_odds": "-650",
+    "draw_odds": "+650",
+    "away_odds": "+1600",
+    "home_form": "4-3-3",
+    "away_form": "4-5-1",
+    "home_strategy": "加强终结、提高转化，避免重蹈上轮27射0进",
+    "away_strategy": "低位密集防守，全力守平",
+    "home_tactics": [
+      "控球碾压",
+      "高位压迫",
+      "边路内切"
+    ],
+    "away_tactics": [
+      "低位铁桶",
+      "快速反击",
+      "拖延节奏"
+    ],
+    "home_mentality": [
+      {
+        "title": "锋无力的焦虑",
+        "desc": "上轮控球碾压却0进球，急需破门正名",
+        "quote": "必须把机会变成进球。"
+      },
+      {
+        "title": "出线压力",
+        "desc": "再不取胜恐陷被动",
+        "quote": "三分是唯一目标。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "逼平强队的信念",
+        "desc": "逼平乌拉圭显韧性，想再爆冷",
+        "quote": "我们能守住任何对手。"
+      },
+      {
+        "title": "无压力作战",
+        "desc": "面对西班牙放手一搏",
+        "quote": "没人看好我们，正好轻松踢。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      7,
+      10,
+      10,
+      8,
+      8,
+      4
+    ],
+    "away_metrics": [
+      7,
+      6,
+      4,
+      8,
+      7,
+      9
+    ],
+    "home_comeback": 9,
+    "home_comeback_note": "个人能力与深度顶级，落后也能强行扳回。",
+    "away_comeback": 4,
+    "away_comeback_note": "实力有限，落后后追分能力弱。",
+    "home_scorers": [
+      {
+        "name": "亚马尔",
+        "prob": 50
+      },
+      {
+        "name": "奥尔默",
+        "prob": 42
+      },
+      {
+        "name": "莫拉塔",
+        "prob": 36
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "阿尔-多萨里",
+        "prob": 14
+      },
+      {
+        "name": "菲拉斯",
+        "prob": 10
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "西班牙",
+        "flag": "🇪🇸",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "pts": 1
+      },
+      {
+        "team": "佛得角",
+        "flag": "🇨🇻",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "pts": 1
+      },
+      {
+        "team": "沙特",
+        "flag": "🇸🇦",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1
+      },
+      {
+        "team": "乌拉圭",
+        "flag": "🇺🇾",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1
+      }
+    ],
+    "over25": 58,
+    "over35": 52,
+    "away_score_prob": 24,
+    "handicap": 58,
+    "handicap_label": "西班牙让球 -1.5 胜",
+    "likely_scores": [
+      "2-0",
+      "3-0",
+      "2-1",
+      "1-0"
+    ],
+    "home_risks": [
+      "终结效率老问题，可能再被零封",
+      "急于进球后被反击"
+    ],
+    "away_risks": [
+      "实力差距大、防线长时间承压",
+      "控球与出球困难"
+    ],
+    "verdict_rec": "买西班牙赢 · 让球 -1.5 · 过3.5",
+    "verdict_score": "3-0",
+    "verdict_stars": 4,
+    "verdict_logic": [
+      "西班牙实力碾压、志在弥补上轮哑火",
+      "沙特摆大巴但难挡持续施压",
+      "西班牙多点进攻，零封并大胜概率高"
+    ]
+  },
+  {
+    "home_flag": "🇧🇪",
+    "home_name": "比利时",
+    "home_prev": "1-1 🤝 平埃及",
+    "home_pts": 1,
+    "away_flag": "🇮🇷",
+    "away_name": "伊朗",
+    "away_prev": "1-1 🤝 平新西兰",
+    "away_pts": 1,
+    "match_group": "G组 第2轮",
+    "match_date": "6月22日 · 北京时间 03:00",
+    "match_venue": "英格尔伍德 SoFi Stadium",
+    "h_poss": 62,
+    "h_shots": 18,
+    "h_sot": 5,
+    "h_bc": 3,
+    "h_xg": 1.9,
+    "h_goals": 1,
+    "h_xga": 1.0,
+    "h_oshots": 9,
+    "h_osot": 3,
+    "a_poss": 52,
+    "a_shots": 13,
+    "a_sot": 4,
+    "a_bc": 2,
+    "a_xg": 1.2,
+    "a_goals": 1,
+    "a_xga": 1.1,
+    "a_oshots": 11,
+    "a_osot": 4,
+    "home_prob": 58,
+    "draw_prob": 26,
+    "home_odds": "-200",
+    "draw_odds": "+290",
+    "away_odds": "+550",
+    "home_form": "4-2-3-1",
+    "away_form": "5-3-2",
+    "home_strategy": "控球主导、提升终结，争取首胜",
+    "away_strategy": "低位稳守、伺机反击",
+    "home_tactics": [
+      "控球主导",
+      "两翼突破",
+      "中场调度"
+    ],
+    "away_tactics": [
+      "低位防守",
+      "快速反击",
+      "身体对抗"
+    ],
+    "home_mentality": [
+      {
+        "title": "黄金一代的紧迫",
+        "desc": "被埃及逼平后必须拿分",
+        "quote": "该兑现实力了。"
+      },
+      {
+        "title": "德布劳内核心",
+        "desc": "核心需要带队取胜",
+        "quote": "跟着我，我们能赢。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "逼平强队的底气",
+        "desc": "逼平新西兰拿到一分",
+        "quote": "稳守反击能创造惊喜。"
+      },
+      {
+        "title": "防守韧性",
+        "desc": "用纪律对抗强队",
+        "quote": "守住，再找机会。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      7,
+      9,
+      9,
+      7,
+      8,
+      5
+    ],
+    "away_metrics": [
+      7,
+      6,
+      6,
+      8,
+      7,
+      7
+    ],
+    "home_comeback": 7,
+    "home_comeback_note": "个人能力强，落后有反扑手段。",
+    "away_comeback": 6,
+    "away_comeback_note": "韧性足但攻坚能力一般。",
+    "home_scorers": [
+      {
+        "name": "卢卡库",
+        "prob": 36
+      },
+      {
+        "name": "德布劳内",
+        "prob": 30
+      },
+      {
+        "name": "多库",
+        "prob": 24
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "塔雷米",
+        "prob": 26
+      },
+      {
+        "name": "阿兹蒙",
+        "prob": 20
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "比利时",
+        "flag": "🇧🇪",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1
+      },
+      {
+        "team": "埃及",
+        "flag": "🇪🇬",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1
+      },
+      {
+        "team": "伊朗",
+        "flag": "🇮🇷",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1
+      },
+      {
+        "team": "新西兰",
+        "flag": "🇳🇿",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1
+      }
+    ],
+    "over25": 55,
+    "over35": 30,
+    "away_score_prob": 40,
+    "handicap": 48,
+    "handicap_label": "比利时让球 -1",
+    "likely_scores": [
+      "2-0",
+      "2-1",
+      "1-1",
+      "1-0"
+    ],
+    "home_risks": [
+      "终结效率，可能久攻不下",
+      "压上被伊朗反击"
+    ],
+    "away_risks": [
+      "面对控球压制，反击空间有限",
+      "防线承压易失球"
+    ],
+    "verdict_rec": "买比利时赢",
+    "verdict_score": "2-1",
+    "verdict_stars": 3,
+    "verdict_logic": [
+      "比利时整体实力占优、控球主导",
+      "伊朗稳守但攻坚有限",
+      "双方均有攻击力，易现进球"
+    ]
+  },
+  {
+    "home_flag": "🇺🇾",
+    "home_name": "乌拉圭",
+    "home_prev": "1-1 🤝 平沙特",
+    "home_pts": 1,
+    "away_flag": "🇨🇻",
+    "away_name": "佛得角",
+    "away_prev": "0-0 🤝 平西班牙",
+    "away_pts": 1,
+    "match_group": "H组 第2轮",
+    "match_date": "6月22日 · 北京时间 06:00",
+    "match_venue": "迈阿密 Hard Rock Stadium",
+    "h_poss": 55,
+    "h_shots": 14,
+    "h_sot": 5,
+    "h_bc": 2,
+    "h_xg": 1.5,
+    "h_goals": 1,
+    "h_xga": 1.0,
+    "h_oshots": 8,
+    "h_osot": 3,
+    "a_poss": 26,
+    "a_shots": 3,
+    "a_sot": 1,
+    "a_bc": 0,
+    "a_xg": 0.3,
+    "a_goals": 0,
+    "a_xga": 2.8,
+    "a_oshots": 27,
+    "a_osot": 8,
+    "home_prob": 56,
+    "draw_prob": 28,
+    "home_odds": "-180",
+    "draw_odds": "+260",
+    "away_odds": "+500",
+    "home_form": "4-3-3",
+    "away_form": "5-4-1",
+    "home_strategy": "控球加边路传中，耐心破密集防守",
+    "away_strategy": "铁桶阵+门将神勇，再守一场",
+    "home_tactics": [
+      "控球推进",
+      "边路传中",
+      "高点冲击"
+    ],
+    "away_tactics": [
+      "密集防守",
+      "门将支撑",
+      "快速反击"
+    ],
+    "home_mentality": [
+      {
+        "title": "夺冠级阵容求胜",
+        "desc": "须取胜抢占出线主动",
+        "quote": "稳扎稳打拿下三分。"
+      },
+      {
+        "title": "锋线火力",
+        "desc": "核心射手需开火",
+        "quote": "把机会把握住。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "逼平西班牙的信心",
+        "desc": "门将15扑救逼平西班牙，士气高",
+        "quote": "我们能挡住任何人。"
+      },
+      {
+        "title": "历史突破",
+        "desc": "创队史最佳，放手一搏",
+        "quote": "继续创造历史。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      7,
+      9,
+      8,
+      8,
+      8,
+      5
+    ],
+    "away_metrics": [
+      8,
+      6,
+      3,
+      9,
+      8,
+      8
+    ],
+    "home_comeback": 7,
+    "home_comeback_note": "经验与个人能力强，落后能扳。",
+    "away_comeback": 5,
+    "away_comeback_note": "防守见长，落后追分乏力。",
+    "home_scorers": [
+      {
+        "name": "努涅斯",
+        "prob": 34
+      },
+      {
+        "name": "阿劳霍",
+        "prob": 18
+      },
+      {
+        "name": "佩利斯特里",
+        "prob": 16
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "平托",
+        "prob": 10
+      },
+      {
+        "name": "塞马多",
+        "prob": 8
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "西班牙",
+        "flag": "🇪🇸",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "pts": 1
+      },
+      {
+        "team": "佛得角",
+        "flag": "🇨🇻",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "pts": 1
+      },
+      {
+        "team": "沙特",
+        "flag": "🇸🇦",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1
+      },
+      {
+        "team": "乌拉圭",
+        "flag": "🇺🇾",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1
+      }
+    ],
+    "over25": 46,
+    "over35": 22,
+    "away_score_prob": 28,
+    "handicap": 46,
+    "handicap_label": "乌拉圭让球 -1",
+    "likely_scores": [
+      "1-0",
+      "2-0",
+      "2-1",
+      "1-1"
+    ],
+    "home_risks": [
+      "佛得角防守顽强，恐久攻不下",
+      "上抢失位被反击"
+    ],
+    "away_risks": [
+      "门将状态难场场神勇",
+      "控球极低、长时间挨打"
+    ],
+    "verdict_rec": "买乌拉圭赢 · 小球需谨慎",
+    "verdict_score": "1-0",
+    "verdict_stars": 3,
+    "verdict_logic": [
+      "乌拉圭实力占优、志在出线",
+      "佛得角防守顽强，进球或不多",
+      "低进球缠斗概率不低，比分谨慎"
+    ]
+  },
+  {
+    "home_flag": "🇳🇿",
+    "home_name": "新西兰",
+    "home_prev": "1-1 🤝 平伊朗",
+    "home_pts": 1,
+    "away_flag": "🇪🇬",
+    "away_name": "埃及",
+    "away_prev": "1-1 🤝 平比利时",
+    "away_pts": 1,
+    "match_group": "G组 第2轮",
+    "match_date": "6月22日 · 北京时间 09:00",
+    "match_venue": "温哥华 BC Place",
+    "h_poss": 44,
+    "h_shots": 9,
+    "h_sot": 3,
+    "h_bc": 1,
+    "h_xg": 1.0,
+    "h_goals": 1,
+    "h_xga": 1.2,
+    "h_oshots": 13,
+    "h_osot": 4,
+    "a_poss": 38,
+    "a_shots": 9,
+    "a_sot": 3,
+    "a_bc": 2,
+    "a_xg": 1.1,
+    "a_goals": 1,
+    "a_xga": 1.9,
+    "a_oshots": 18,
+    "a_osot": 5,
+    "home_prob": 28,
+    "draw_prob": 32,
+    "home_odds": "+200",
+    "draw_odds": "+210",
+    "away_odds": "+135",
+    "home_form": "5-3-2",
+    "away_form": "4-2-3-1",
+    "home_strategy": "稳守+身体对抗，定位球搏机会",
+    "away_strategy": "控球渗透，靠萨拉赫制造杀机",
+    "home_tactics": [
+      "稳固防守",
+      "身体对抗",
+      "定位球"
+    ],
+    "away_tactics": [
+      "控球渗透",
+      "边路突破",
+      "萨拉赫终结"
+    ],
+    "home_mentality": [
+      {
+        "title": "逼平伊朗的鼓舞",
+        "desc": "拿到一分，想再进一步",
+        "quote": "我们能和强队抗衡。"
+      },
+      {
+        "title": "主场般支持",
+        "desc": "侨民助威",
+        "quote": "为荣誉而战。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "逼平比利时的信心",
+        "desc": "逼平比利时士气高",
+        "quote": "这次要拿三分。"
+      },
+      {
+        "title": "萨拉赫领衔",
+        "desc": "核心需要带队取胜",
+        "quote": "把球给我。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      7,
+      7,
+      5,
+      8,
+      7,
+      7
+    ],
+    "away_metrics": [
+      7,
+      8,
+      7,
+      6,
+      7,
+      6
+    ],
+    "home_comeback": 5,
+    "home_comeback_note": "防守见长，落后攻坚乏力。",
+    "away_comeback": 6,
+    "away_comeback_note": "有萨拉赫，落后仍具威胁。",
+    "home_scorers": [
+      {
+        "name": "伍德",
+        "prob": 26
+      },
+      {
+        "name": "鲍威尔",
+        "prob": 12
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "萨拉赫",
+        "prob": 40
+      },
+      {
+        "name": "阿舒尔",
+        "prob": 22
+      },
+      {
+        "name": "穆罕默德",
+        "prob": 16
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "比利时",
+        "flag": "🇧🇪",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1
+      },
+      {
+        "team": "埃及",
+        "flag": "🇪🇬",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1
+      },
+      {
+        "team": "伊朗",
+        "flag": "🇮🇷",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1
+      },
+      {
+        "team": "新西兰",
+        "flag": "🇳🇿",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1
+      }
+    ],
+    "over25": 50,
+    "over35": 25,
+    "away_score_prob": 58,
+    "handicap": 48,
+    "handicap_label": "埃及让球 -0.5/平手",
+    "likely_scores": [
+      "1-1",
+      "0-1",
+      "1-2",
+      "0-0"
+    ],
+    "home_risks": [
+      "进攻手段有限，难持续创造机会",
+      "对萨拉赫的盯防风险"
+    ],
+    "away_risks": [
+      "防线上轮承压，易被反击/定位球偷袭",
+      "客观出球失误"
+    ],
+    "verdict_rec": "埃及不败 · 比分谨慎(势均力敌)",
+    "verdict_score": "1-2",
+    "verdict_stars": 2,
+    "verdict_logic": [
+      "埃及有萨拉赫、整体略占优",
+      "新西兰防守顽强、主场氛围",
+      "两队实力接近，平局也在射程内"
+    ]
+  }
+]

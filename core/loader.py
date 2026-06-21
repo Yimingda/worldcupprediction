@@ -36,5 +36,7 @@ def clear_cache():
 
 
 def open_detail(match_id):
+    # session_state 可靠跨页保留；query_params 在 switch_page 时可能丢失，故双写。
+    st.session_state["detail_match_id"] = match_id
     st.query_params["match"] = match_id
     st.switch_page("pages/3_单场详情.py")

@@ -16,7 +16,8 @@ if not recs:
     st.info("暂无任何比赛数据。")
     st.stop()
 
-match_id = st.query_params.get("match")
+# 优先用 session_state（switch_page 可靠保留）；回退到 URL 查询参数（可分享链接）
+match_id = st.session_state.get("detail_match_id") or st.query_params.get("match")
 labels = {f"{r['date']} · {r['p'].get('home_name','')} vs {r['p'].get('away_name','')}": r["match_id"]
           for r in sorted(recs, key=lambda x: (x["date"], x["idx"]), reverse=True)}
 ids = list(labels.values())
@@ -24,6 +25,7 @@ default_idx = ids.index(match_id) if match_id in ids else 0
 
 pick_label = st.selectbox("选择比赛", options=list(labels.keys()), index=default_idx)
 chosen_id = labels[pick_label]
+st.session_state["detail_match_id"] = chosen_id
 st.query_params["match"] = chosen_id
 
 rec = data.find_record(recs, chosen_id)
@@ -32,29 +34,4 @@ if not rec:
     st.stop()
 
 if rec["actual"]:
-    view.md(f'<div class="wc-card wc-teal" style="margin-bottom:6px"><b>实际比分 '
-            f'{rec["actual"][0]}-{rec["actual"][1]}</b> &nbsp; {view.result_badges(rec["scored"])}</div>')
-
-
-def estimate_height(p):
-    """按内容估算 iframe 高度，尽量少留白、不截断。"""
-    h = 3700
-    if p.get("group_standings"):
-        h += 300
-    if p.get("home_scorers") or p.get("away_scorers"):
-        h += 130
-    mext = max(len(p.get("home_mentality", [])), len(p.get("away_mentality", [])))
-    if mext > 2:
-        h += (mext - 2) * 80
-    rext = max(len(p.get("home_risks", [])), len(p.get("away_risks", [])))
-    if rext > 3:
-        h += (rext - 3) * 30
-    return h
-
-
-html = match_html.render_match(rec["p"])
-html = html.replace(
-    '<div style="margin-bottom:10px"><a href="../index.html" '
-    'style="font-size:12px;color:#888;text-decoration:none">← 返回总览</a></div>', "")
-
-components.html(html, height=estimate_height(rec["p"]), scrolling=True)
+    view.md

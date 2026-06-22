@@ -3,15 +3,24 @@
     "h": 4,
     "a": 0,
     "status": "final",
-    "source": "https://sports.yahoo.com/soccer/live/world-cup-2026-scores-results-schedule-live-updates-195336732.html"
+    "source": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021483"
   },
   "比利时 vs 伊朗": {
-    "status": "scheduled"
+    "h": 0,
+    "a": 0,
+    "status": "final",
+    "source": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021477"
   },
   "乌拉圭 vs 佛得角": {
-    "status": "scheduled"
+    "h": 2,
+    "a": 2,
+    "status": "final",
+    "source": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021487"
   },
   "新西兰 vs 埃及": {
-    "status": "scheduled"
+    "h": 0,
+    "a": 1,
+    "status": "final",
+    "source": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G"
   }
 }

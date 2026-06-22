@@ -8,68 +8,68 @@
     "away_name": "奥地利",
     "away_prev": "3-1 ✅ 胜约旦",
     "away_pts": 3,
-    "match_group": "J组 第2轮",
-    "match_date": "6月23日 · 北京01:00 / 当地6月22日12:00",
+    "match_group": "J组 第2轮 (头名之争)",
+    "match_date": "6月23日 · 北京时间 01:00（达拉斯当地22日12:00）",
     "match_venue": "阿灵顿 AT&T Stadium",
-    "h_poss": 60,
-    "h_shots": 18,
-    "h_sot": 7,
+    "h_poss": 57,
+    "h_shots": 16,
+    "h_sot": 6,
     "h_bc": 4,
-    "h_xg": 2.4,
+    "h_xg": 2.3,
     "h_goals": 3,
-    "h_xga": 0.6,
+    "h_xga": 0.5,
     "h_oshots": 6,
     "h_osot": 2,
-    "a_poss": 56,
-    "a_shots": 16,
-    "a_sot": 6,
-    "a_bc": 3,
-    "a_xg": 2.1,
+    "a_poss": 60,
+    "a_shots": 18,
+    "a_sot": 7,
+    "a_bc": 4,
+    "a_xg": 2.5,
     "a_goals": 3,
-    "a_xga": 1.0,
-    "a_oshots": 9,
+    "a_xga": 0.9,
+    "a_oshots": 8,
     "a_osot": 3,
     "home_prob": 60,
     "draw_prob": 24,
-    "home_odds": "-160",
-    "draw_odds": "+260",
-    "away_odds": "+420",
+    "home_odds": "-230",
+    "draw_odds": "+290",
+    "away_odds": "+650",
     "home_form": "4-3-3",
     "away_form": "4-2-3-1",
-    "home_strategy": "控球主导、利用个人能力撕开防线，争取提前出线",
-    "away_strategy": "中场紧逼、限制梅西，伺机反击与定位球",
+    "home_strategy": "控球主导、梅西串联，提前锁定头名",
+    "away_strategy": "敢于压上对攻，定位球搏机会",
     "home_tactics": [
-      "控球渗透",
+      "控球推进",
       "前场逼抢",
-      "肋部直塞"
+      "边中结合"
     ],
     "away_tactics": [
-      "高强度压迫",
-      "快速转换",
+      "高强度跑动",
+      "中场绞杀",
       "定位球冲击"
     ],
     "home_mentality": [
       {
-        "title": "卫冕冠军的底气",
-        "desc": "首战3-0完胜，状态在线",
-        "quote": "按节奏踢，提前锁定出线。"
+        "title": "卫冕冠军底气",
+        "desc": "首战3-0轻取阿尔及利亚，梅西闪耀",
+        "quote": "稳住节奏，争头名出线。"
       },
       {
-        "title": "梅西领衔",
-        "desc": "核心带队冲击小组头名",
-        "quote": "我们要赢下每一场。"
+        "title": "梅西核心",
+        "desc": "队史射手王领衔，状态火热",
+        "quote": "把球交给我们解决。"
       }
     ],
     "away_mentality": [
       {
-        "title": "黑马的冲劲",
-        "desc": "首战3-1取胜信心十足",
-        "quote": "敢和任何人对攻。"
+        "title": "黑马的自信",
+        "desc": "首战3-1胜约旦，攻击线在状态",
+        "quote": "面对冠军也要踢自己的球。"
       },
       {
-        "title": "无惧豪门",
-        "desc": "放手一搏争小组第一",
-        "quote": "我们有能力制造惊喜。"
+        "title": "出线在望",
+        "desc": "再拿分接近晋级",
+        "quote": "拿下一分就主动了。"
       }
     ],
     "metric_labels": [
@@ -94,54 +94,112 @@
       7,
       7,
       8,
-      7
+      6
     ],
     "home_comeback": 9,
-    "home_comeback_note": "巨星云集，落后也能强行扳回。",
+    "home_comeback_note": "个人能力与深度顶级，落后也能翻盘。",
     "away_comeback": 6,
-    "away_comeback_note": "有攻击力，但面对阿根廷追分偏难。",
+    "away_comeback_note": "有冲击力，但面对强队追分偏难。",
     "home_scorers": [
-      { "name": "J·阿尔瓦雷斯", "prob": 42 },
-      { "name": "劳塔罗", "prob": 38 },
-      { "name": "梅西", "prob": 34 }
+      {
+        "name": "梅西",
+        "prob": 42
+      },
+      {
+        "name": "J·阿尔瓦雷斯",
+        "prob": 40
+      },
+      {
+        "name": "劳塔罗",
+        "prob": 36
+      }
     ],
     "away_scorers": [
-      { "name": "阿瑙托维奇", "prob": 24 },
-      { "name": "鲍姆加特纳", "prob": 20 },
-      { "name": "格雷戈里奇", "prob": 14 }
+      {
+        "name": "阿瑙托维奇",
+        "prob": 24
+      },
+      {
+        "name": "鲍姆加特纳",
+        "prob": 20
+      }
     ],
     "group_standings": [
-      { "team": "阿根廷", "flag": "🇦🇷", "p": 1, "w": 1, "d": 0, "l": 0, "gf": 3, "ga": 0, "gd": 3, "pts": 3 },
-      { "team": "奥地利", "flag": "🇦🇹", "p": 1, "w": 1, "d": 0, "l": 0, "gf": 3, "ga": 1, "gd": 2, "pts": 3 },
-      { "team": "约旦", "flag": "🇯🇴", "p": 1, "w": 0, "d": 0, "l": 1, "gf": 1, "ga": 3, "gd": -2, "pts": 0 },
-      { "team": "阿尔及利亚", "flag": "🇩🇿", "p": 1, "w": 0, "d": 0, "l": 1, "gf": 0, "ga": 3, "gd": -3, "pts": 0 }
+      {
+        "team": "阿根廷",
+        "flag": "🇦🇷",
+        "p": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 3,
+        "ga": 0,
+        "gd": 3,
+        "pts": 3
+      },
+      {
+        "team": "奥地利",
+        "flag": "🇦🇹",
+        "p": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 3,
+        "ga": 1,
+        "gd": 2,
+        "pts": 3
+      },
+      {
+        "team": "约旦",
+        "flag": "🇯🇴",
+        "p": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 3,
+        "gd": -2,
+        "pts": 0
+      },
+      {
+        "team": "阿尔及利亚",
+        "flag": "🇩🇿",
+        "p": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 0,
+        "ga": 3,
+        "gd": -3,
+        "pts": 0
+      }
     ],
     "over25": 56,
     "over35": 30,
-    "away_score_prob": 44,
-    "handicap": 46,
+    "away_score_prob": 40,
+    "handicap": 50,
     "handicap_label": "阿根廷让球 -1",
     "likely_scores": [
       "2-0",
       "2-1",
       "1-0",
-      "1-1"
+      "3-1"
     ],
     "home_risks": [
-      "轻敌或轮换导致节奏下降",
-      "压上后被奥地利快速反击"
+      "提前出线后或轮换、节奏放缓",
+      "奥地利定位球与压迫有威胁"
     ],
     "away_risks": [
-      "中前场对抗强度难持续90分钟",
-      "防线面对阿根廷个人能力易被打穿"
+      "面对阿根廷个人能力差距",
+      "压上对攻易被反击打穿"
     ],
     "verdict_rec": "买阿根廷赢 · 让球 -1 谨慎",
     "verdict_score": "2-0",
     "verdict_stars": 3,
     "verdict_logic": [
       "阿根廷整体实力与状态占优",
-      "奥地利敢打敢拼但防线有隐患",
-      "阿根廷掌控比赛、零封或小胜概率高"
+      "奥地利攻击力不俗、未必甘做防守",
+      "冠军掌控力强，零封小胜概率高"
     ]
   },
   {
@@ -154,67 +212,67 @@
     "away_prev": "1-4 ❌ 负挪威",
     "away_pts": 0,
     "match_group": "I组 第2轮",
-    "match_date": "6月23日 · 北京05:00 / 当地6月22日17:00",
+    "match_date": "6月23日 · 北京时间 05:00（费城当地22日17:00）",
     "match_venue": "费城 Lincoln Financial Field",
     "h_poss": 58,
     "h_shots": 17,
     "h_sot": 7,
-    "h_bc": 4,
-    "h_xg": 2.3,
+    "h_bc": 5,
+    "h_xg": 2.4,
     "h_goals": 3,
-    "h_xga": 1.0,
-    "h_oshots": 10,
+    "h_xga": 1.1,
+    "h_oshots": 9,
     "h_osot": 3,
     "a_poss": 40,
     "a_shots": 9,
     "a_sot": 3,
     "a_bc": 1,
-    "a_xg": 1.0,
+    "a_xg": 0.9,
     "a_goals": 1,
-    "a_xga": 2.7,
+    "a_xga": 3.0,
     "a_oshots": 18,
-    "a_osot": 6,
-    "home_prob": 82,
-    "draw_prob": 12,
-    "home_odds": "-500",
-    "draw_odds": "+600",
-    "away_odds": "+1400",
+    "a_osot": 7,
+    "home_prob": 80,
+    "draw_prob": 13,
+    "home_odds": "-700",
+    "draw_odds": "+650",
+    "away_odds": "+1800",
     "home_form": "4-3-3",
-    "away_form": "4-5-1",
-    "home_strategy": "速度冲击+边路爆点，提前拿下出线权",
-    "away_strategy": "低位密集防守、拖慢节奏减少失球",
+    "away_form": "5-3-2",
+    "home_strategy": "姆巴佩领衔提速，争取大胜锁定出线",
+    "away_strategy": "低位密集死守，全力减少失球",
     "home_tactics": [
+      "控球碾压",
       "边路提速",
-      "高位逼抢",
-      "肋部渗透"
+      "姆巴佩冲击"
     ],
     "away_tactics": [
       "低位铁桶",
-      "收缩防线",
+      "收缩保护",
       "零星反击"
     ],
     "home_mentality": [
       {
         "title": "夺冠热门的从容",
-        "desc": "首战逆转取胜，阵容深厚",
-        "quote": "控制比赛、争取大胜。"
+        "desc": "首战3-1胜塞内加尔，开局顺利",
+        "quote": "延续状态，提前出线。"
       },
       {
-        "title": "姆巴佩状态火热",
-        "desc": "核心梅开二度状态正佳",
-        "quote": "继续进球帮助球队。"
+        "title": "姆巴佩核心",
+        "desc": "锋线火力需继续输出",
+        "quote": "进更多球。"
       }
     ],
     "away_mentality": [
       {
-        "title": "保平争面子",
-        "desc": "首战大败后想减少失球",
-        "quote": "守住防线、别再丢分太多。"
+        "title": "背水一战",
+        "desc": "首战1-4惨负，已无退路",
+        "quote": "先守住，别再崩盘。"
       },
       {
-        "title": "弱旅的务实",
-        "desc": "面对法国放低姿态",
-        "quote": "拼防守、找机会。"
+        "title": "搏一个奇迹",
+        "desc": "面对法国放低期待",
+        "quote": "踢出尊严。"
       }
     ],
     "metric_labels": [
@@ -235,57 +293,116 @@
     ],
     "away_metrics": [
       4,
-      6,
+      9,
       4,
       6,
       6,
-      8
+      7
     ],
     "home_comeback": 9,
-    "home_comeback_note": "锋线火力顶级，落后也能轻松逆转。",
-    "away_comeback": 3,
-    "away_comeback_note": "攻击力有限，落后基本难以追分。",
+    "home_comeback_note": "阵容深度与个人能力顶级，逆转能力强。",
+    "away_comeback": 4,
+    "away_comeback_note": "攻坚乏力，落后后追分困难。",
     "home_scorers": [
-      { "name": "姆巴佩", "prob": 55 },
-      { "name": "巴尔科拉", "prob": 36 },
-      { "name": "奥利塞", "prob": 30 }
+      {
+        "name": "姆巴佩",
+        "prob": 55
+      },
+      {
+        "name": "奥利斯",
+        "prob": 36
+      },
+      {
+        "name": "登贝莱",
+        "prob": 32
+      }
     ],
     "away_scorers": [
-      { "name": "侯赛因", "prob": 16 },
-      { "name": "拉沙姆", "prob": 10 }
+      {
+        "name": "艾门·侯赛因",
+        "prob": 14
+      },
+      {
+        "name": "阿里·贾西姆",
+        "prob": 10
+      }
     ],
     "group_standings": [
-      { "team": "挪威", "flag": "🇳🇴", "p": 1, "w": 1, "d": 0, "l": 0, "gf": 4, "ga": 1, "gd": 3, "pts": 3 },
-      { "team": "法国", "flag": "🇫🇷", "p": 1, "w": 1, "d": 0, "l": 0, "gf": 3, "ga": 1, "gd": 2, "pts": 3 },
-      { "team": "塞内加尔", "flag": "🇸🇳", "p": 1, "w": 0, "d": 0, "l": 1, "gf": 1, "ga": 3, "gd": -2, "pts": 0 },
-      { "team": "伊拉克", "flag": "🇮🇶", "p": 1, "w": 0, "d": 0, "l": 1, "gf": 1, "ga": 4, "gd": -3, "pts": 0 }
+      {
+        "team": "挪威",
+        "flag": "🇳🇴",
+        "p": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 4,
+        "ga": 1,
+        "gd": 3,
+        "pts": 3
+      },
+      {
+        "team": "法国",
+        "flag": "🇫🇷",
+        "p": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 3,
+        "ga": 1,
+        "gd": 2,
+        "pts": 3
+      },
+      {
+        "team": "塞内加尔",
+        "flag": "🇸🇳",
+        "p": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 3,
+        "gd": -2,
+        "pts": 0
+      },
+      {
+        "team": "伊拉克",
+        "flag": "🇮🇶",
+        "p": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 4,
+        "gd": -3,
+        "pts": 0
+      }
     ],
-    "over25": 64,
+    "over25": 62,
     "over35": 50,
-    "away_score_prob": 28,
-    "handicap": 56,
+    "away_score_prob": 24,
+    "handicap": 58,
     "handicap_label": "法国让球 -2 胜",
     "likely_scores": [
       "3-0",
-      "4-0",
       "2-0",
-      "3-1"
+      "3-1",
+      "4-0"
     ],
     "home_risks": [
-      "提前轮换或松懈影响效率",
-      "密集防守下久攻不下"
+      "提前出线后轮换、专注度下降",
+      "终结效率波动导致久攻不下"
     ],
     "away_risks": [
-      "实力差距大、防线长时间承压",
-      "出球困难易被反抢"
+      "实力悬殊、防线长时间承压",
+      "出球困难易被打穿"
     ],
     "verdict_rec": "买法国赢 · 让球 -2 · 过3.5",
     "verdict_score": "3-0",
     "verdict_stars": 4,
     "verdict_logic": [
-      "法国实力碾压、攻击群火力十足",
-      "伊拉克首战丢4球、防守脆弱",
-      "强弱悬殊，大胜与多球概率高"
+      "法国实力碾压、攻击线多点开花",
+      "伊拉克摆大巴但难挡持续施压",
+      "强弱悬殊，零封并大胜概率高"
     ]
   },
   {
@@ -298,67 +415,67 @@
     "away_prev": "1-3 ❌ 负法国",
     "away_pts": 0,
     "match_group": "I组 第2轮",
-    "match_date": "6月23日 · 北京08:00 / 当地6月22日20:00",
+    "match_date": "6月23日 · 北京时间 08:00（东卢瑟福当地22日20:00）",
     "match_venue": "东卢瑟福 MetLife Stadium",
-    "h_poss": 50,
-    "h_shots": 16,
-    "h_sot": 7,
-    "h_bc": 4,
-    "h_xg": 2.4,
+    "h_poss": 52,
+    "h_shots": 18,
+    "h_sot": 8,
+    "h_bc": 5,
+    "h_xg": 3.0,
     "h_goals": 4,
-    "h_xga": 1.1,
+    "h_xga": 1.0,
     "h_oshots": 9,
     "h_osot": 3,
-    "a_poss": 50,
-    "a_shots": 12,
+    "a_poss": 48,
+    "a_shots": 11,
     "a_sot": 4,
     "a_bc": 2,
-    "a_xg": 1.4,
+    "a_xg": 1.2,
     "a_goals": 1,
-    "a_xga": 2.3,
-    "a_oshots": 17,
+    "a_xga": 2.4,
+    "a_oshots": 16,
     "a_osot": 6,
-    "home_prob": 44,
+    "home_prob": 43,
     "draw_prob": 27,
-    "home_odds": "+115",
-    "draw_odds": "+250",
+    "home_odds": "+130",
+    "draw_odds": "+240",
     "away_odds": "+210",
     "home_form": "4-3-3",
     "away_form": "4-3-3",
-    "home_strategy": "立足哈兰德支点、两翼提速，争取连胜出线",
-    "away_strategy": "利用身体与速度反击，必须取胜止颓",
+    "home_strategy": "围绕哈兰德做球，强冲禁区与定位球",
+    "away_strategy": "提速反击、利用速度冲击挪威防线",
     "home_tactics": [
-      "支点策应",
-      "两翼齐飞",
-      "定位球"
+      "中锋支点",
+      "两翼传中",
+      "定位球冲击"
     ],
     "away_tactics": [
       "快速反击",
-      "身体对抗",
-      "边路爆点"
+      "边路爆点",
+      "身体对抗"
     ],
     "home_mentality": [
       {
-        "title": "首胜的高昂士气",
-        "desc": "4-1开门红，哈兰德梅开二度",
-        "quote": "拿下连胜提前出线。"
+        "title": "首秀大胜的气势",
+        "desc": "4-1胜伊拉克，哈兰德梅开二度",
+        "quote": "保持火力，争出线主动。"
       },
       {
         "title": "哈兰德领衔",
-        "desc": "核心射手状态火热",
-        "quote": "把球给我，我来终结。"
+        "desc": "顶级射手状态在线",
+        "quote": "把球喂给我。"
       }
     ],
     "away_mentality": [
       {
-        "title": "背水一战",
-        "desc": "首战告负，输不起",
-        "quote": "必须赢回主动权。"
+        "title": "输不起的一战",
+        "desc": "首战负法国，必须拿分",
+        "quote": "这场必须赢回来。"
       },
       {
-        "title": "非洲铁腰的韧性",
-        "desc": "实力不俗、想正名",
-        "quote": "我们比比分更强。"
+        "title": "非洲速度",
+        "desc": "靠身体与速度搏命",
+        "quote": "用强度压垮对手。"
       }
     ],
     "metric_labels": [
@@ -373,64 +490,126 @@
       8,
       8,
       9,
+      6,
       7,
-      8,
       6
     ],
     "away_metrics": [
       6,
       9,
       8,
-      7,
+      6,
       7,
       5
     ],
     "home_comeback": 7,
-    "home_comeback_note": "有哈兰德，落后时仍具破门能力。",
+    "home_comeback_note": "有哈兰德，落后也能强行扳平。",
     "away_comeback": 7,
-    "away_comeback_note": "攻击群有速度，落后能制造威胁。",
+    "away_comeback_note": "速度与冲击力强，反扑能力不弱。",
     "home_scorers": [
-      { "name": "哈兰德", "prob": 52 },
-      { "name": "瑟尔洛特", "prob": 26 },
-      { "name": "努萨", "prob": 18 }
+      {
+        "name": "哈兰德",
+        "prob": 52
+      },
+      {
+        "name": "瑟洛特",
+        "prob": 30
+      },
+      {
+        "name": "努萨",
+        "prob": 22
+      }
     ],
     "away_scorers": [
-      { "name": "I·萨尔", "prob": 24 },
-      { "name": "N·杰克逊", "prob": 22 },
-      { "name": "姆巴耶", "prob": 16 }
+      {
+        "name": "I·萨尔",
+        "prob": 30
+      },
+      {
+        "name": "杰克逊",
+        "prob": 26
+      },
+      {
+        "name": "恩迪亚耶",
+        "prob": 20
+      }
     ],
     "group_standings": [
-      { "team": "挪威", "flag": "🇳🇴", "p": 1, "w": 1, "d": 0, "l": 0, "gf": 4, "ga": 1, "gd": 3, "pts": 3 },
-      { "team": "法国", "flag": "🇫🇷", "p": 1, "w": 1, "d": 0, "l": 0, "gf": 3, "ga": 1, "gd": 2, "pts": 3 },
-      { "team": "塞内加尔", "flag": "🇸🇳", "p": 1, "w": 0, "d": 0, "l": 1, "gf": 1, "ga": 3, "gd": -2, "pts": 0 },
-      { "team": "伊拉克", "flag": "🇮🇶", "p": 1, "w": 0, "d": 0, "l": 1, "gf": 1, "ga": 4, "gd": -3, "pts": 0 }
+      {
+        "team": "挪威",
+        "flag": "🇳🇴",
+        "p": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 4,
+        "ga": 1,
+        "gd": 3,
+        "pts": 3
+      },
+      {
+        "team": "法国",
+        "flag": "🇫🇷",
+        "p": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 3,
+        "ga": 1,
+        "gd": 2,
+        "pts": 3
+      },
+      {
+        "team": "塞内加尔",
+        "flag": "🇸🇳",
+        "p": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 3,
+        "gd": -2,
+        "pts": 0
+      },
+      {
+        "team": "伊拉克",
+        "flag": "🇮🇶",
+        "p": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 4,
+        "gd": -3,
+        "pts": 0
+      }
     ],
     "over25": 58,
-    "over35": 30,
-    "away_score_prob": 52,
+    "over35": 32,
+    "away_score_prob": 58,
     "handicap": 46,
-    "handicap_label": "挪威让球 -0.5",
+    "handicap_label": "平手/挪威 -0.5",
     "likely_scores": [
       "2-1",
       "1-1",
-      "2-0",
+      "2-2",
       "1-2"
     ],
     "home_risks": [
-      "中场创造力一般、过度依赖哈兰德",
-      "后防面对塞内加尔速度有隐患"
+      "防线组织一般，易被速度反击",
+      "过度依赖哈兰德的终结"
     ],
     "away_risks": [
-      "终结效率不稳、易浪费机会",
-      "防守盯人不紧被哈兰德惩罚"
+      "防守稳定性不足、易丢球",
+      "心态背水易急躁"
     ],
-    "verdict_rec": "挪威不败 · 可关注进球数",
+    "verdict_rec": "挪威不败 · 可关注进球数(过2.5)",
     "verdict_score": "2-1",
     "verdict_stars": 3,
     "verdict_logic": [
-      "挪威有哈兰德、士气与火力占优",
-      "塞内加尔必须取胜、会全力进攻",
-      "对攻局面下双方均有望破门"
+      "挪威有哈兰德、火力与气势占优",
+      "塞内加尔背水反扑、实力不容小觑",
+      "两队攻强守弱，进球数偏高、比分接近"
     ]
   },
   {
@@ -442,68 +621,68 @@
     "away_name": "阿尔及利亚",
     "away_prev": "0-3 ❌ 负阿根廷",
     "away_pts": 0,
-    "match_group": "J组 第2轮",
-    "match_date": "6月23日 · 北京11:00 / 当地6月22日20:00",
+    "match_group": "J组 第2轮 (生死战)",
+    "match_date": "6月23日 · 北京时间 11:00（圣克拉拉当地22日20:00)",
     "match_venue": "圣克拉拉 Levi's Stadium",
-    "h_poss": 42,
+    "h_poss": 40,
     "h_shots": 9,
     "h_sot": 3,
-    "h_bc": 1,
+    "h_bc": 2,
     "h_xg": 1.0,
     "h_goals": 1,
-    "h_xga": 2.1,
-    "h_oshots": 16,
+    "h_xga": 2.4,
+    "h_oshots": 17,
     "h_osot": 6,
-    "a_poss": 40,
+    "a_poss": 42,
     "a_shots": 8,
     "a_sot": 2,
     "a_bc": 1,
     "a_xg": 0.7,
     "a_goals": 0,
-    "a_xga": 2.4,
-    "a_oshots": 18,
-    "a_osot": 7,
-    "home_prob": 30,
-    "draw_prob": 30,
-    "home_odds": "+210",
-    "draw_odds": "+220",
-    "away_odds": "+125",
+    "a_xga": 2.6,
+    "a_oshots": 16,
+    "a_osot": 6,
+    "home_prob": 18,
+    "draw_prob": 22,
+    "home_odds": "+260",
+    "draw_odds": "+230",
+    "away_odds": "-110",
     "home_form": "4-5-1",
     "away_form": "4-3-3",
-    "home_strategy": "稳守反击+定位球，争首分保留出线希望",
-    "away_strategy": "控球施压、靠个人能力打破僵局，必须取胜",
+    "home_strategy": "稳守反击，靠塔马里制造威胁",
+    "away_strategy": "控球施压、提升终结，必须取胜",
     "home_tactics": [
       "低位防守",
       "快速反击",
-      "定位球"
+      "塔马里支点"
     ],
     "away_tactics": [
-      "控球主导",
+      "控球渗透",
       "边路突破",
-      "中场调度"
+      "前场逼抢"
     ],
     "home_mentality": [
       {
-        "title": "背水一战",
-        "desc": "首战告负，再输基本出局",
-        "quote": "拼到最后一刻。"
+        "title": "首胜的渴望",
+        "desc": "首战负奥地利，争队史世界杯首胜",
+        "quote": "守住反击，搏一个结果。"
       },
       {
-        "title": "亚洲黑马的斗志",
-        "desc": "想创造队史突破",
-        "quote": "我们能给对手制造麻烦。"
+        "title": "无压力一搏",
+        "desc": "弱旅心态放手踢",
+        "quote": "没什么可失去的。"
       }
     ],
     "away_mentality": [
       {
-        "title": "必须取胜的压力",
-        "desc": "首战0-3被零封，急需回血",
-        "quote": "这场只能赢。"
+        "title": "知耻后勇",
+        "desc": "首战0-3被零封，急需回应",
+        "quote": "必须拿下，否则出局。"
       },
       {
-        "title": "非洲之狐的天赋",
-        "desc": "个人能力强、想兑现实力",
-        "quote": "该由我们掌控比赛了。"
+        "title": "实力自信",
+        "desc": "纸面实力占优",
+        "quote": "踢出我们的水平。"
       }
     ],
     "metric_labels": [
@@ -516,65 +695,124 @@
     ],
     "home_metrics": [
       5,
-      9,
+      8,
       5,
-      6,
-      6,
-      5
+      7,
+      7,
+      7
     ],
     "away_metrics": [
-      5,
-      10,
+      6,
+      9,
       7,
       6,
       7,
       4
     ],
-    "home_comeback": 4,
-    "home_comeback_note": "攻击手段有限，落后追分乏力。",
+    "home_comeback": 5,
+    "home_comeback_note": "防守见长，落后后攻坚乏力。",
     "away_comeback": 6,
-    "away_comeback_note": "有个人能力，落后仍能制造机会。",
+    "away_comeback_note": "技术占优，落后仍有反扑手段。",
     "home_scorers": [
-      { "name": "阿尔-奈马特", "prob": 22 },
-      { "name": "阿尔-塔马里", "prob": 20 }
+      {
+        "name": "塔马里",
+        "prob": 30
+      },
+      {
+        "name": "纳伊马特",
+        "prob": 18
+      }
     ],
     "away_scorers": [
-      { "name": "马赫雷斯", "prob": 30 },
-      { "name": "阿穆拉", "prob": 24 },
-      { "name": "布尼贾", "prob": 16 }
+      {
+        "name": "马赫雷斯",
+        "prob": 34
+      },
+      {
+        "name": "阿穆拉",
+        "prob": 30
+      },
+      {
+        "name": "古伊里",
+        "prob": 24
+      }
     ],
     "group_standings": [
-      { "team": "阿根廷", "flag": "🇦🇷", "p": 1, "w": 1, "d": 0, "l": 0, "gf": 3, "ga": 0, "gd": 3, "pts": 3 },
-      { "team": "奥地利", "flag": "🇦🇹", "p": 1, "w": 1, "d": 0, "l": 0, "gf": 3, "ga": 1, "gd": 2, "pts": 3 },
-      { "team": "约旦", "flag": "🇯🇴", "p": 1, "w": 0, "d": 0, "l": 1, "gf": 1, "ga": 3, "gd": -2, "pts": 0 },
-      { "team": "阿尔及利亚", "flag": "🇩🇿", "p": 1, "w": 0, "d": 0, "l": 1, "gf": 0, "ga": 3, "gd": -3, "pts": 0 }
+      {
+        "team": "阿根廷",
+        "flag": "🇦🇷",
+        "p": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 3,
+        "ga": 0,
+        "gd": 3,
+        "pts": 3
+      },
+      {
+        "team": "奥地利",
+        "flag": "🇦🇹",
+        "p": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 3,
+        "ga": 1,
+        "gd": 2,
+        "pts": 3
+      },
+      {
+        "team": "约旦",
+        "flag": "🇯🇴",
+        "p": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 3,
+        "gd": -2,
+        "pts": 0
+      },
+      {
+        "team": "阿尔及利亚",
+        "flag": "🇩🇿",
+        "p": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 0,
+        "ga": 3,
+        "gd": -3,
+        "pts": 0
+      }
     ],
-    "over25": 46,
-    "over35": 20,
-    "away_score_prob": 58,
-    "handicap": 45,
-    "handicap_label": "阿尔及利亚让球 -0.5/平手",
+    "over25": 50,
+    "over35": 24,
+    "away_score_prob": 72,
+    "handicap": 52,
+    "handicap_label": "阿尔及利亚 -0.5/-1",
     "likely_scores": [
-      "1-1",
       "1-2",
       "0-1",
-      "2-1"
+      "1-1",
+      "0-2"
     ],
     "home_risks": [
-      "进攻乏力、难持续创造机会",
-      "防线面对阿尔及利亚突破吃紧"
+      "进攻手段有限、难持续创造机会",
+      "防线承压久易丢球"
     ],
     "away_risks": [
-      "终结效率差，可能再陷哑火",
-      "压上求胜被反击偷袭"
+      "终结效率是隐患、首战被零封",
+      "急于求胜易被反击偷袭"
     ],
     "verdict_rec": "阿尔及利亚不败 · 比分谨慎(均势)",
     "verdict_score": "1-2",
     "verdict_stars": 2,
     "verdict_logic": [
-      "阿尔及利亚个人能力略占优、求胜欲强",
-      "约旦稳守反击、主打防守",
-      "两队实力接近，平局也在射程内"
+      "阿尔及利亚纸面实力与动机占优",
+      "约旦稳守反击、有塔马里反击点",
+      "双方均需取胜，进球或不多、比分接近"
     ]
   }
 ]

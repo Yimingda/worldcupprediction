@@ -1,72 +1,307 @@
 {
-  "as_of": "2026-06-21",
+  "as_of": "2026-06-22",
   "stage": "小组赛第2轮进行中",
   "title": "2026 世界杯 · 四强 & 冠军预测",
   "final_info": "决赛 7月19日 · 纽约/新泽西 MetLife Stadium",
-  "method_weights": {"实力基线": 35, "当前状态": 20, "阵容健康": 15, "赛程半区难度": 20, "经验与教练": 10},
+  "method_weights": {
+    "实力基线": 35,
+    "当前状态": 20,
+    "阵容健康": 15,
+    "赛程半区难度": 20,
+    "经验与教练": 10
+  },
   "final_four": [
-    {"team": "法国", "flag": "🇫🇷", "half": "待定", "sf_prob": 48, "proj_path": "签表未定，按实力推断", "why": "锋线火力顶级，3-1 胜塞内加尔状态正佳，赔率领跑"},
-    {"team": "西班牙", "flag": "🇪🇸", "half": "待定", "sf_prob": 44, "proj_path": "签表未定", "why": "欧洲杯卫冕、控球体系成熟、阵容深度足"},
-    {"team": "英格兰", "flag": "🏴", "half": "待定", "sf_prob": 42, "proj_path": "签表未定", "why": "阵容厚度高、攻击线人才井喷"},
-    {"team": "阿根廷", "flag": "🇦🇷", "half": "待定", "sf_prob": 38, "proj_path": "签表未定", "why": "卫冕班底默契、关键球与防守稳"}
+    {
+      "team": "法国",
+      "flag": "🇫🇷",
+      "half": "待定",
+      "sf_prob": 48,
+      "proj_path": "签表未定，按实力推断",
+      "why": "锋线火力顶级，3-1 胜塞内加尔状态正佳，赔率领跑"
+    },
+    {
+      "team": "西班牙",
+      "flag": "🇪🇸",
+      "half": "待定",
+      "sf_prob": 44,
+      "proj_path": "签表未定",
+      "why": "欧洲杯卫冕、控球体系成熟、阵容深度足"
+    },
+    {
+      "team": "英格兰",
+      "flag": "🏴",
+      "half": "待定",
+      "sf_prob": 42,
+      "proj_path": "签表未定",
+      "why": "阵容厚度高、攻击线人才井喷"
+    },
+    {
+      "team": "阿根廷",
+      "flag": "🇦🇷",
+      "half": "待定",
+      "sf_prob": 38,
+      "proj_path": "签表未定",
+      "why": "卫冕班底默契、关键球与防守稳"
+    }
   ],
   "champions": [
-    {"rank": 1, "team": "法国", "flag": "🇫🇷", "tier": "夺冠热门", "champ_prob": 18, "final_prob": 30, "sf_prob": 48,
-     "odds": "+370",
-     "rating": {"attack": 10, "defense": 8, "squad_depth": 9, "form": 8, "path_ease": 6, "experience": 9},
-     "key_players": ["姆巴佩", "琼阿梅尼", "登贝莱"],
-     "strengths": ["顶级个人能力可一击致命", "大赛经验与板凳深度俱佳"],
-     "risks": ["防线轮换稳定性", "潜在半区偏硬"],
-     "rationale": "赔率与综合实力居首，状态正佳；夺冠概率领先但需防淘汰赛硬仗。"},
-    {"rank": 2, "team": "西班牙", "flag": "🇪🇸", "tier": "夺冠热门", "champ_prob": 14, "final_prob": 26, "sf_prob": 44,
-     "odds": "+550",
-     "rating": {"attack": 9, "defense": 8, "squad_depth": 9, "form": 8, "path_ease": 7, "experience": 8},
-     "key_players": ["亚马尔", "佩德里", "罗德里"],
-     "strengths": ["控球与高位压迫体系成熟", "中前场轮换深度足"],
-     "risks": ["缺稳定射手时控而不入", "高温/高原消耗高压体能"],
-     "rationale": "欧洲杯卫冕、体系最稳，半区中上；锋线效率是夺冠变量。"},
-    {"rank": 3, "team": "英格兰", "flag": "🏴", "tier": "夺冠热门", "champ_prob": 13, "final_prob": 24, "sf_prob": 42,
-     "odds": "+600",
-     "rating": {"attack": 9, "defense": 8, "squad_depth": 10, "form": 7, "path_ease": 7, "experience": 7},
-     "key_players": ["贝林厄姆", "凯恩", "萨卡"],
-     "strengths": ["攻击线人才井喷、阵容厚度第一"],
-     "risks": ["淘汰赛抗压与临场调整历来存疑"],
-     "rationale": "纸面最豪华，能否在关键战兑现是夺冠关键。"},
-    {"rank": 4, "team": "阿根廷", "flag": "🇦🇷", "tier": "二档", "champ_prob": 11, "final_prob": 22, "sf_prob": 38,
-     "odds": "+800",
-     "rating": {"attack": 8, "defense": 9, "squad_depth": 7, "form": 8, "path_ease": 7, "experience": 10},
-     "key_players": ["劳塔罗", "麦卡利斯特", "E.马丁内斯"],
-     "strengths": ["卫冕班底默契、点球与关键球能力强", "防守稳固"],
-     "risks": ["核心老化与体能", "长途旅行+气候适应"],
-     "rationale": "经验与防守是底牌，深度与年龄结构是上限制约。"},
-    {"rank": 5, "team": "巴西", "flag": "🇧🇷", "tier": "二档", "champ_prob": 10, "final_prob": 20, "sf_prob": 36,
-     "odds": "+900",
-     "rating": {"attack": 9, "defense": 7, "squad_depth": 8, "form": 6, "path_ease": 6, "experience": 8},
-     "key_players": ["维尼修斯", "罗德里戈", "拉菲尼亚"],
-     "strengths": ["边路爆点多、转换快"], "risks": ["后腰与防线稳定性", "心态起伏"],
-     "rationale": "天赋足但防守与状态波动，半区偏硬。"},
-    {"rank": 6, "team": "葡萄牙", "flag": "🇵🇹", "tier": "黑马", "champ_prob": 7, "final_prob": 15, "sf_prob": 30,
-     "odds": "+1200",
-     "rating": {"attack": 9, "defense": 7, "squad_depth": 8, "form": 7, "path_ease": 7, "experience": 8},
-     "key_players": ["B.费尔南德斯", "莱奥", "维蒂尼亚"],
-     "strengths": ["中前场创造力强、黄金一代成熟"], "risks": ["防线年龄", "大赛稳定性"],
-     "rationale": "签运若软最具冲击四强乃至决赛的黑马。"},
-    {"rank": 7, "team": "德国", "flag": "🇩🇪", "tier": "黑马", "champ_prob": 6, "final_prob": 13, "sf_prob": 28,
-     "odds": "+1400",
-     "rating": {"attack": 9, "defense": 7, "squad_depth": 8, "form": 8, "path_ease": 6, "experience": 8},
-     "key_players": ["穆西亚拉", "维尔茨", "哈弗茨"],
-     "strengths": ["小组赛火力全开、年轻中场崛起"], "risks": ["后防稳定性", "硬仗经验"],
-     "rationale": "状态在上升通道，若延续火力可冲四强。"},
-    {"rank": 8, "team": "荷兰", "flag": "🇳🇱", "tier": "黑马", "champ_prob": 5, "final_prob": 12, "sf_prob": 26,
-     "odds": "+1600",
-     "rating": {"attack": 8, "defense": 8, "squad_depth": 8, "form": 7, "path_ease": 7, "experience": 7},
-     "key_players": ["加克波", "X.西蒙斯", "范迪克"],
-     "strengths": ["攻守均衡、5-1 大胜瑞典状态好"], "risks": ["中场硬度", "关键战稳定性"],
-     "rationale": "均衡且状态不错，具备搅局四强的实力。"}
+    {
+      "rank": 1,
+      "team": "法国",
+      "flag": "🇫🇷",
+      "tier": "夺冠热门",
+      "champ_prob": 18,
+      "final_prob": 30,
+      "sf_prob": 48,
+      "odds": "+370",
+      "rating": {
+        "attack": 10,
+        "defense": 8,
+        "squad_depth": 9,
+        "form": 8,
+        "path_ease": 6,
+        "experience": 9
+      },
+      "key_players": [
+        "姆巴佩",
+        "琼阿梅尼",
+        "登贝莱"
+      ],
+      "strengths": [
+        "顶级个人能力可一击致命",
+        "大赛经验与板凳深度俱佳"
+      ],
+      "risks": [
+        "防线轮换稳定性",
+        "潜在半区偏硬"
+      ],
+      "rationale": "赔率与综合实力居首，状态正佳；夺冠概率领先但需防淘汰赛硬仗。"
+    },
+    {
+      "rank": 2,
+      "team": "西班牙",
+      "flag": "🇪🇸",
+      "tier": "夺冠热门",
+      "champ_prob": 14,
+      "final_prob": 26,
+      "sf_prob": 44,
+      "odds": "+550",
+      "rating": {
+        "attack": 9,
+        "defense": 8,
+        "squad_depth": 9,
+        "form": 8,
+        "path_ease": 7,
+        "experience": 8
+      },
+      "key_players": [
+        "亚马尔",
+        "佩德里",
+        "罗德里"
+      ],
+      "strengths": [
+        "控球与高位压迫体系成熟",
+        "中前场轮换深度足"
+      ],
+      "risks": [
+        "缺稳定射手时控而不入",
+        "高温/高原消耗高压体能"
+      ],
+      "rationale": "欧洲杯卫冕、体系最稳，半区中上；锋线效率是夺冠变量。"
+    },
+    {
+      "rank": 3,
+      "team": "英格兰",
+      "flag": "🏴",
+      "tier": "夺冠热门",
+      "champ_prob": 13,
+      "final_prob": 24,
+      "sf_prob": 42,
+      "odds": "+600",
+      "rating": {
+        "attack": 9,
+        "defense": 8,
+        "squad_depth": 10,
+        "form": 7,
+        "path_ease": 7,
+        "experience": 7
+      },
+      "key_players": [
+        "贝林厄姆",
+        "凯恩",
+        "萨卡"
+      ],
+      "strengths": [
+        "攻击线人才井喷、阵容厚度第一"
+      ],
+      "risks": [
+        "淘汰赛抗压与临场调整历来存疑"
+      ],
+      "rationale": "纸面最豪华，能否在关键战兑现是夺冠关键。"
+    },
+    {
+      "rank": 4,
+      "team": "阿根廷",
+      "flag": "🇦🇷",
+      "tier": "二档",
+      "champ_prob": 11,
+      "final_prob": 22,
+      "sf_prob": 38,
+      "odds": "+800",
+      "rating": {
+        "attack": 8,
+        "defense": 9,
+        "squad_depth": 7,
+        "form": 8,
+        "path_ease": 7,
+        "experience": 10
+      },
+      "key_players": [
+        "劳塔罗",
+        "麦卡利斯特",
+        "E.马丁内斯"
+      ],
+      "strengths": [
+        "卫冕班底默契、点球与关键球能力强",
+        "防守稳固"
+      ],
+      "risks": [
+        "核心老化与体能",
+        "长途旅行+气候适应"
+      ],
+      "rationale": "经验与防守是底牌，深度与年龄结构是上限制约。"
+    },
+    {
+      "rank": 5,
+      "team": "巴西",
+      "flag": "🇧🇷",
+      "tier": "二档",
+      "champ_prob": 10,
+      "final_prob": 20,
+      "sf_prob": 36,
+      "odds": "+900",
+      "rating": {
+        "attack": 9,
+        "defense": 7,
+        "squad_depth": 8,
+        "form": 6,
+        "path_ease": 6,
+        "experience": 8
+      },
+      "key_players": [
+        "维尼修斯",
+        "罗德里戈",
+        "拉菲尼亚"
+      ],
+      "strengths": [
+        "边路爆点多、转换快"
+      ],
+      "risks": [
+        "后腰与防线稳定性",
+        "心态起伏"
+      ],
+      "rationale": "天赋足但防守与状态波动，半区偏硬。"
+    },
+    {
+      "rank": 6,
+      "team": "葡萄牙",
+      "flag": "🇵🇹",
+      "tier": "黑马",
+      "champ_prob": 7,
+      "final_prob": 15,
+      "sf_prob": 30,
+      "odds": "+1200",
+      "rating": {
+        "attack": 9,
+        "defense": 7,
+        "squad_depth": 8,
+        "form": 7,
+        "path_ease": 7,
+        "experience": 8
+      },
+      "key_players": [
+        "B.费尔南德斯",
+        "莱奥",
+        "维蒂尼亚"
+      ],
+      "strengths": [
+        "中前场创造力强、黄金一代成熟"
+      ],
+      "risks": [
+        "防线年龄",
+        "大赛稳定性"
+      ],
+      "rationale": "签运若软最具冲击四强乃至决赛的黑马。"
+    },
+    {
+      "rank": 7,
+      "team": "德国",
+      "flag": "🇩🇪",
+      "tier": "黑马",
+      "champ_prob": 6,
+      "final_prob": 13,
+      "sf_prob": 28,
+      "odds": "+1400",
+      "rating": {
+        "attack": 9,
+        "defense": 7,
+        "squad_depth": 8,
+        "form": 8,
+        "path_ease": 6,
+        "experience": 8
+      },
+      "key_players": [
+        "穆西亚拉",
+        "维尔茨",
+        "哈弗茨"
+      ],
+      "strengths": [
+        "小组赛火力全开、年轻中场崛起"
+      ],
+      "risks": [
+        "后防稳定性",
+        "硬仗经验"
+      ],
+      "rationale": "状态在上升通道，若延续火力可冲四强。"
+    },
+    {
+      "rank": 8,
+      "team": "荷兰",
+      "flag": "🇳🇱",
+      "tier": "黑马",
+      "champ_prob": 5,
+      "final_prob": 12,
+      "sf_prob": 26,
+      "odds": "+1600",
+      "rating": {
+        "attack": 8,
+        "defense": 8,
+        "squad_depth": 8,
+        "form": 7,
+        "path_ease": 7,
+        "experience": 7
+      },
+      "key_players": [
+        "加克波",
+        "X.西蒙斯",
+        "范迪克"
+      ],
+      "strengths": [
+        "攻守均衡、5-1 大胜瑞典状态好"
+      ],
+      "risks": [
+        "中场硬度",
+        "关键战稳定性"
+      ],
+      "rationale": "均衡且状态不错，具备搅局四强的实力。"
+    }
   ],
   "verdict": {
-    "champion": "法国", "runner_up": "西班牙", "dark_horse": "葡萄牙",
-    "final_pick": "2-1", "stars": 3,
+    "champion": "法国",
+    "runner_up": "西班牙",
+    "dark_horse": "葡萄牙",
+    "final_pick": "2-1",
+    "stars": 3,
     "logic": [
       "实力基线+当前状态法国综合居首，赔率亦领跑",
       "西班牙体系最稳、卫冕欧洲杯，锁定另一决赛热门",

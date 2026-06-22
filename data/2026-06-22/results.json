@@ -1,0 +1,17 @@
+{
+  "阿根廷 vs 奥地利": {
+    "h": 2,
+    "a": 0,
+    "status": "final",
+    "source": "https://www.espn.com/soccer/match/_/gameId/760456/austria-argentina"
+  },
+  "法国 vs 伊拉克": {
+    "status": "scheduled"
+  },
+  "挪威 vs 塞内加尔": {
+    "status": "scheduled"
+  },
+  "约旦 vs 阿尔及利亚": {
+    "status": "scheduled"
+  }
+}

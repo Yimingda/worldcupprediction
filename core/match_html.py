@@ -40,6 +40,14 @@ def _d(match: dict) -> dict:
         "a_poss": g("a_poss", 50), "a_shots": g("a_shots", 0), "a_sot": g("a_sot", 0),
         "a_bc": g("a_bc", 0), "a_xg": g("a_xg", 0.0), "a_goals": g("a_goals", 0),
         "a_xga": g("a_xga", 0.0), "a_oshots": g("a_oshots", 0), "a_osot": g("a_osot", 0),
+        # ── 前两轮：上上轮（更早一轮）数据，可选；填了 prev2 才显示第二张表 ──
+        "home_prev2": g("home_prev2", ""), "away_prev2": g("away_prev2", ""),
+        "h2_poss": g("h2_poss", 0), "h2_shots": g("h2_shots", 0), "h2_sot": g("h2_sot", 0),
+        "h2_bc": g("h2_bc", 0), "h2_xg": g("h2_xg", 0.0), "h2_goals": g("h2_goals", 0),
+        "h2_xga": g("h2_xga", 0.0), "h2_oshots": g("h2_oshots", 0), "h2_osot": g("h2_osot", 0),
+        "a2_poss": g("a2_poss", 0), "a2_shots": g("a2_shots", 0), "a2_sot": g("a2_sot", 0),
+        "a2_bc": g("a2_bc", 0), "a2_xg": g("a2_xg", 0.0), "a2_goals": g("a2_goals", 0),
+        "a2_xga": g("a2_xga", 0.0), "a2_oshots": g("a2_oshots", 0), "a2_osot": g("a2_osot", 0),
         "home_prob": g("home_prob", 40), "draw_prob": g("draw_prob", 30),
         "home_odds": g("home_odds", "-"), "draw_odds": g("draw_odds", "-"),
         "away_odds": g("away_odds", "-"),
@@ -192,8 +200,10 @@ def xg_luck_label(goals, xg):
 
 
 def last_match_panel(name, flag, result, poss, shots, sot, bc,
-                     xg, goals, xga, oshots, osot, primary="#1D9E75"):
-    out = [f'<div class="sec-label">{flag} {esc(name)} — 上轮 {esc(result)}</div>']
+                     xg, goals, xga, oshots, osot, primary="#1D9E75",
+                     round_label="上轮", show_team=True):
+    hdr = f'{flag} {esc(name)} — ' if show_team else ''
+    out = [f'<div class="sec-label">{hdr}{esc(round_label)} {esc(result)}</div>']
     out.append('<div class="sec-label" style="margin-top:8px">进攻数据</div>')
     out.append(stat_bar("控球率", f"{poss}", 100, primary, "%"))
     out.append(stat_bar("总射门", shots, 30, primary))
@@ -218,6 +228,43 @@ def last_match_panel(name, flag, result, poss, shots, sot, bc,
     out.append(grade_box("防守评分", dfd, f"对手xG {xga}，{'防守稳健' if xav<1.0 else '承压较大'}",
                          "#1D9E75" if dfd in "AB" else ("#BA7517" if dfd == "C" else "#c0392b")))
     out.append('</div>')
+    return "".join(out)
+
+
+# ───────────── 前两轮：趋势汇总 + 多轮表现 ─────────────
+def form_trend(rounds, primary):
+    """rounds 为 newest-first 列表，计算近两轮累计与 xG 趋势。"""
+    if len(rounds) < 2:
+        return ""
+    new, old = rounds[0], rounds[1]
+    nx, ox = _f(new["xg"]), _f(old["xg"])
+    tot_goals = int(_f(new["goals"])) + int(_f(old["goals"]))
+    tot_xg = nx + ox
+    if nx - ox > 0.4:
+        tr, ts = "近两轮 xG 上升 ↑（进攻状态走高）", "green"
+    elif ox - nx > 0.4:
+        tr, ts = "近两轮 xG 下降 ↓（势头有所回落）", "amber"
+    else:
+        tr, ts = "近两轮 xG 持平 →（状态稳定）", "blue"
+    return (f'<div style="margin-top:10px;padding:8px 10px;background:#f5f4f0;border-radius:8px">'
+            f'<div style="font-size:9px;color:#888;margin-bottom:4px">近两轮汇总</div>'
+            f'<div style="font-size:11px">累计进球 <strong>{tot_goals}</strong> · '
+            f'累计 xG <strong>{tot_xg:.2f}</strong> · 场均 xG <strong>{tot_xg/2:.2f}</strong></div>'
+            f'<div style="margin-top:4px">{badge(tr, ts)}</div></div>')
+
+
+def team_form(name, flag, rounds, primary="#1D9E75"):
+    """渲染一支球队近 N 轮（newest-first）的表现叠放 + 趋势汇总。"""
+    out = [f'<div style="font-size:13px;font-weight:700;margin-bottom:8px">{flag} {esc(name)}'
+           f'<span style="font-size:10px;color:#aaa;font-weight:400">　近{len(rounds)}轮</span></div>']
+    for i, r in enumerate(rounds):
+        if i > 0:
+            out.append('<div style="border-top:1px dashed #e2e0d8;margin:12px 0 10px"></div>')
+        out.append(last_match_panel(
+            name, flag, r["result"], r["poss"], r["shots"], r["sot"], r["bc"],
+            r["xg"], r["goals"], r["xga"], r["oshots"], r["osot"],
+            primary, round_label=r["label"], show_team=False))
+    out.append(form_trend(rounds, primary))
     return "".join(out)
 
 
@@ -392,16 +439,30 @@ def render_match(match: dict) -> str:
              f'<div style="font-size:11px;color:#888;margin-top:4px">{esc(m["away_prev"])} · <strong>{esc(m["away_pts"])}分</strong></div></div>')
     P.append('</div>')
 
-    # ① 上轮表现（含 xG 实力/运气标签）
-    P.append('<h3 class="sec">① 上轮表现深度分析 — 进攻 / 防守 / xG 实力·运气判定</h3>')
+    # ① 前两轮表现（含 xG 实力/运气标签 + 近两轮趋势）
+    def _rounds(p, side):
+        prev1 = m[f"{side}_prev"]
+        prev2 = m[f"{side}_prev2"]
+        r1 = dict(label="上轮", result=prev1,
+                  poss=m[f"{p}_poss"], shots=m[f"{p}_shots"], sot=m[f"{p}_sot"], bc=m[f"{p}_bc"],
+                  xg=m[f"{p}_xg"], goals=m[f"{p}_goals"], xga=m[f"{p}_xga"],
+                  oshots=m[f"{p}_oshots"], osot=m[f"{p}_osot"])
+        rounds = [r1]
+        if prev2:  # 仅当填写了更早一轮才显示第二张表
+            rounds.append(dict(label="上上轮", result=prev2,
+                  poss=m[f"{p}2_poss"], shots=m[f"{p}2_shots"], sot=m[f"{p}2_sot"], bc=m[f"{p}2_bc"],
+                  xg=m[f"{p}2_xg"], goals=m[f"{p}2_goals"], xga=m[f"{p}2_xga"],
+                  oshots=m[f"{p}2_oshots"], osot=m[f"{p}2_osot"]))
+        return rounds
+
+    h_rounds, a_rounds = _rounds("h", "home"), _rounds("a", "away")
+    n_rounds = max(len(h_rounds), len(a_rounds))
+    sec_title = "① 前两轮表现深度分析" if n_rounds >= 2 else "① 上轮表现深度分析"
+    P.append(f'<h3 class="sec">{sec_title} — 进攻 / 防守 / xG 实力·运气判定</h3>')
     P.append('<div class="grid2"><div class="card">')
-    P.append(last_match_panel(m["home_name"], m["home_flag"], m["home_prev"],
-                              m["h_poss"], m["h_shots"], m["h_sot"], m["h_bc"],
-                              m["h_xg"], m["h_goals"], m["h_xga"], m["h_oshots"], m["h_osot"], H))
+    P.append(team_form(m["home_name"], m["home_flag"], h_rounds, H))
     P.append('</div><div class="card">')
-    P.append(last_match_panel(m["away_name"], m["away_flag"], m["away_prev"],
-                              m["a_poss"], m["a_shots"], m["a_sot"], m["a_bc"],
-                              m["a_xg"], m["a_goals"], m["a_xga"], m["a_oshots"], m["a_osot"], A))
+    P.append(team_form(m["away_name"], m["away_flag"], a_rounds, A))
     P.append('</div></div>')
 
     # ② 胜负概率

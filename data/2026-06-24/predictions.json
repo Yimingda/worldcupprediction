@@ -1,1228 +1,1348 @@
 [
- {
-  "home_flag": "🇨🇭",
-  "home_name": "瑞士",
-  "home_prev": "4-1 ✅ 胜波黑",
-  "home_pts": 4,
-  "away_flag": "🇨🇦",
-  "away_name": "加拿大",
-  "away_prev": "6-0 ✅ 胜卡塔尔",
-  "away_pts": 4,
-  "match_group": "B组 第3轮",
-  "match_date": "6月25日 · 北京时间 03:00（温哥华当地24日12:00）",
-  "match_venue": "温哥华 BC Place",
-  "h_poss": 55,
-  "h_shots": 17,
-  "h_sot": 7,
-  "h_bc": 4,
-  "h_xg": 2.6,
-  "h_goals": 4,
-  "h_xga": 1.0,
-  "h_oshots": 9,
-  "h_osot": 3,
-  "a_poss": 60,
-  "a_shots": 22,
-  "a_sot": 11,
-  "a_bc": 6,
-  "a_xg": 3.8,
-  "a_goals": 6,
-  "a_xga": 0.4,
-  "a_oshots": 6,
-  "a_osot": 2,
-  "home_prob": 34,
-  "draw_prob": 29,
-  "home_odds": "+175",
-  "draw_odds": "+220",
-  "away_odds": "+165",
-  "home_form": "4-2-3-1",
-  "away_form": "4-3-3",
-  "home_strategy": "稳守反击为先，争胜以锁定小组头名",
-  "away_strategy": "主场作战、控球压上，借势冲击头名",
-  "home_tactics": [
-   "中场拦截",
-   "边路推进",
-   "定位球争点"
-  ],
-  "away_tactics": [
-   "高位压迫",
-   "戴维斯左路爆点",
-   "戴维快速前插"
-  ],
-  "home_mentality": [
-   {
-    "title": "出线在望",
-    "desc": "两轮不败拿4分，已基本锁定晋级",
-    "quote": "先稳住,再抢头名。"
-   },
-   {
-    "title": "硬碰东道主",
-    "desc": "客场面对温哥华主场气氛要顶住",
-    "quote": "用纪律压制对手势头。"
-   }
-  ],
-  "away_mentality": [
-   {
-    "title": "主场狂热",
-    "desc": "6-0大胜后士气爆棚,主场全力争头名",
-    "quote": "在家门口拿下小组第一。"
-   },
-   {
-    "title": "历史时刻",
-    "desc": "队史首胜后乘势再进一步",
-    "quote": "继续书写加拿大的历史。"
-   }
-  ],
-  "metric_labels": [
-   "当前信心",
-   "求胜紧迫",
-   "进攻实力",
-   "防守组织",
-   "战术执行",
-   "无压力感"
-  ],
-  "home_metrics": [
-   7,
-   7,
-   7,
-   7,
-   8,
-   6
-  ],
-  "away_metrics": [
-   9,
-   7,
-   8,
-   6,
-   7,
-   6
-  ],
-  "home_comeback": 7,
-  "home_comeback_note": "经验老到、落后后有沙奇里组织反扑。",
-  "away_comeback": 7,
-  "away_comeback_note": "锋线速度快,主场落后也有翻盘火力。",
-  "home_scorers": [
-   {
-    "name": "恩博洛",
-    "prob": 26
-   },
-   {
-    "name": "恩多耶",
-    "prob": 20
-   },
-   {
-    "name": "沙奇里",
-    "prob": 16
-   }
-  ],
-  "away_scorers": [
-   {
-    "name": "乔纳森·戴维",
-    "prob": 30
-   },
-   {
-    "name": "阿方索·戴维斯",
-    "prob": 20
-   },
-   {
-    "name": "拉林",
-    "prob": 16
-   }
-  ],
-  "group_standings": [
-   {
-    "team": "加拿大",
-    "flag": "🇨🇦",
-    "p": 2,
-    "w": 1,
-    "d": 1,
-    "l": 0,
-    "gf": 7,
-    "ga": 1,
-    "gd": 6,
-    "pts": 4
-   },
-   {
-    "team": "瑞士",
-    "flag": "🇨🇭",
-    "p": 2,
-    "w": 1,
-    "d": 1,
-    "l": 0,
-    "gf": 5,
-    "ga": 2,
-    "gd": 3,
-    "pts": 4
-   },
-   {
-    "team": "波黑",
-    "flag": "🇧🇦",
-    "p": 2,
-    "w": 0,
-    "d": 1,
-    "l": 1,
-    "gf": 2,
-    "ga": 5,
-    "gd": -3,
-    "pts": 1
-   },
-   {
-    "team": "卡塔尔",
-    "flag": "🇶🇦",
-    "p": 2,
-    "w": 0,
-    "d": 1,
-    "l": 1,
-    "gf": 1,
-    "ga": 7,
-    "gd": -6,
-    "pts": 1
-   }
-  ],
-  "over25": 52,
-  "over35": 28,
-  "away_score_prob": 68,
-  "handicap": 50,
-  "handicap_label": "瑞士 +0（平手）",
-  "likely_scores": [
-   "1-1",
-   "2-1",
-   "1-2",
-   "2-2"
-  ],
-  "home_risks": [
-   "两队均已接近出线,可能保守致闷局",
-   "防线对戴维斯的速度承压"
-  ],
-  "away_risks": [
-   "大胜后易轻敌",
-   "攻强守弱,压上后留出反击空当"
-  ],
-  "verdict_rec": "平局 · 过2.5",
-  "verdict_score": "1-1",
-  "verdict_stars": 3,
-  "verdict_logic": [
-   "两队同积4分且均大概率出线,胜负欲望被晋级安全感稀释",
-   "加拿大主场+状态占优,但瑞士经验足以稳住局面",
-   "两队进攻线均在状态,小球闷平概率低,看好双方破门"
-  ]
- },
- {
-  "home_flag": "🇧🇦",
-  "home_name": "波黑",
-  "home_prev": "1-4 ❌ 负瑞士",
-  "home_pts": 1,
-  "away_flag": "🇶🇦",
-  "away_name": "卡塔尔",
-  "away_prev": "0-6 ❌ 负加拿大",
-  "away_pts": 1,
-  "match_group": "B组 第3轮",
-  "match_date": "6月25日 · 北京时间 03:00（西雅图当地24日12:00）",
-  "match_venue": "西雅图 Lumen Field",
-  "h_poss": 48,
-  "h_shots": 10,
-  "h_sot": 4,
-  "h_bc": 2,
-  "h_xg": 1.2,
-  "h_goals": 1,
-  "h_xga": 2.6,
-  "h_oshots": 17,
-  "h_osot": 7,
-  "a_poss": 40,
-  "a_shots": 7,
-  "a_sot": 2,
-  "a_bc": 1,
-  "a_xg": 0.5,
-  "a_goals": 0,
-  "a_xga": 3.8,
-  "a_oshots": 22,
-  "a_osot": 11,
-  "home_prob": 50,
-  "draw_prob": 26,
-  "home_odds": "-110",
-  "draw_odds": "+240",
-  "away_odds": "+320",
-  "home_form": "4-2-3-1",
-  "away_form": "5-3-2",
-  "home_strategy": "控球主导、哲科支点强攻,争小组收官胜利",
-  "away_strategy": "密集防守、定位球偷袭,力争世界杯首分升级",
-  "home_tactics": [
-   "中场控制",
-   "哲科做支点",
-   "两翼传中"
-  ],
-  "away_tactics": [
-   "低位铁桶",
-   "阿菲夫反击",
-   "定位球争顶"
-  ],
-  "home_mentality": [
-   {
-    "title": "挽尊一战",
-    "desc": "出线渺茫但要体面收官、避免垫底",
-    "quote": "至少赢下这场。"
-   },
-   {
-    "title": "火力压制",
-    "desc": "对手三轮失分多,正是进球良机",
-    "quote": "打开进球账户。"
-   }
-  ],
-  "away_mentality": [
-   {
-    "title": "寻求首分",
-    "desc": "惨败后渴望拿到世界杯历史性积分",
-    "quote": "守住,争一个结果。"
-   },
-   {
-    "title": "放下包袱",
-    "desc": "已无压力,放手一搏",
-    "quote": "踢得有尊严些。"
-   }
-  ],
-  "metric_labels": [
-   "当前信心",
-   "求胜紧迫",
-   "进攻实力",
-   "防守组织",
-   "战术执行",
-   "无压力感"
-  ],
-  "home_metrics": [
-   6,
-   7,
-   7,
-   5,
-   6,
-   7
-  ],
-  "away_metrics": [
-   4,
-   6,
-   4,
-   6,
-   5,
-   8
-  ],
-  "home_comeback": 6,
-  "home_comeback_note": "哲科+德米罗维奇尚有攻坚能力。",
-  "away_comeback": 3,
-  "away_comeback_note": "进攻贫弱,落后基本无解。",
-  "home_scorers": [
-   {
-    "name": "哲科",
-    "prob": 28
-   },
-   {
-    "name": "德米罗维奇",
-    "prob": 20
-   },
-   {
-    "name": "巴希奇",
-    "prob": 12
-   }
-  ],
-  "away_scorers": [
-   {
-    "name": "阿菲夫",
-    "prob": 15
-   },
-   {
-    "name": "阿里",
-    "prob": 12
-   }
-  ],
-  "group_standings": [
-   {
-    "team": "加拿大",
-    "flag": "🇨🇦",
-    "p": 2,
-    "w": 1,
-    "d": 1,
-    "l": 0,
-    "gf": 7,
-    "ga": 1,
-    "gd": 6,
-    "pts": 4
-   },
-   {
-    "team": "瑞士",
-    "flag": "🇨🇭",
-    "p": 2,
-    "w": 1,
-    "d": 1,
-    "l": 0,
-    "gf": 5,
-    "ga": 2,
-    "gd": 3,
-    "pts": 4
-   },
-   {
-    "team": "波黑",
-    "flag": "🇧🇦",
-    "p": 2,
-    "w": 0,
-    "d": 1,
-    "l": 1,
-    "gf": 2,
-    "ga": 5,
-    "gd": -3,
-    "pts": 1
-   },
-   {
-    "team": "卡塔尔",
-    "flag": "🇶🇦",
-    "p": 2,
-    "w": 0,
-    "d": 1,
-    "l": 1,
-    "gf": 1,
-    "ga": 7,
-    "gd": -6,
-    "pts": 1
-   }
-  ],
-  "over25": 48,
-  "over35": 24,
-  "away_score_prob": 34,
-  "handicap": 55,
-  "handicap_label": "波黑 -1",
-  "likely_scores": [
-   "2-0",
-   "2-1",
-   "1-0",
-   "1-1"
-  ],
-  "home_risks": [
-   "攻坚乏力可能久攻不下",
-   "心态松懈被反击偷袭"
-  ],
-  "away_risks": [
-   "连场失球多、防线信心崩",
-   "进攻端缺乏稳定得分点"
-  ],
-  "verdict_rec": "波黑胜",
-  "verdict_score": "2-0",
-  "verdict_stars": 3,
-  "verdict_logic": [
-   "波黑整体实力与攻击线明显强于卡塔尔",
-   "卡塔尔两轮丢13球,防线脆弱",
-   "波黑为避免垫底有取胜动机,主导比赛"
-  ]
- },
- {
-  "home_flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-  "home_name": "苏格兰",
-  "home_prev": "0-1 ❌ 负摩洛哥",
-  "home_pts": 3,
-  "away_flag": "🇧🇷",
-  "away_name": "巴西",
-  "away_prev": "3-0 ✅ 胜海地",
-  "away_pts": 4,
-  "match_group": "C组 第3轮",
-  "match_date": "6月25日 · 北京时间 06:00（迈阿密当地24日18:00）",
-  "match_venue": "迈阿密 Hard Rock Stadium",
-  "h_poss": 44,
-  "h_shots": 9,
-  "h_sot": 2,
-  "h_bc": 1,
-  "h_xg": 0.8,
-  "h_goals": 0,
-  "h_xga": 1.4,
-  "h_oshots": 14,
-  "h_osot": 5,
-  "a_poss": 66,
-  "a_shots": 20,
-  "a_sot": 9,
-  "a_bc": 6,
-  "a_xg": 3.2,
-  "a_goals": 3,
-  "a_xga": 0.4,
-  "a_oshots": 4,
-  "a_osot": 1,
-  "home_prob": 18,
-  "draw_prob": 26,
-  "home_odds": "+600",
-  "draw_odds": "+330",
-  "away_odds": "-200",
-  "home_form": "3-5-2",
-  "away_form": "4-2-3-1",
-  "home_strategy": "全力争胜搏出线、收紧防线伺机反击",
-  "away_strategy": "控球碾压、一场平局即锁头名",
-  "home_tactics": [
-   "低位防守",
-   "麦克托米奈插上",
-   "快速长传反击"
-  ],
-  "away_tactics": [
-   "控球渗透",
-   "维尼修斯左路爆点",
-   "边后卫压上"
-  ],
-  "home_mentality": [
-   {
-    "title": "出线生死战",
-    "desc": "必须取胜并看摩洛哥脸色,压力巨大",
-    "quote": "拼到最后一秒。"
-   },
-   {
-    "title": "以弱搏强",
-    "desc": "面对巴西放手一搏,无所畏惧",
-    "quote": "创造历史就在今天。"
-   }
-  ],
-  "away_mentality": [
-   {
-    "title": "掌控节奏",
-    "desc": "一分即头名,从容控场",
-    "quote": "按自己的节奏走。"
-   },
-   {
-    "title": "球星状态",
-    "desc": "锋线火力全开,渴望表演",
-    "quote": "踢出桑巴风格。"
-   }
-  ],
-  "metric_labels": [
-   "当前信心",
-   "求胜紧迫",
-   "进攻实力",
-   "防守组织",
-   "战术执行",
-   "无压力感"
-  ],
-  "home_metrics": [
-   5,
-   9,
-   5,
-   7,
-   6,
-   4
-  ],
-  "away_metrics": [
-   9,
-   6,
-   9,
-   7,
-   8,
-   7
-  ],
-  "home_comeback": 4,
-  "home_comeback_note": "进攻手段有限,落后后翻盘难。",
-  "away_comeback": 9,
-  "away_comeback_note": "个人能力超群,随时能改写比分。",
-  "home_scorers": [
-   {
-    "name": "麦克托米奈",
-    "prob": 16
-   },
-   {
-    "name": "切·亚当斯",
-    "prob": 13
-   }
-  ],
-  "away_scorers": [
-   {
-    "name": "维尼修斯",
-    "prob": 34
-   },
-   {
-    "name": "拉菲尼亚",
-    "prob": 24
-   },
-   {
-    "name": "罗德里戈",
-    "prob": 20
-   }
-  ],
-  "group_standings": [
-   {
-    "team": "巴西",
-    "flag": "🇧🇷",
-    "p": 2,
-    "w": 1,
-    "d": 1,
-    "l": 0,
-    "gf": 4,
-    "ga": 1,
-    "gd": 3,
-    "pts": 4
-   },
-   {
-    "team": "摩洛哥",
-    "flag": "🇲🇦",
-    "p": 2,
-    "w": 1,
-    "d": 1,
-    "l": 0,
-    "gf": 2,
-    "ga": 1,
-    "gd": 1,
-    "pts": 4
-   },
-   {
-    "team": "苏格兰",
-    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-    "p": 2,
-    "w": 1,
-    "d": 0,
-    "l": 1,
-    "gf": 1,
-    "ga": 1,
-    "gd": 0,
-    "pts": 3
-   },
-   {
-    "team": "海地",
-    "flag": "🇭🇹",
-    "p": 2,
-    "w": 0,
-    "d": 0,
-    "l": 2,
-    "gf": 0,
-    "ga": 4,
-    "gd": -4,
-    "pts": 0
-   }
-  ],
-  "over25": 52,
-  "over35": 30,
-  "away_score_prob": 88,
-  "handicap": 58,
-  "handicap_label": "巴西 -1",
-  "likely_scores": [
-   "0-2",
-   "1-2",
-   "0-1",
-   "1-3"
-  ],
-  "home_risks": [
-   "实力差距大、控球时间少",
-   "急于求胜压上后被反击打穿"
-  ],
-  "away_risks": [
-   "可能轮换+心态放松致效率波动",
-   "定位球防守偶有走神"
-  ],
-  "verdict_rec": "巴西胜",
-  "verdict_score": "1-2",
-  "verdict_stars": 4,
-  "verdict_logic": [
-   "巴西纸面实力全面碾压,锋线个人能力决定比赛",
-   "苏格兰必须压上争胜,反而留给巴西更多反击空间",
-   "巴西只需平局即头名,但攻击线仍会主动取胜"
-  ]
- },
- {
-  "home_flag": "🇲🇦",
-  "home_name": "摩洛哥",
-  "home_prev": "1-0 ✅ 胜苏格兰",
-  "home_pts": 4,
-  "away_flag": "🇭🇹",
-  "away_name": "海地",
-  "away_prev": "0-3 ❌ 负巴西",
-  "away_pts": 0,
-  "match_group": "C组 第3轮",
-  "match_date": "6月25日 · 北京时间 06:00（亚特兰大当地24日18:00）",
-  "match_venue": "亚特兰大 Mercedes-Benz Stadium",
-  "h_poss": 58,
-  "h_shots": 14,
-  "h_sot": 5,
-  "h_bc": 3,
-  "h_xg": 1.4,
-  "h_goals": 1,
-  "h_xga": 0.8,
-  "h_oshots": 9,
-  "h_osot": 2,
-  "a_poss": 34,
-  "a_shots": 5,
-  "a_sot": 1,
-  "a_bc": 0,
-  "a_xg": 0.3,
-  "a_goals": 0,
-  "a_xga": 3.2,
-  "a_oshots": 20,
-  "a_osot": 9,
-  "home_prob": 80,
-  "draw_prob": 14,
-  "home_odds": "-450",
-  "draw_odds": "+420",
-  "away_odds": "+1200",
-  "home_form": "4-3-3",
-  "away_form": "5-4-1",
-  "home_strategy": "控球压上、大胜争头名并改善净胜球",
-  "away_strategy": "密集防守、力求体面收官",
-  "home_tactics": [
-   "边路爆点",
-   "阿什拉夫套上",
-   "前场逼抢"
-  ],
-  "away_tactics": [
-   "低位铁桶",
-   "全员退防",
-   "零星反击"
-  ],
-  "home_mentality": [
-   {
-    "title": "争头名",
-    "desc": "与巴西同分,需大胜刷净胜球抢小组第一",
-    "quote": "多进球、拿头名。"
-   },
-   {
-    "title": "非洲之光",
-    "desc": "延续四强底蕴,展现统治力",
-    "quote": "踢出摩洛哥的强度。"
-   }
-  ],
-  "away_mentality": [
-   {
-    "title": "已出局",
-    "desc": "两连败提前出局,只为荣誉而战",
-    "quote": "守住尊严。"
-   },
-   {
-    "title": "硬撑防线",
-    "desc": "面对强敌全力收缩",
-    "quote": "少丢球就是胜利。"
-   }
-  ],
-  "metric_labels": [
-   "当前信心",
-   "求胜紧迫",
-   "进攻实力",
-   "防守组织",
-   "战术执行",
-   "无压力感"
-  ],
-  "home_metrics": [
-   8,
-   8,
-   9,
-   7,
-   8,
-   6
-  ],
-  "away_metrics": [
-   3,
-   5,
-   3,
-   6,
-   5,
-   7
-  ],
-  "home_comeback": 8,
-  "home_comeback_note": "进攻手段丰富,落后也能迅速反扑。",
-  "away_comeback": 2,
-  "away_comeback_note": "攻击力极弱,几乎无翻盘可能。",
-  "home_scorers": [
-   {
-    "name": "恩内斯里",
-    "prob": 34
-   },
-   {
-    "name": "齐耶赫",
-    "prob": 22
-   },
-   {
-    "name": "阿马拉",
-    "prob": 18
-   }
-  ],
-  "away_scorers": [
-   {
-    "name": "皮埃尔",
-    "prob": 10
-   },
-   {
-    "name": "比恩-艾梅",
-    "prob": 8
-   }
-  ],
-  "group_standings": [
-   {
-    "team": "巴西",
-    "flag": "🇧🇷",
-    "p": 2,
-    "w": 1,
-    "d": 1,
-    "l": 0,
-    "gf": 4,
-    "ga": 1,
-    "gd": 3,
-    "pts": 4
-   },
-   {
-    "team": "摩洛哥",
-    "flag": "🇲🇦",
-    "p": 2,
-    "w": 1,
-    "d": 1,
-    "l": 0,
-    "gf": 2,
-    "ga": 1,
-    "gd": 1,
-    "pts": 4
-   },
-   {
-    "team": "苏格兰",
-    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-    "p": 2,
-    "w": 1,
-    "d": 0,
-    "l": 1,
-    "gf": 1,
-    "ga": 1,
-    "gd": 0,
-    "pts": 3
-   },
-   {
-    "team": "海地",
-    "flag": "🇭🇹",
-    "p": 2,
-    "w": 0,
-    "d": 0,
-    "l": 2,
-    "gf": 0,
-    "ga": 4,
-    "gd": -4,
-    "pts": 0
-   }
-  ],
-  "over25": 62,
-  "over35": 40,
-  "away_score_prob": 20,
-  "handicap": 60,
-  "handicap_label": "摩洛哥 -2",
-  "likely_scores": [
-   "3-0",
-   "2-0",
-   "3-1",
-   "4-0"
-  ],
-  "home_risks": [
-   "急于刷净胜球压上、被反击偷袭",
-   "终结效率波动致久攻不下"
-  ],
-  "away_risks": [
-   "实力悬殊、防线长时间承压",
-   "进攻乏力难有还手之力"
-  ],
-  "verdict_rec": "摩洛哥胜 · 过3.5",
-  "verdict_score": "3-0",
-  "verdict_stars": 4,
-  "verdict_logic": [
-   "摩洛哥实力远胜海地且有争头名的进球动机",
-   "海地已出局、防线收缩但难挡持续围攻",
-   "净胜球需求促使摩洛哥全力多进球,看好大胜"
-  ]
- },
- {
-  "home_flag": "🇨🇿",
-  "home_name": "捷克",
-  "home_prev": "1-1 ⚪ 平南非",
-  "home_pts": 1,
-  "away_flag": "🇲🇽",
-  "away_name": "墨西哥",
-  "away_prev": "1-0 ✅ 胜韩国",
-  "away_pts": 6,
-  "match_group": "A组 第3轮",
-  "match_date": "6月25日 · 北京时间 09:00（墨西哥城当地24日19:00）",
-  "match_venue": "墨西哥城 Estadio Azteca",
-  "h_poss": 52,
-  "h_shots": 13,
-  "h_sot": 4,
-  "h_bc": 2,
-  "h_xg": 1.3,
-  "h_goals": 1,
-  "h_xga": 1.1,
-  "h_oshots": 11,
-  "h_osot": 4,
-  "a_poss": 56,
-  "a_shots": 15,
-  "a_sot": 5,
-  "a_bc": 3,
-  "a_xg": 1.5,
-  "a_goals": 1,
-  "a_xga": 0.9,
-  "a_oshots": 10,
-  "a_osot": 3,
-  "home_prob": 28,
-  "draw_prob": 30,
-  "home_odds": "+220",
-  "draw_odds": "+230",
-  "away_odds": "+125",
-  "home_form": "4-2-3-1",
-  "away_form": "4-3-3",
-  "home_strategy": "必须取胜搏一线出线机会、加强进攻",
-  "away_strategy": "已出线掌控节奏、轮换保体能",
-  "home_tactics": [
-   "中场控制",
-   "舒克支点",
-   "两翼传中"
-  ],
-  "away_tactics": [
-   "控球压上",
-   "希门尼斯支点",
-   "边路渗透"
-  ],
-  "home_mentality": [
-   {
-    "title": "背水一战",
-    "desc": "仅积1分,必须取胜+看韩国脸色才有机会",
-    "quote": "赢球才有未来。"
-   },
-   {
-    "title": "客场压力",
-    "desc": "阿兹特克满场墨西哥球迷,需顶住气氛",
-    "quote": "专注自己的比赛。"
-   }
-  ],
-  "away_mentality": [
-   {
-    "title": "已锁头名",
-    "desc": "两连胜提前出线,可从容应对",
-    "quote": "保持状态、避免伤病。"
-   },
-   {
-    "title": "主场荣耀",
-    "desc": "阿兹特克主场不容失球",
-    "quote": "给球迷一场好球。"
-   }
-  ],
-  "metric_labels": [
-   "当前信心",
-   "求胜紧迫",
-   "进攻实力",
-   "防守组织",
-   "战术执行",
-   "无压力感"
-  ],
-  "home_metrics": [
-   6,
-   9,
-   6,
-   6,
-   7,
-   5
-  ],
-  "away_metrics": [
-   8,
-   5,
-   7,
-   7,
-   8,
-   8
-  ],
-  "home_comeback": 6,
-  "home_comeback_note": "舒克+赫洛热克有一定反扑能力。",
-  "away_comeback": 7,
-  "away_comeback_note": "主场底蕴足,落后也有逆转手段。",
-  "home_scorers": [
-   {
-    "name": "舒克",
-    "prob": 24
-   },
-   {
-    "name": "赫洛热克",
-    "prob": 16
-   },
-   {
-    "name": "索切克",
-    "prob": 12
-   }
-  ],
-  "away_scorers": [
-   {
-    "name": "希门尼斯",
-    "prob": 24
-   },
-   {
-    "name": "基尼奥内斯",
-    "prob": 18
-   },
-   {
-    "name": "洛萨诺",
-    "prob": 16
-   }
-  ],
-  "group_standings": [
-   {
-    "team": "墨西哥",
-    "flag": "🇲🇽",
-    "p": 2,
-    "w": 2,
-    "d": 0,
-    "l": 0,
-    "gf": 3,
-    "ga": 0,
-    "gd": 3,
-    "pts": 6
-   },
-   {
-    "team": "韩国",
-    "flag": "🇰🇷",
-    "p": 2,
-    "w": 1,
-    "d": 0,
-    "l": 1,
-    "gf": 2,
-    "ga": 2,
-    "gd": 0,
-    "pts": 3
-   },
-   {
-    "team": "捷克",
-    "flag": "🇨🇿",
-    "p": 2,
-    "w": 0,
-    "d": 1,
-    "l": 1,
-    "gf": 2,
-    "ga": 3,
-    "gd": -1,
-    "pts": 1
-   },
-   {
-    "team": "南非",
-    "flag": "🇿🇦",
-    "p": 2,
-    "w": 0,
-    "d": 1,
-    "l": 1,
-    "gf": 1,
-    "ga": 3,
-    "gd": -2,
-    "pts": 1
-   }
-  ],
-  "over25": 50,
-  "over35": 27,
-  "away_score_prob": 68,
-  "handicap": 48,
-  "handicap_label": "墨西哥 -0.5",
-  "likely_scores": [
-   "1-1",
-   "1-2",
-   "2-1",
-   "0-1"
-  ],
-  "home_risks": [
-   "求胜压上后防线空当大",
-   "客场气氛与裁判压力"
-  ],
-  "away_risks": [
-   "大幅轮换或致默契下降",
-   "出线后求胜欲减弱易被逼平"
-  ],
-  "verdict_rec": "墨西哥胜",
-  "verdict_score": "2-1",
-  "verdict_stars": 3,
-  "verdict_logic": [
-   "墨西哥整体实力+阿兹特克主场占优",
-   "捷克须取胜会压上,留下反击空间利于墨西哥",
-   "但墨西哥已出线可能轮换,信心层级仅中等,平局亦有概率"
-  ]
- },
- {
-  "home_flag": "🇰🇷",
-  "home_name": "韩国",
-  "home_prev": "0-1 ❌ 负墨西哥",
-  "home_pts": 3,
-  "away_flag": "🇿🇦",
-  "away_name": "南非",
-  "away_prev": "1-1 ⚪ 平捷克",
-  "away_pts": 1,
-  "match_group": "A组 第3轮",
-  "match_date": "6月25日 · 北京时间 09:00（蒙特雷当地24日19:00）",
-  "match_venue": "蒙特雷 Estadio BBVA",
-  "h_poss": 44,
-  "h_shots": 10,
-  "h_sot": 3,
-  "h_bc": 2,
-  "h_xg": 0.9,
-  "h_goals": 0,
-  "h_xga": 1.5,
-  "h_oshots": 15,
-  "h_osot": 5,
-  "a_poss": 48,
-  "a_shots": 11,
-  "a_sot": 4,
-  "a_bc": 2,
-  "a_xg": 1.1,
-  "a_goals": 1,
-  "a_xga": 1.3,
-  "a_oshots": 13,
-  "a_osot": 4,
-  "home_prob": 48,
-  "draw_prob": 28,
-  "home_odds": "-120",
-  "draw_odds": "+250",
-  "away_odds": "+300",
-  "home_form": "4-2-3-1",
-  "away_form": "4-4-2",
-  "home_strategy": "孙兴慜领衔强攻、取胜锁定出线",
-  "away_strategy": "必须取胜搏出线、全力压上",
-  "home_tactics": [
-   "孙兴慜边路",
-   "李刚仁组织",
-   "快速反击"
-  ],
-  "away_tactics": [
-   "高位压上",
-   "塔乌爆点",
-   "边路传中"
-  ],
-  "home_mentality": [
-   {
-    "title": "出线主动权",
-    "desc": "一场不败即可晋级,但求胜更稳妥",
-    "quote": "拿下比赛、晋级16强。"
-   },
-   {
-    "title": "球星担当",
-    "desc": "孙兴慜渴望率队出线",
-    "quote": "由我来终结比赛。"
-   }
-  ],
-  "away_mentality": [
-   {
-    "title": "决一死战",
-    "desc": "必须取胜+他场配合才能出线",
-    "quote": "全力争胜、不留遗憾。"
-   },
-   {
-    "title": "放手一搏",
-    "desc": "逼平捷克后信心尚存",
-    "quote": "再创造一个奇迹。"
-   }
-  ],
-  "metric_labels": [
-   "当前信心",
-   "求胜紧迫",
-   "进攻实力",
-   "防守组织",
-   "战术执行",
-   "无压力感"
-  ],
-  "home_metrics": [
-   7,
-   8,
-   7,
-   6,
-   7,
-   6
-  ],
-  "away_metrics": [
-   6,
-   9,
-   6,
-   6,
-   6,
-   6
-  ],
-  "home_comeback": 7,
-  "home_comeback_note": "孙兴慜+李刚仁具备改写比分能力。",
-  "away_comeback": 5,
-  "away_comeback_note": "塔乌有亮点但整体攻坚力一般。",
-  "home_scorers": [
-   {
-    "name": "孙兴慜",
-    "prob": 30
-   },
-   {
-    "name": "李刚仁",
-    "prob": 18
-   },
-   {
-    "name": "黄喜灿",
-    "prob": 16
-   }
-  ],
-  "away_scorers": [
-   {
-    "name": "塔乌",
-    "prob": 18
-   },
-   {
-    "name": "姆贝莱",
-    "prob": 12
-   }
-  ],
-  "group_standings": [
-   {
-    "team": "墨西哥",
-    "flag": "🇲🇽",
-    "p": 2,
-    "w": 2,
-    "d": 0,
-    "l": 0,
-    "gf": 3,
-    "ga": 0,
-    "gd": 3,
-    "pts": 6
-   },
-   {
-    "team": "韩国",
-    "flag": "🇰🇷",
-    "p": 2,
-    "w": 1,
-    "d": 0,
-    "l": 1,
-    "gf": 2,
-    "ga": 2,
-    "gd": 0,
-    "pts": 3
-   },
-   {
-    "team": "捷克",
-    "flag": "🇨🇿",
-    "p": 2,
-    "w": 0,
-    "d": 1,
-    "l": 1,
-    "gf": 2,
-    "ga": 3,
-    "gd": -1,
-    "pts": 1
-   },
-   {
-    "team": "南非",
-    "flag": "🇿🇦",
-    "p": 2,
-    "w": 0,
-    "d": 1,
-    "l": 1,
-    "gf": 1,
-    "ga": 3,
-    "gd": -2,
-    "pts": 1
-   }
-  ],
-  "over25": 50,
-  "over35": 26,
-  "away_score_prob": 42,
-  "handicap": 50,
-  "handicap_label": "韩国 -0.5",
-  "likely_scores": [
-   "2-1",
-   "1-0",
-   "2-0",
-   "1-1"
-  ],
-  "home_risks": [
-   "只需平局可能偏保守、节奏放缓",
-   "防线对南非速度反击有隐患"
-  ],
-  "away_risks": [
-   "攻强守弱压上后被反击",
-   "终结效率不稳难以多得分"
-  ],
-  "verdict_rec": "韩国胜",
-  "verdict_score": "2-1",
-  "verdict_stars": 3,
-  "verdict_logic": [
-   "韩国整体实力与球星质量高于南非",
-   "南非必须取胜会压上,给孙兴慜反击空间",
-   "韩国出线动机+个人能力,看好小胜但需防被逼平"
-  ]
- }
+  {
+    "home_flag": "🇨🇭",
+    "home_name": "瑞士",
+    "home_prev": "4-1 ✅ 胜波黑",
+    "home_pts": 4,
+    "away_flag": "🇨🇦",
+    "away_name": "加拿大",
+    "away_prev": "6-0 ✅ 胜卡塔尔",
+    "away_pts": 4,
+    "match_group": "B组 第3轮",
+    "match_date": "6月25日 · 北京时间 03:00（温哥华当地24日12:00）",
+    "match_venue": "温哥华 BC Place",
+    "h_poss": 55,
+    "h_shots": 17,
+    "h_sot": 7,
+    "h_bc": 4,
+    "h_xg": 2.6,
+    "h_goals": 4,
+    "h_xga": 1.0,
+    "h_oshots": 9,
+    "h_osot": 3,
+    "a_poss": 60,
+    "a_shots": 22,
+    "a_sot": 11,
+    "a_bc": 6,
+    "a_xg": 3.8,
+    "a_goals": 6,
+    "a_xga": 0.4,
+    "a_oshots": 6,
+    "a_osot": 2,
+    "home_prob": 34,
+    "draw_prob": 29,
+    "home_odds": "+175",
+    "draw_odds": "+220",
+    "away_odds": "+165",
+    "home_form": "4-2-3-1",
+    "away_form": "4-3-3",
+    "home_strategy": "稳守反击为先，争胜以锁定小组头名",
+    "away_strategy": "主场作战、控球压上，借势冲击头名",
+    "home_tactics": [
+      "中场拦截",
+      "边路推进",
+      "定位球争点"
+    ],
+    "away_tactics": [
+      "高位压迫",
+      "戴维斯左路爆点",
+      "戴维快速前插"
+    ],
+    "home_mentality": [
+      {
+        "title": "出线在望",
+        "desc": "两轮不败拿4分，已基本锁定晋级",
+        "quote": "先稳住,再抢头名。"
+      },
+      {
+        "title": "硬碰东道主",
+        "desc": "客场面对温哥华主场气氛要顶住",
+        "quote": "用纪律压制对手势头。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "主场狂热",
+        "desc": "6-0大胜后士气爆棚,主场全力争头名",
+        "quote": "在家门口拿下小组第一。"
+      },
+      {
+        "title": "历史时刻",
+        "desc": "队史首胜后乘势再进一步",
+        "quote": "继续书写加拿大的历史。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      7,
+      7,
+      7,
+      7,
+      8,
+      6
+    ],
+    "away_metrics": [
+      9,
+      7,
+      8,
+      6,
+      7,
+      6
+    ],
+    "home_comeback": 7,
+    "home_comeback_note": "经验老到、落后后有沙奇里组织反扑。",
+    "away_comeback": 7,
+    "away_comeback_note": "锋线速度快,主场落后也有翻盘火力。",
+    "home_scorers": [
+      {
+        "name": "恩博洛",
+        "prob": 26
+      },
+      {
+        "name": "恩多耶",
+        "prob": 20
+      },
+      {
+        "name": "沙奇里",
+        "prob": 16
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "乔纳森·戴维",
+        "prob": 30
+      },
+      {
+        "name": "阿方索·戴维斯",
+        "prob": 20
+      },
+      {
+        "name": "拉林",
+        "prob": 16
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "加拿大",
+        "flag": "🇨🇦",
+        "p": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 7,
+        "ga": 1,
+        "gd": 6,
+        "pts": 4
+      },
+      {
+        "team": "瑞士",
+        "flag": "🇨🇭",
+        "p": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 5,
+        "ga": 2,
+        "gd": 3,
+        "pts": 4
+      },
+      {
+        "team": "波黑",
+        "flag": "🇧🇦",
+        "p": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 2,
+        "ga": 5,
+        "gd": -3,
+        "pts": 1
+      },
+      {
+        "team": "卡塔尔",
+        "flag": "🇶🇦",
+        "p": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 1,
+        "ga": 7,
+        "gd": -6,
+        "pts": 1
+      }
+    ],
+    "over25": 52,
+    "over35": 28,
+    "away_score_prob": 68,
+    "handicap": 50,
+    "handicap_label": "瑞士 +0（平手）",
+    "likely_scores": [
+      "1-1",
+      "2-1",
+      "1-2",
+      "2-2"
+    ],
+    "home_risks": [
+      "两队均已接近出线,可能保守致闷局",
+      "防线对戴维斯的速度承压"
+    ],
+    "away_risks": [
+      "大胜后易轻敌",
+      "攻强守弱,压上后留出反击空当"
+    ],
+    "verdict_rec": "平局 · 过2.5",
+    "verdict_score": "1-1",
+    "verdict_stars": 3,
+    "verdict_logic": [
+      "两队同积4分且均大概率出线,胜负欲望被晋级安全感稀释",
+      "加拿大主场+状态占优,但瑞士经验足以稳住局面",
+      "两队进攻线均在状态,小球闷平概率低,看好双方破门"
+    ],
+    "home_prev2": "1-1 🤝 平卡塔尔",
+    "h2_poss": 60,
+    "h2_shots": 16,
+    "h2_sot": 5,
+    "h2_bc": 3,
+    "h2_xg": 1.8,
+    "h2_goals": 1,
+    "h2_xga": 0.7,
+    "h2_oshots": 7,
+    "h2_osot": 2,
+    "away_prev2": "1-1 🤝 平波黑",
+    "a2_poss": 52,
+    "a2_shots": 13,
+    "a2_sot": 4,
+    "a2_bc": 2,
+    "a2_xg": 1.3,
+    "a2_goals": 1,
+    "a2_xga": 1.2,
+    "a2_oshots": 11,
+    "a2_osot": 4
+  },
+  {
+    "home_flag": "🇧🇦",
+    "home_name": "波黑",
+    "home_prev": "1-4 ❌ 负瑞士",
+    "home_pts": 1,
+    "away_flag": "🇶🇦",
+    "away_name": "卡塔尔",
+    "away_prev": "0-6 ❌ 负加拿大",
+    "away_pts": 1,
+    "match_group": "B组 第3轮",
+    "match_date": "6月25日 · 北京时间 03:00（西雅图当地24日12:00）",
+    "match_venue": "西雅图 Lumen Field",
+    "h_poss": 48,
+    "h_shots": 10,
+    "h_sot": 4,
+    "h_bc": 2,
+    "h_xg": 1.2,
+    "h_goals": 1,
+    "h_xga": 2.6,
+    "h_oshots": 17,
+    "h_osot": 7,
+    "a_poss": 40,
+    "a_shots": 7,
+    "a_sot": 2,
+    "a_bc": 1,
+    "a_xg": 0.5,
+    "a_goals": 0,
+    "a_xga": 3.8,
+    "a_oshots": 22,
+    "a_osot": 11,
+    "home_prob": 50,
+    "draw_prob": 26,
+    "home_odds": "-110",
+    "draw_odds": "+240",
+    "away_odds": "+320",
+    "home_form": "4-2-3-1",
+    "away_form": "5-3-2",
+    "home_strategy": "控球主导、哲科支点强攻,争小组收官胜利",
+    "away_strategy": "密集防守、定位球偷袭,力争世界杯首分升级",
+    "home_tactics": [
+      "中场控制",
+      "哲科做支点",
+      "两翼传中"
+    ],
+    "away_tactics": [
+      "低位铁桶",
+      "阿菲夫反击",
+      "定位球争顶"
+    ],
+    "home_mentality": [
+      {
+        "title": "挽尊一战",
+        "desc": "出线渺茫但要体面收官、避免垫底",
+        "quote": "至少赢下这场。"
+      },
+      {
+        "title": "火力压制",
+        "desc": "对手三轮失分多,正是进球良机",
+        "quote": "打开进球账户。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "寻求首分",
+        "desc": "惨败后渴望拿到世界杯历史性积分",
+        "quote": "守住,争一个结果。"
+      },
+      {
+        "title": "放下包袱",
+        "desc": "已无压力,放手一搏",
+        "quote": "踢得有尊严些。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      6,
+      7,
+      7,
+      5,
+      6,
+      7
+    ],
+    "away_metrics": [
+      4,
+      6,
+      4,
+      6,
+      5,
+      8
+    ],
+    "home_comeback": 6,
+    "home_comeback_note": "哲科+德米罗维奇尚有攻坚能力。",
+    "away_comeback": 3,
+    "away_comeback_note": "进攻贫弱,落后基本无解。",
+    "home_scorers": [
+      {
+        "name": "哲科",
+        "prob": 28
+      },
+      {
+        "name": "德米罗维奇",
+        "prob": 20
+      },
+      {
+        "name": "巴希奇",
+        "prob": 12
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "阿菲夫",
+        "prob": 15
+      },
+      {
+        "name": "阿里",
+        "prob": 12
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "加拿大",
+        "flag": "🇨🇦",
+        "p": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 7,
+        "ga": 1,
+        "gd": 6,
+        "pts": 4
+      },
+      {
+        "team": "瑞士",
+        "flag": "🇨🇭",
+        "p": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 5,
+        "ga": 2,
+        "gd": 3,
+        "pts": 4
+      },
+      {
+        "team": "波黑",
+        "flag": "🇧🇦",
+        "p": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 2,
+        "ga": 5,
+        "gd": -3,
+        "pts": 1
+      },
+      {
+        "team": "卡塔尔",
+        "flag": "🇶🇦",
+        "p": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 1,
+        "ga": 7,
+        "gd": -6,
+        "pts": 1
+      }
+    ],
+    "over25": 48,
+    "over35": 24,
+    "away_score_prob": 34,
+    "handicap": 55,
+    "handicap_label": "波黑 -1",
+    "likely_scores": [
+      "2-0",
+      "2-1",
+      "1-0",
+      "1-1"
+    ],
+    "home_risks": [
+      "攻坚乏力可能久攻不下",
+      "心态松懈被反击偷袭"
+    ],
+    "away_risks": [
+      "连场失球多、防线信心崩",
+      "进攻端缺乏稳定得分点"
+    ],
+    "verdict_rec": "波黑胜",
+    "verdict_score": "2-0",
+    "verdict_stars": 3,
+    "verdict_logic": [
+      "波黑整体实力与攻击线明显强于卡塔尔",
+      "卡塔尔两轮丢13球,防线脆弱",
+      "波黑为避免垫底有取胜动机,主导比赛"
+    ],
+    "home_prev2": "1-1 🤝 平加拿大",
+    "h2_poss": 48,
+    "h2_shots": 11,
+    "h2_sot": 4,
+    "h2_bc": 2,
+    "h2_xg": 1.2,
+    "h2_goals": 1,
+    "h2_xga": 1.3,
+    "h2_oshots": 13,
+    "h2_osot": 4,
+    "away_prev2": "1-1 🤝 平瑞士",
+    "a2_poss": 40,
+    "a2_shots": 8,
+    "a2_sot": 3,
+    "a2_bc": 1,
+    "a2_xg": 0.7,
+    "a2_goals": 1,
+    "a2_xga": 1.8,
+    "a2_oshots": 16,
+    "a2_osot": 5
+  },
+  {
+    "home_flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "home_name": "苏格兰",
+    "home_prev": "0-1 ❌ 负摩洛哥",
+    "home_pts": 3,
+    "away_flag": "🇧🇷",
+    "away_name": "巴西",
+    "away_prev": "3-0 ✅ 胜海地",
+    "away_pts": 4,
+    "match_group": "C组 第3轮",
+    "match_date": "6月25日 · 北京时间 06:00（迈阿密当地24日18:00）",
+    "match_venue": "迈阿密 Hard Rock Stadium",
+    "h_poss": 44,
+    "h_shots": 9,
+    "h_sot": 2,
+    "h_bc": 1,
+    "h_xg": 0.8,
+    "h_goals": 0,
+    "h_xga": 1.4,
+    "h_oshots": 14,
+    "h_osot": 5,
+    "a_poss": 66,
+    "a_shots": 20,
+    "a_sot": 9,
+    "a_bc": 6,
+    "a_xg": 3.2,
+    "a_goals": 3,
+    "a_xga": 0.4,
+    "a_oshots": 4,
+    "a_osot": 1,
+    "home_prob": 18,
+    "draw_prob": 26,
+    "home_odds": "+600",
+    "draw_odds": "+330",
+    "away_odds": "-200",
+    "home_form": "3-5-2",
+    "away_form": "4-2-3-1",
+    "home_strategy": "全力争胜搏出线、收紧防线伺机反击",
+    "away_strategy": "控球碾压、一场平局即锁头名",
+    "home_tactics": [
+      "低位防守",
+      "麦克托米奈插上",
+      "快速长传反击"
+    ],
+    "away_tactics": [
+      "控球渗透",
+      "维尼修斯左路爆点",
+      "边后卫压上"
+    ],
+    "home_mentality": [
+      {
+        "title": "出线生死战",
+        "desc": "必须取胜并看摩洛哥脸色,压力巨大",
+        "quote": "拼到最后一秒。"
+      },
+      {
+        "title": "以弱搏强",
+        "desc": "面对巴西放手一搏,无所畏惧",
+        "quote": "创造历史就在今天。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "掌控节奏",
+        "desc": "一分即头名,从容控场",
+        "quote": "按自己的节奏走。"
+      },
+      {
+        "title": "球星状态",
+        "desc": "锋线火力全开,渴望表演",
+        "quote": "踢出桑巴风格。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      5,
+      9,
+      5,
+      7,
+      6,
+      4
+    ],
+    "away_metrics": [
+      9,
+      6,
+      9,
+      7,
+      8,
+      7
+    ],
+    "home_comeback": 4,
+    "home_comeback_note": "进攻手段有限,落后后翻盘难。",
+    "away_comeback": 9,
+    "away_comeback_note": "个人能力超群,随时能改写比分。",
+    "home_scorers": [
+      {
+        "name": "麦克托米奈",
+        "prob": 16
+      },
+      {
+        "name": "切·亚当斯",
+        "prob": 13
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "维尼修斯",
+        "prob": 34
+      },
+      {
+        "name": "拉菲尼亚",
+        "prob": 24
+      },
+      {
+        "name": "罗德里戈",
+        "prob": 20
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "巴西",
+        "flag": "🇧🇷",
+        "p": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 4,
+        "ga": 1,
+        "gd": 3,
+        "pts": 4
+      },
+      {
+        "team": "摩洛哥",
+        "flag": "🇲🇦",
+        "p": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 2,
+        "ga": 1,
+        "gd": 1,
+        "pts": 4
+      },
+      {
+        "team": "苏格兰",
+        "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 3
+      },
+      {
+        "team": "海地",
+        "flag": "🇭🇹",
+        "p": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 0,
+        "ga": 4,
+        "gd": -4,
+        "pts": 0
+      }
+    ],
+    "over25": 52,
+    "over35": 30,
+    "away_score_prob": 88,
+    "handicap": 58,
+    "handicap_label": "巴西 -1",
+    "likely_scores": [
+      "0-2",
+      "1-2",
+      "0-1",
+      "1-3"
+    ],
+    "home_risks": [
+      "实力差距大、控球时间少",
+      "急于求胜压上后被反击打穿"
+    ],
+    "away_risks": [
+      "可能轮换+心态放松致效率波动",
+      "定位球防守偶有走神"
+    ],
+    "verdict_rec": "巴西胜",
+    "verdict_score": "1-2",
+    "verdict_stars": 4,
+    "verdict_logic": [
+      "巴西纸面实力全面碾压,锋线个人能力决定比赛",
+      "苏格兰必须压上争胜,反而留给巴西更多反击空间",
+      "巴西只需平局即头名,但攻击线仍会主动取胜"
+    ],
+    "home_prev2": "1-0 ✅ 胜海地",
+    "h2_poss": 58,
+    "h2_shots": 14,
+    "h2_sot": 5,
+    "h2_bc": 3,
+    "h2_xg": 1.6,
+    "h2_goals": 1,
+    "h2_xga": 0.6,
+    "h2_oshots": 7,
+    "h2_osot": 2,
+    "away_prev2": "1-1 🤝 平摩洛哥",
+    "a2_poss": 55,
+    "a2_shots": 15,
+    "a2_sot": 4,
+    "a2_bc": 2,
+    "a2_xg": 1.5,
+    "a2_goals": 1,
+    "a2_xga": 1.4,
+    "a2_oshots": 12,
+    "a2_osot": 5
+  },
+  {
+    "home_flag": "🇲🇦",
+    "home_name": "摩洛哥",
+    "home_prev": "1-0 ✅ 胜苏格兰",
+    "home_pts": 4,
+    "away_flag": "🇭🇹",
+    "away_name": "海地",
+    "away_prev": "0-3 ❌ 负巴西",
+    "away_pts": 0,
+    "match_group": "C组 第3轮",
+    "match_date": "6月25日 · 北京时间 06:00（亚特兰大当地24日18:00）",
+    "match_venue": "亚特兰大 Mercedes-Benz Stadium",
+    "h_poss": 58,
+    "h_shots": 14,
+    "h_sot": 5,
+    "h_bc": 3,
+    "h_xg": 1.4,
+    "h_goals": 1,
+    "h_xga": 0.8,
+    "h_oshots": 9,
+    "h_osot": 2,
+    "a_poss": 34,
+    "a_shots": 5,
+    "a_sot": 1,
+    "a_bc": 0,
+    "a_xg": 0.3,
+    "a_goals": 0,
+    "a_xga": 3.2,
+    "a_oshots": 20,
+    "a_osot": 9,
+    "home_prob": 80,
+    "draw_prob": 14,
+    "home_odds": "-450",
+    "draw_odds": "+420",
+    "away_odds": "+1200",
+    "home_form": "4-3-3",
+    "away_form": "5-4-1",
+    "home_strategy": "控球压上、大胜争头名并改善净胜球",
+    "away_strategy": "密集防守、力求体面收官",
+    "home_tactics": [
+      "边路爆点",
+      "阿什拉夫套上",
+      "前场逼抢"
+    ],
+    "away_tactics": [
+      "低位铁桶",
+      "全员退防",
+      "零星反击"
+    ],
+    "home_mentality": [
+      {
+        "title": "争头名",
+        "desc": "与巴西同分,需大胜刷净胜球抢小组第一",
+        "quote": "多进球、拿头名。"
+      },
+      {
+        "title": "非洲之光",
+        "desc": "延续四强底蕴,展现统治力",
+        "quote": "踢出摩洛哥的强度。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "已出局",
+        "desc": "两连败提前出局,只为荣誉而战",
+        "quote": "守住尊严。"
+      },
+      {
+        "title": "硬撑防线",
+        "desc": "面对强敌全力收缩",
+        "quote": "少丢球就是胜利。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      8,
+      8,
+      9,
+      7,
+      8,
+      6
+    ],
+    "away_metrics": [
+      3,
+      5,
+      3,
+      6,
+      5,
+      7
+    ],
+    "home_comeback": 8,
+    "home_comeback_note": "进攻手段丰富,落后也能迅速反扑。",
+    "away_comeback": 2,
+    "away_comeback_note": "攻击力极弱,几乎无翻盘可能。",
+    "home_scorers": [
+      {
+        "name": "恩内斯里",
+        "prob": 34
+      },
+      {
+        "name": "齐耶赫",
+        "prob": 22
+      },
+      {
+        "name": "阿马拉",
+        "prob": 18
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "皮埃尔",
+        "prob": 10
+      },
+      {
+        "name": "比恩-艾梅",
+        "prob": 8
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "巴西",
+        "flag": "🇧🇷",
+        "p": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 4,
+        "ga": 1,
+        "gd": 3,
+        "pts": 4
+      },
+      {
+        "team": "摩洛哥",
+        "flag": "🇲🇦",
+        "p": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 2,
+        "ga": 1,
+        "gd": 1,
+        "pts": 4
+      },
+      {
+        "team": "苏格兰",
+        "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 3
+      },
+      {
+        "team": "海地",
+        "flag": "🇭🇹",
+        "p": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 0,
+        "ga": 4,
+        "gd": -4,
+        "pts": 0
+      }
+    ],
+    "over25": 62,
+    "over35": 40,
+    "away_score_prob": 20,
+    "handicap": 60,
+    "handicap_label": "摩洛哥 -2",
+    "likely_scores": [
+      "3-0",
+      "2-0",
+      "3-1",
+      "4-0"
+    ],
+    "home_risks": [
+      "急于刷净胜球压上、被反击偷袭",
+      "终结效率波动致久攻不下"
+    ],
+    "away_risks": [
+      "实力悬殊、防线长时间承压",
+      "进攻乏力难有还手之力"
+    ],
+    "verdict_rec": "摩洛哥胜 · 过3.5",
+    "verdict_score": "3-0",
+    "verdict_stars": 4,
+    "verdict_logic": [
+      "摩洛哥实力远胜海地且有争头名的进球动机",
+      "海地已出局、防线收缩但难挡持续围攻",
+      "净胜球需求促使摩洛哥全力多进球,看好大胜"
+    ],
+    "home_prev2": "1-1 🤝 平巴西",
+    "h2_poss": 45,
+    "h2_shots": 12,
+    "h2_sot": 4,
+    "h2_bc": 2,
+    "h2_xg": 1.4,
+    "h2_goals": 1,
+    "h2_xga": 1.5,
+    "h2_oshots": 13,
+    "h2_osot": 5,
+    "away_prev2": "0-1 ❌ 负苏格兰",
+    "a2_poss": 42,
+    "a2_shots": 9,
+    "a2_sot": 2,
+    "a2_bc": 0,
+    "a2_xg": 0.6,
+    "a2_goals": 0,
+    "a2_xga": 1.6,
+    "a2_oshots": 14,
+    "a2_osot": 5
+  },
+  {
+    "home_flag": "🇨🇿",
+    "home_name": "捷克",
+    "home_prev": "1-1 ⚪ 平南非",
+    "home_pts": 1,
+    "away_flag": "🇲🇽",
+    "away_name": "墨西哥",
+    "away_prev": "1-0 ✅ 胜韩国",
+    "away_pts": 6,
+    "match_group": "A组 第3轮",
+    "match_date": "6月25日 · 北京时间 09:00（墨西哥城当地24日19:00）",
+    "match_venue": "墨西哥城 Estadio Azteca",
+    "h_poss": 52,
+    "h_shots": 13,
+    "h_sot": 4,
+    "h_bc": 2,
+    "h_xg": 1.3,
+    "h_goals": 1,
+    "h_xga": 1.1,
+    "h_oshots": 11,
+    "h_osot": 4,
+    "a_poss": 56,
+    "a_shots": 15,
+    "a_sot": 5,
+    "a_bc": 3,
+    "a_xg": 1.5,
+    "a_goals": 1,
+    "a_xga": 0.9,
+    "a_oshots": 10,
+    "a_osot": 3,
+    "home_prob": 28,
+    "draw_prob": 30,
+    "home_odds": "+220",
+    "draw_odds": "+230",
+    "away_odds": "+125",
+    "home_form": "4-2-3-1",
+    "away_form": "4-3-3",
+    "home_strategy": "必须取胜搏一线出线机会、加强进攻",
+    "away_strategy": "已出线掌控节奏、轮换保体能",
+    "home_tactics": [
+      "中场控制",
+      "舒克支点",
+      "两翼传中"
+    ],
+    "away_tactics": [
+      "控球压上",
+      "希门尼斯支点",
+      "边路渗透"
+    ],
+    "home_mentality": [
+      {
+        "title": "背水一战",
+        "desc": "仅积1分,必须取胜+看韩国脸色才有机会",
+        "quote": "赢球才有未来。"
+      },
+      {
+        "title": "客场压力",
+        "desc": "阿兹特克满场墨西哥球迷,需顶住气氛",
+        "quote": "专注自己的比赛。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "已锁头名",
+        "desc": "两连胜提前出线,可从容应对",
+        "quote": "保持状态、避免伤病。"
+      },
+      {
+        "title": "主场荣耀",
+        "desc": "阿兹特克主场不容失球",
+        "quote": "给球迷一场好球。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      6,
+      9,
+      6,
+      6,
+      7,
+      5
+    ],
+    "away_metrics": [
+      8,
+      5,
+      7,
+      7,
+      8,
+      8
+    ],
+    "home_comeback": 6,
+    "home_comeback_note": "舒克+赫洛热克有一定反扑能力。",
+    "away_comeback": 7,
+    "away_comeback_note": "主场底蕴足,落后也有逆转手段。",
+    "home_scorers": [
+      {
+        "name": "舒克",
+        "prob": 24
+      },
+      {
+        "name": "赫洛热克",
+        "prob": 16
+      },
+      {
+        "name": "索切克",
+        "prob": 12
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "希门尼斯",
+        "prob": 24
+      },
+      {
+        "name": "基尼奥内斯",
+        "prob": 18
+      },
+      {
+        "name": "洛萨诺",
+        "prob": 16
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "墨西哥",
+        "flag": "🇲🇽",
+        "p": 2,
+        "w": 2,
+        "d": 0,
+        "l": 0,
+        "gf": 3,
+        "ga": 0,
+        "gd": 3,
+        "pts": 6
+      },
+      {
+        "team": "韩国",
+        "flag": "🇰🇷",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "pts": 3
+      },
+      {
+        "team": "捷克",
+        "flag": "🇨🇿",
+        "p": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 2,
+        "ga": 3,
+        "gd": -1,
+        "pts": 1
+      },
+      {
+        "team": "南非",
+        "flag": "🇿🇦",
+        "p": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 1,
+        "ga": 3,
+        "gd": -2,
+        "pts": 1
+      }
+    ],
+    "over25": 50,
+    "over35": 27,
+    "away_score_prob": 68,
+    "handicap": 48,
+    "handicap_label": "墨西哥 -0.5",
+    "likely_scores": [
+      "1-1",
+      "1-2",
+      "2-1",
+      "0-1"
+    ],
+    "home_risks": [
+      "求胜压上后防线空当大",
+      "客场气氛与裁判压力"
+    ],
+    "away_risks": [
+      "大幅轮换或致默契下降",
+      "出线后求胜欲减弱易被逼平"
+    ],
+    "verdict_rec": "墨西哥胜",
+    "verdict_score": "2-1",
+    "verdict_stars": 3,
+    "verdict_logic": [
+      "墨西哥整体实力+阿兹特克主场占优",
+      "捷克须取胜会压上,留下反击空间利于墨西哥",
+      "但墨西哥已出线可能轮换,信心层级仅中等,平局亦有概率"
+    ],
+    "home_prev2": "1-2 ❌ 负韩国",
+    "h2_poss": 52,
+    "h2_shots": 13,
+    "h2_sot": 4,
+    "h2_bc": 2,
+    "h2_xg": 1.3,
+    "h2_goals": 1,
+    "h2_xga": 1.7,
+    "h2_oshots": 12,
+    "h2_osot": 6,
+    "away_prev2": "2-0 ✅ 胜南非",
+    "a2_poss": 60,
+    "a2_shots": 18,
+    "a2_sot": 7,
+    "a2_bc": 4,
+    "a2_xg": 2.2,
+    "a2_goals": 2,
+    "a2_xga": 0.5,
+    "a2_oshots": 6,
+    "a2_osot": 2
+  },
+  {
+    "home_flag": "🇰🇷",
+    "home_name": "韩国",
+    "home_prev": "0-1 ❌ 负墨西哥",
+    "home_pts": 3,
+    "away_flag": "🇿🇦",
+    "away_name": "南非",
+    "away_prev": "1-1 ⚪ 平捷克",
+    "away_pts": 1,
+    "match_group": "A组 第3轮",
+    "match_date": "6月25日 · 北京时间 09:00（蒙特雷当地24日19:00）",
+    "match_venue": "蒙特雷 Estadio BBVA",
+    "h_poss": 44,
+    "h_shots": 10,
+    "h_sot": 3,
+    "h_bc": 2,
+    "h_xg": 0.9,
+    "h_goals": 0,
+    "h_xga": 1.5,
+    "h_oshots": 15,
+    "h_osot": 5,
+    "a_poss": 48,
+    "a_shots": 11,
+    "a_sot": 4,
+    "a_bc": 2,
+    "a_xg": 1.1,
+    "a_goals": 1,
+    "a_xga": 1.3,
+    "a_oshots": 13,
+    "a_osot": 4,
+    "home_prob": 48,
+    "draw_prob": 28,
+    "home_odds": "-120",
+    "draw_odds": "+250",
+    "away_odds": "+300",
+    "home_form": "4-2-3-1",
+    "away_form": "4-4-2",
+    "home_strategy": "孙兴慜领衔强攻、取胜锁定出线",
+    "away_strategy": "必须取胜搏出线、全力压上",
+    "home_tactics": [
+      "孙兴慜边路",
+      "李刚仁组织",
+      "快速反击"
+    ],
+    "away_tactics": [
+      "高位压上",
+      "塔乌爆点",
+      "边路传中"
+    ],
+    "home_mentality": [
+      {
+        "title": "出线主动权",
+        "desc": "一场不败即可晋级,但求胜更稳妥",
+        "quote": "拿下比赛、晋级16强。"
+      },
+      {
+        "title": "球星担当",
+        "desc": "孙兴慜渴望率队出线",
+        "quote": "由我来终结比赛。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "决一死战",
+        "desc": "必须取胜+他场配合才能出线",
+        "quote": "全力争胜、不留遗憾。"
+      },
+      {
+        "title": "放手一搏",
+        "desc": "逼平捷克后信心尚存",
+        "quote": "再创造一个奇迹。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      7,
+      8,
+      7,
+      6,
+      7,
+      6
+    ],
+    "away_metrics": [
+      6,
+      9,
+      6,
+      6,
+      6,
+      6
+    ],
+    "home_comeback": 7,
+    "home_comeback_note": "孙兴慜+李刚仁具备改写比分能力。",
+    "away_comeback": 5,
+    "away_comeback_note": "塔乌有亮点但整体攻坚力一般。",
+    "home_scorers": [
+      {
+        "name": "孙兴慜",
+        "prob": 30
+      },
+      {
+        "name": "李刚仁",
+        "prob": 18
+      },
+      {
+        "name": "黄喜灿",
+        "prob": 16
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "塔乌",
+        "prob": 18
+      },
+      {
+        "name": "姆贝莱",
+        "prob": 12
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "墨西哥",
+        "flag": "🇲🇽",
+        "p": 2,
+        "w": 2,
+        "d": 0,
+        "l": 0,
+        "gf": 3,
+        "ga": 0,
+        "gd": 3,
+        "pts": 6
+      },
+      {
+        "team": "韩国",
+        "flag": "🇰🇷",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "pts": 3
+      },
+      {
+        "team": "捷克",
+        "flag": "🇨🇿",
+        "p": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 2,
+        "ga": 3,
+        "gd": -1,
+        "pts": 1
+      },
+      {
+        "team": "南非",
+        "flag": "🇿🇦",
+        "p": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 1,
+        "ga": 3,
+        "gd": -2,
+        "pts": 1
+      }
+    ],
+    "over25": 50,
+    "over35": 26,
+    "away_score_prob": 42,
+    "handicap": 50,
+    "handicap_label": "韩国 -0.5",
+    "likely_scores": [
+      "2-1",
+      "1-0",
+      "2-0",
+      "1-1"
+    ],
+    "home_risks": [
+      "只需平局可能偏保守、节奏放缓",
+      "防线对南非速度反击有隐患"
+    ],
+    "away_risks": [
+      "攻强守弱压上后被反击",
+      "终结效率不稳难以多得分"
+    ],
+    "verdict_rec": "韩国胜",
+    "verdict_score": "2-1",
+    "verdict_stars": 3,
+    "verdict_logic": [
+      "韩国整体实力与球星质量高于南非",
+      "南非必须取胜会压上,给孙兴慜反击空间",
+      "韩国出线动机+个人能力,看好小胜但需防被逼平"
+    ],
+    "home_prev2": "2-1 ✅ 胜捷克",
+    "h2_poss": 50,
+    "h2_shots": 15,
+    "h2_sot": 6,
+    "h2_bc": 3,
+    "h2_xg": 1.8,
+    "h2_goals": 2,
+    "h2_xga": 1.3,
+    "h2_oshots": 11,
+    "h2_osot": 4,
+    "away_prev2": "0-2 ❌ 负墨西哥",
+    "a2_poss": 40,
+    "a2_shots": 8,
+    "a2_sot": 2,
+    "a2_bc": 1,
+    "a2_xg": 0.7,
+    "a2_goals": 0,
+    "a2_xga": 2.2,
+    "a2_oshots": 18,
+    "a2_osot": 7
+  }
 ]

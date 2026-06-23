@@ -6,12 +6,21 @@
     "source": "https://www.espn.com/soccer/match/_/gameId/760456/austria-argentina"
   },
   "法国 vs 伊拉克": {
-    "status": "scheduled"
+    "h": 3,
+    "a": 0,
+    "status": "final",
+    "source": "https://www.espn.com/soccer/match/_/gameId/760457"
   },
   "挪威 vs 塞内加尔": {
-    "status": "scheduled"
+    "h": 3,
+    "a": 2,
+    "status": "final",
+    "source": "https://www.espn.com/soccer/report/_/gameId/760454"
   },
   "约旦 vs 阿尔及利亚": {
-    "status": "scheduled"
+    "h": 1,
+    "a": 2,
+    "status": "final",
+    "source": "https://www.espn.com/soccer/match/_/gameId/760455/algeria-jordan"
   }
 }

@@ -1,14 +1,22 @@
 {
   "葡萄牙 vs 乌兹别克斯坦": {
-    "status": "scheduled"
-  },
-  "哥伦比亚 vs 刚果(金)": {
-    "status": "scheduled"
+    "h": 5,
+    "a": 0,
+    "status": "final"
   },
   "英格兰 vs 加纳": {
-    "status": "scheduled"
+    "h": 0,
+    "a": 0,
+    "status": "final"
   },
   "巴拿马 vs 克罗地亚": {
-    "status": "scheduled"
+    "h": 0,
+    "a": 1,
+    "status": "final"
+  },
+  "哥伦比亚 vs 刚果(金)": {
+    "h": 1,
+    "a": 0,
+    "status": "final"
   }
 }

@@ -1,6 +1,6 @@
 {
- "as_of": "2026-06-23",
- "stage": "小组赛第2轮 · 法国/阿根廷/挪威等已提前出线",
+ "as_of": "2026-06-24",
+ "stage": "小组赛收官轮 · 法国/西班牙/阿根廷/英格兰/德国/墨西哥/美国/挪威等已锁定晋级（48队制：各组前2+8个最佳第三进32强）",
  "title": "2026 世界杯 · 四强 & 冠军预测",
  "final_info": "决赛 7月19日 · 纽约/新泽西 MetLife Stadium",
  "method_weights": {
@@ -15,33 +15,33 @@
    "team": "法国",
    "flag": "🇫🇷",
    "half": "待定",
-   "sf_prob": 48,
+   "sf_prob": 50,
    "proj_path": "签表未定，按实力推断",
-   "why": "锋线火力顶级，3-1 胜塞内加尔状态正佳，赔率领跑"
+   "why": "两连胜(3-1塞内加尔、3-0伊拉克)提前出线，独占头号赔率(+400)"
   },
   {
    "team": "西班牙",
    "flag": "🇪🇸",
    "half": "待定",
-   "sf_prob": 44,
+   "sf_prob": 45,
    "proj_path": "签表未定",
-   "why": "欧洲杯卫冕、控球体系成熟、阵容深度足"
-  },
-  {
-   "team": "英格兰",
-   "flag": "🏴",
-   "half": "待定",
-   "sf_prob": 42,
-   "proj_path": "签表未定",
-   "why": "阵容厚度高、攻击线人才井喷"
+   "why": "4-0大胜沙特强势反弹，控球体系成熟、阵容深"
   },
   {
    "team": "阿根廷",
    "flag": "🇦🇷",
    "half": "待定",
-   "sf_prob": 38,
+   "sf_prob": 43,
    "proj_path": "签表未定",
-   "why": "卫冕班底默契、关键球与防守稳"
+   "why": "2-0奥地利、梅西破纪录，赔率收窄至+583，状态正佳"
+  },
+  {
+   "team": "英格兰",
+   "flag": "🏴",
+   "half": "待定",
+   "sf_prob": 40,
+   "proj_path": "签表未定",
+   "why": "阵容厚度第一，但末轮0-0闷平加纳暴露兑现力问题"
   }
  ],
  "champions": [
@@ -50,15 +50,15 @@
    "team": "法国",
    "flag": "🇫🇷",
    "tier": "夺冠热门",
-   "champ_prob": 18,
-   "final_prob": 30,
-   "sf_prob": 48,
-   "odds": "+390",
+   "champ_prob": 19,
+   "final_prob": 31,
+   "sf_prob": 50,
+   "odds": "+400",
    "rating": {
     "attack": 10,
     "defense": 8,
     "squad_depth": 9,
-    "form": 8,
+    "form": 9,
     "path_ease": 6,
     "experience": 9
    },
@@ -75,16 +75,16 @@
     "防线轮换稳定性",
     "潜在半区偏硬"
    ],
-   "rationale": "3-1胜塞内加尔、3-0胜伊拉克两连胜提前出线，赔率独占鳌头(+390)，夺冠概率领先。"
+   "rationale": "两连胜提前出线、状态拉满，赔率从+390firming到+400稳居独一档，夺冠概率小幅领先。"
   },
   {
    "rank": 2,
    "team": "西班牙",
    "flag": "🇪🇸",
    "tier": "夺冠热门",
-   "champ_prob": 14,
-   "final_prob": 26,
-   "sf_prob": 44,
+   "champ_prob": 15,
+   "final_prob": 27,
+   "sf_prob": 45,
    "odds": "+500",
    "rating": {
     "attack": 9,
@@ -104,55 +104,25 @@
     "中前场轮换深度足"
    ],
    "risks": [
-    "缺稳定射手时控而不入",
+    "首轮闷平后效率仍是变量",
     "高温/高原消耗高压体能"
    ],
-   "rationale": "欧洲杯卫冕、体系最稳，半区中上；锋线效率是夺冠变量。"
+   "rationale": "4-0大胜沙特一扫开局疲软，体系最稳；锋线效率仍是夺冠分水岭。"
   },
   {
    "rank": 3,
-   "team": "英格兰",
-   "flag": "🏴",
-   "tier": "夺冠热门",
-   "champ_prob": 13,
-   "final_prob": 24,
-   "sf_prob": 42,
-   "odds": "+600",
-   "rating": {
-    "attack": 9,
-    "defense": 8,
-    "squad_depth": 10,
-    "form": 7,
-    "path_ease": 7,
-    "experience": 7
-   },
-   "key_players": [
-    "贝林厄姆",
-    "凯恩",
-    "萨卡"
-   ],
-   "strengths": [
-    "攻击线人才井喷、阵容厚度第一"
-   ],
-   "risks": [
-    "淘汰赛抗压与临场调整历来存疑"
-   ],
-   "rationale": "纸面最豪华，能否在关键战兑现是夺冠关键。"
-  },
-  {
-   "rank": 4,
    "team": "阿根廷",
    "flag": "🇦🇷",
-   "tier": "二档",
-   "champ_prob": 12,
-   "final_prob": 22,
-   "sf_prob": 38,
-   "odds": "+660",
+   "tier": "夺冠热门",
+   "champ_prob": 14,
+   "final_prob": 25,
+   "sf_prob": 43,
+   "odds": "+583",
    "rating": {
     "attack": 8,
     "defense": 9,
     "squad_depth": 7,
-    "form": 8,
+    "form": 9,
     "path_ease": 7,
     "experience": 10
    },
@@ -169,17 +139,78 @@
     "核心老化与体能",
     "长途旅行+气候适应"
    ],
-   "rationale": "2-0胜奥地利、梅西破世界杯历史进球纪录，已锁定出线；赔率收窄至+660，经验与防守是底牌。"
+   "rationale": "2-0奥地利、梅西破世界杯进球纪录，赔率从+660大幅收窄到+583，反超进入热门第一梯队。"
+  },
+  {
+   "rank": 4,
+   "team": "英格兰",
+   "flag": "🏴",
+   "tier": "夺冠热门",
+   "champ_prob": 12,
+   "final_prob": 23,
+   "sf_prob": 40,
+   "odds": "+600",
+   "rating": {
+    "attack": 9,
+    "defense": 8,
+    "squad_depth": 10,
+    "form": 6,
+    "path_ease": 7,
+    "experience": 7
+   },
+   "key_players": [
+    "贝林厄姆",
+    "凯恩",
+    "萨卡"
+   ],
+   "strengths": [
+    "攻击线人才井喷、阵容厚度第一"
+   ],
+   "risks": [
+    "末轮0-0闷平加纳，进攻兑现与临场调整存疑"
+   ],
+   "rationale": "纸面最豪华但状态走低，被阿根廷反超退居第四，关键战兑现仍是夺冠门槛。"
   },
   {
    "rank": 5,
+   "team": "葡萄牙",
+   "flag": "🇵🇹",
+   "tier": "二档",
+   "champ_prob": 9,
+   "final_prob": 18,
+   "sf_prob": 33,
+   "odds": "+1000",
+   "rating": {
+    "attack": 9,
+    "defense": 7,
+    "squad_depth": 8,
+    "form": 8,
+    "path_ease": 7,
+    "experience": 8
+   },
+   "key_players": [
+    "B.费尔南德斯",
+    "莱奥",
+    "维蒂尼亚"
+   ],
+   "strengths": [
+    "中前场创造力强、5-0大胜乌兹别克火力全开"
+   ],
+   "risks": [
+    "防线年龄",
+    "大赛稳定性"
+   ],
+   "rationale": "5-0血洗乌兹别克，赔率从+1200升至+1000，升上二档头名，最具冲击四强的黑马。"
+  },
+  {
+   "rank": 6,
    "team": "巴西",
    "flag": "🇧🇷",
    "tier": "二档",
-   "champ_prob": 10,
-   "final_prob": 20,
-   "sf_prob": 36,
-   "odds": "+900",
+   "champ_prob": 8,
+   "final_prob": 18,
+   "sf_prob": 35,
+   "odds": "+1200",
    "rating": {
     "attack": 9,
     "defense": 7,
@@ -200,48 +231,17 @@
     "后腰与防线稳定性",
     "心态起伏"
    ],
-   "rationale": "天赋足但防守与状态波动，半区偏硬。"
-  },
-  {
-   "rank": 6,
-   "team": "葡萄牙",
-   "flag": "🇵🇹",
-   "tier": "黑马",
-   "champ_prob": 7,
-   "final_prob": 15,
-   "sf_prob": 30,
-   "odds": "+1200",
-   "rating": {
-    "attack": 9,
-    "defense": 7,
-    "squad_depth": 8,
-    "form": 7,
-    "path_ease": 7,
-    "experience": 8
-   },
-   "key_players": [
-    "B.费尔南德斯",
-    "莱奥",
-    "维蒂尼亚"
-   ],
-   "strengths": [
-    "中前场创造力强、黄金一代成熟"
-   ],
-   "risks": [
-    "防线年龄",
-    "大赛稳定性"
-   ],
-   "rationale": "签运若软最具冲击四强乃至决赛的黑马。"
+   "rationale": "天赋足但状态波动、半区偏硬，赔率+1200落后于回暖的葡萄牙。"
   },
   {
    "rank": 7,
    "team": "德国",
    "flag": "🇩🇪",
    "tier": "黑马",
-   "champ_prob": 6,
-   "final_prob": 13,
-   "sf_prob": 28,
-   "odds": "+1400",
+   "champ_prob": 7,
+   "final_prob": 15,
+   "sf_prob": 30,
+   "odds": "+1300",
    "rating": {
     "attack": 9,
     "defense": 7,
@@ -256,7 +256,7 @@
     "哈弗茨"
    ],
    "strengths": [
-    "小组赛火力全开、年轻中场崛起"
+    "年轻中场崛起、已提前锁定出线"
    ],
    "risks": [
     "后防稳定性",
@@ -272,7 +272,7 @@
    "champ_prob": 5,
    "final_prob": 12,
    "sf_prob": 26,
-   "odds": "+1600",
+   "odds": "+1700",
    "rating": {
     "attack": 8,
     "defense": 8,
@@ -287,13 +287,106 @@
     "范迪克"
    ],
    "strengths": [
-    "攻守均衡、5-1 大胜瑞典状态好"
+    "攻守均衡"
    ],
    "risks": [
     "中场硬度",
     "关键战稳定性"
    ],
    "rationale": "均衡且状态不错，具备搅局四强的实力。"
+  }
+ ],
+ "group_advance": [
+  {
+   "team": "墨西哥",
+   "flag": "🇲🇽",
+   "group": "A组",
+   "status": "头名已出线",
+   "advance_prob": 99
+  },
+  {
+   "team": "美国",
+   "flag": "🇺🇸",
+   "group": "D组",
+   "status": "头名已锁定",
+   "advance_prob": 99
+  },
+  {
+   "team": "法国",
+   "flag": "🇫🇷",
+   "group": "小组",
+   "status": "两连胜已出线",
+   "advance_prob": 99
+  },
+  {
+   "team": "阿根廷",
+   "flag": "🇦🇷",
+   "group": "小组",
+   "status": "已出线",
+   "advance_prob": 99
+  },
+  {
+   "team": "德国",
+   "flag": "🇩🇪",
+   "group": "小组",
+   "status": "已出线",
+   "advance_prob": 99
+  },
+  {
+   "team": "挪威",
+   "flag": "🇳🇴",
+   "group": "小组",
+   "status": "已出线",
+   "advance_prob": 99
+  },
+  {
+   "team": "葡萄牙",
+   "flag": "🇵🇹",
+   "group": "小组",
+   "status": "5-0大胜基本锁定",
+   "advance_prob": 97
+  },
+  {
+   "team": "西班牙",
+   "flag": "🇪🇸",
+   "group": "小组",
+   "status": "反弹4-0近锁定",
+   "advance_prob": 96
+  },
+  {
+   "team": "加拿大",
+   "flag": "🇨🇦",
+   "group": "B组",
+   "status": "4分领跑",
+   "advance_prob": 90
+  },
+  {
+   "team": "瑞士",
+   "flag": "🇨🇭",
+   "group": "B组",
+   "status": "4分紧随",
+   "advance_prob": 85
+  },
+  {
+   "team": "英格兰",
+   "flag": "🏴",
+   "group": "小组",
+   "status": "末轮闷平但占优",
+   "advance_prob": 92
+  },
+  {
+   "team": "巴西",
+   "flag": "🇧🇷",
+   "group": "小组",
+   "status": "形势占优",
+   "advance_prob": 90
+  },
+  {
+   "team": "荷兰",
+   "flag": "🇳🇱",
+   "group": "小组",
+   "status": "大胜后形势好",
+   "advance_prob": 88
   }
  ],
  "verdict": {
@@ -303,12 +396,12 @@
   "final_pick": "2-1",
   "stars": 3,
   "logic": [
-   "实力基线+当前状态法国综合居首，赔率亦领跑",
-   "西班牙体系最稳、卫冕欧洲杯，锁定另一决赛热门",
-   "英格兰纸面最强但淘汰赛兑现存疑，列第三",
-   "黑马看葡萄牙/德国/荷兰：阵容达标、签运若软可冲四强"
+   "法国两连胜状态拉满+赔率独占一档，稳居夺冠头名",
+   "西班牙4-0反弹体系最稳，锁定另一决赛热门",
+   "阿根廷靠梅西+防守状态反超英格兰，升上热门第三",
+   "英格兰末轮0-0兑现力存疑退居第四；黑马首推回暖的葡萄牙"
   ]
  },
- "disclaimer": "夺冠/晋级为整届概率推断，小组赛阶段签表未定、不确定性极高，仅供参考，请理性博彩。",
+ "disclaimer": "夺冠/晋级为整届概率推断，小组赛收官阶段签表未定、不确定性极高，仅供参考，请理性博彩。",
  "odds_source": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
 }

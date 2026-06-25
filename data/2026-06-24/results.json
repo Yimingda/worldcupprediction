@@ -1,0 +1,32 @@
+{
+  "瑞士 vs 加拿大": {
+    "h": 2,
+    "a": 1,
+    "status": "final"
+  },
+  "波黑 vs 卡塔尔": {
+    "h": 3,
+    "a": 1,
+    "status": "final"
+  },
+  "苏格兰 vs 巴西": {
+    "h": 0,
+    "a": 3,
+    "status": "final"
+  },
+  "摩洛哥 vs 海地": {
+    "h": 4,
+    "a": 2,
+    "status": "final"
+  },
+  "捷克 vs 墨西哥": {
+    "h": 0,
+    "a": 3,
+    "status": "final"
+  },
+  "韩国 vs 南非": {
+    "h": 0,
+    "a": 1,
+    "status": "final"
+  }
+}

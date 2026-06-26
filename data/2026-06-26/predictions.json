@@ -1,0 +1,1496 @@
+[
+  {
+    "home_flag": "🇳🇴",
+    "home_name": "挪威",
+    "home_prev": "3-2 ✅ 胜塞内加尔",
+    "home_prev2": "4-1 ✅ 胜伊拉克",
+    "home_pts": 6,
+    "away_flag": "🇫🇷",
+    "away_name": "法国",
+    "away_prev": "3-0 ✅ 胜伊拉克",
+    "away_prev2": "3-1 ✅ 胜塞内加尔",
+    "away_pts": 6,
+    "match_group": "I组 · 第3轮（末轮·榜首大战定头名 / 双方均已出线，法国净胜球占优平局即夺组）",
+    "match_date": "2026-06-26 周五 · 15:00(东部)",
+    "match_venue": "吉列体育场 · 福克斯堡(波士顿)",
+    "h_poss": 48,
+    "h_shots": 14,
+    "h_sot": 6,
+    "h_bc": 3,
+    "h_xg": 2.2,
+    "h_goals": 3,
+    "h_xga": 1.8,
+    "h_oshots": 12,
+    "h_osot": 5,
+    "a_poss": 62,
+    "a_shots": 18,
+    "a_sot": 8,
+    "a_bc": 4,
+    "a_xg": 2.6,
+    "a_goals": 3,
+    "a_xga": 0.4,
+    "a_oshots": 5,
+    "a_osot": 1,
+    "h2_poss": 58,
+    "h2_shots": 20,
+    "h2_sot": 9,
+    "h2_bc": 5,
+    "h2_xg": 3.4,
+    "h2_goals": 4,
+    "h2_xga": 0.8,
+    "h2_oshots": 6,
+    "h2_osot": 2,
+    "a2_poss": 57,
+    "a2_shots": 16,
+    "a2_sot": 7,
+    "a2_bc": 4,
+    "a2_xg": 2.4,
+    "a2_goals": 3,
+    "a2_xga": 1.1,
+    "a2_oshots": 9,
+    "a2_osot": 3,
+    "home_prob": 34,
+    "draw_prob": 28,
+    "home_odds": "2.70",
+    "draw_odds": "3.30",
+    "away_odds": "2.40",
+    "home_form": "4-3-3",
+    "away_form": "4-3-3",
+    "home_strategy": "依托哈兰德支点强攻，全取三分才能压过法国夺头名，势必全力出击",
+    "away_strategy": "净胜球占优，平局即头名；德尚因丧母缺阵，助教挂帅或适度轮换控节奏",
+    "home_tactics": [
+      "边路传中",
+      "高位逼抢",
+      "支点强攻"
+    ],
+    "away_tactics": [
+      "快速反击",
+      "个人能力",
+      "中场控制"
+    ],
+    "home_tactic_notes": [
+      "厄德高串联+哈兰德支点是攻坚核心",
+      "必须取胜，进攻投入会更大",
+      "定位球与传中冲击法国高空"
+    ],
+    "away_tactic_notes": [
+      "姆巴佩速度反击致命",
+      "平局即可，节奏控制为先",
+      "德尚缺阵临场指挥存变数"
+    ],
+    "home_mentality": [
+      {
+        "title": "夺组野心",
+        "desc": "两连胜士气高涨，渴望力压法国拿小组第一",
+        "quote": "我们要赢下这场硬仗。"
+      },
+      {
+        "title": "巨星驱动",
+        "desc": "哈兰德状态火热，全队信心建立在锋线火力上",
+        "quote": "把球喂给埃林。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "从容控局",
+        "desc": "净胜球领先，平局即头名，无须冒险",
+        "quote": "保持专注，掌控比赛。"
+      },
+      {
+        "title": "情绪牵动",
+        "desc": "德尚因丧母离队，全队为主帅而战",
+        "quote": "为他打好这一场。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      8,
+      8,
+      8,
+      6,
+      7,
+      5
+    ],
+    "away_metrics": [
+      8,
+      5,
+      9,
+      7,
+      8,
+      8
+    ],
+    "home_comeback": 7,
+    "away_comeback": 8,
+    "home_comeback_note": "挪威有哈兰德这一终结点，落后时具备一击制胜能力",
+    "away_comeback_note": "法国板凳深度顶级，逆境中个人能力随时改写比分",
+    "home_scorers": [
+      {
+        "name": "哈兰德",
+        "prob": 48
+      },
+      {
+        "name": "厄德高",
+        "prob": 30
+      },
+      {
+        "name": "索尔洛特",
+        "prob": 24
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "姆巴佩",
+        "prob": 46
+      },
+      {
+        "name": "登贝莱",
+        "prob": 30
+      },
+      {
+        "name": "科洛穆阿尼",
+        "prob": 24
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "法国",
+        "flag": "🇫🇷",
+        "p": 2,
+        "w": 2,
+        "d": 0,
+        "l": 0,
+        "gf": 6,
+        "ga": 1,
+        "gd": 5,
+        "pts": 6
+      },
+      {
+        "team": "挪威",
+        "flag": "🇳🇴",
+        "p": 2,
+        "w": 2,
+        "d": 0,
+        "l": 0,
+        "gf": 7,
+        "ga": 3,
+        "gd": 4,
+        "pts": 6
+      },
+      {
+        "team": "塞内加尔",
+        "flag": "🇸🇳",
+        "p": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 3,
+        "ga": 6,
+        "gd": -3,
+        "pts": 0
+      },
+      {
+        "team": "伊拉克",
+        "flag": "🇮🇶",
+        "p": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 1,
+        "ga": 7,
+        "gd": -6,
+        "pts": 0
+      }
+    ],
+    "over25": 58,
+    "over35": 32,
+    "away_score_prob": 70,
+    "handicap": 55,
+    "handicap_label": "法国让平半，分歧较大(挪威主场+求胜)",
+    "likely_scores": [
+      {
+        "score": "1-2",
+        "prob": 14
+      },
+      {
+        "score": "1-1",
+        "prob": 14
+      },
+      {
+        "score": "2-2",
+        "prob": 12
+      },
+      {
+        "score": "2-1",
+        "prob": 11
+      }
+    ],
+    "home_risks": [
+      "求胜压上后防线身后空间被姆巴佩利用",
+      "过度依赖哈兰德，一旦被冻结进攻受限"
+    ],
+    "away_risks": [
+      "德尚缺阵临场调度受影响",
+      "若早早领先易松懈被挪威逼平"
+    ],
+    "verdict_rec": "强强对话进球数偏多，2-3 球，可看互有进球/双方进球，比分一球差",
+    "verdict_score": "1-2",
+    "verdict_stars": 3,
+    "verdict_logic": [
+      "两队均已出线但都想要头名，攻强守软",
+      "哈兰德vs姆巴佩双星对轰利好进球数",
+      "法国整体更强且净胜球领先，小胜或平局皆有可能"
+    ]
+  },
+  {
+    "home_flag": "🇸🇳",
+    "home_name": "塞内加尔",
+    "home_prev": "2-3 ❌ 负挪威",
+    "home_prev2": "1-3 ❌ 负法国",
+    "home_pts": 0,
+    "away_flag": "🇮🇶",
+    "away_name": "伊拉克",
+    "away_prev": "0-3 ❌ 负法国",
+    "away_prev2": "1-4 ❌ 负挪威",
+    "away_pts": 0,
+    "match_group": "I组 · 第3轮（末轮·荣誉之战 / 两队均提前出局）",
+    "match_date": "2026-06-26 周五 · 15:00(东部)",
+    "match_venue": "BMO球场 · 多伦多",
+    "h_poss": 55,
+    "h_shots": 15,
+    "h_sot": 6,
+    "h_bc": 3,
+    "h_xg": 1.9,
+    "h_goals": 2,
+    "h_xga": 2.4,
+    "h_oshots": 13,
+    "h_osot": 6,
+    "a_poss": 38,
+    "a_shots": 7,
+    "a_sot": 2,
+    "a_bc": 1,
+    "a_xg": 0.6,
+    "a_goals": 0,
+    "a_xga": 2.7,
+    "a_oshots": 17,
+    "a_osot": 8,
+    "h2_poss": 46,
+    "h2_shots": 11,
+    "h2_sot": 4,
+    "h2_bc": 2,
+    "h2_xg": 1.3,
+    "h2_goals": 1,
+    "h2_xga": 2.5,
+    "h2_oshots": 14,
+    "h2_osot": 7,
+    "a2_poss": 41,
+    "a2_shots": 9,
+    "a2_sot": 3,
+    "a2_bc": 1,
+    "a2_xg": 1.0,
+    "a2_goals": 1,
+    "a2_xga": 3.2,
+    "a2_oshots": 19,
+    "a2_osot": 9,
+    "home_prob": 60,
+    "draw_prob": 24,
+    "home_odds": "1.55",
+    "draw_odds": "3.80",
+    "away_odds": "6.00",
+    "home_form": "4-3-3",
+    "away_form": "4-2-3-1",
+    "home_strategy": "两连败提前出局，末轮为荣誉而战，凭借实力优势力争首胜",
+    "away_strategy": "实力处下风且已出局，主打稳守反击，争取留下体面表现",
+    "home_tactics": [
+      "边路冲击",
+      "前场逼抢",
+      "身体对抗"
+    ],
+    "away_tactics": [
+      "低位防守",
+      "快速反击",
+      "定位球"
+    ],
+    "home_tactic_notes": [
+      "杰克逊/恩迪亚耶冲击伊拉克防线",
+      "求胜欲与个人能力占绝对优势",
+      "需提高把握机会效率避免再爆冷"
+    ],
+    "away_tactic_notes": [
+      "收缩防线减少失球",
+      "依靠反击与定位球寻找机会",
+      "门将与后防需顶住塞内加尔压迫"
+    ],
+    "home_mentality": [
+      {
+        "title": "荣誉救赎",
+        "desc": "夺冠级阵容两战皆负沦为惨案，末轮力求挽尊",
+        "quote": "至少赢下一场给球迷交代。"
+      },
+      {
+        "title": "释放压力",
+        "desc": "出局后包袱卸下，反而能放开踢",
+        "quote": "踢出我们应有的水平。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "搏一份体面",
+        "desc": "两战丢七球，末轮想踢得更有尊严",
+        "quote": "不能再这样溃败。"
+      },
+      {
+        "title": "以弱搏强",
+        "desc": "明知实力差距，专注防守做到最好",
+        "quote": "守住，找机会。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      6,
+      7,
+      8,
+      5,
+      6,
+      7
+    ],
+    "away_metrics": [
+      4,
+      6,
+      4,
+      6,
+      5,
+      7
+    ],
+    "home_comeback": 6,
+    "away_comeback": 4,
+    "home_comeback_note": "塞内加尔个人能力出众，落后时具备扳平翻盘的硬实力",
+    "away_comeback_note": "伊拉克进攻乏力，两战仅入两球，落后后翻盘概率低",
+    "home_scorers": [
+      {
+        "name": "尼古拉斯·杰克逊",
+        "prob": 40
+      },
+      {
+        "name": "伊利曼·恩迪亚耶",
+        "prob": 32
+      },
+      {
+        "name": "帕普·马塔尔·萨尔",
+        "prob": 24
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "艾门·侯赛因",
+        "prob": 36
+      },
+      {
+        "name": "巴伊什",
+        "prob": 30
+      },
+      {
+        "name": "阿里·贾西姆",
+        "prob": 22
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "法国",
+        "flag": "🇫🇷",
+        "p": 2,
+        "w": 2,
+        "d": 0,
+        "l": 0,
+        "gf": 6,
+        "ga": 1,
+        "gd": 5,
+        "pts": 6
+      },
+      {
+        "team": "挪威",
+        "flag": "🇳🇴",
+        "p": 2,
+        "w": 2,
+        "d": 0,
+        "l": 0,
+        "gf": 7,
+        "ga": 3,
+        "gd": 4,
+        "pts": 6
+      },
+      {
+        "team": "塞内加尔",
+        "flag": "🇸🇳",
+        "p": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 3,
+        "ga": 6,
+        "gd": -3,
+        "pts": 0
+      },
+      {
+        "team": "伊拉克",
+        "flag": "🇮🇶",
+        "p": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 1,
+        "ga": 7,
+        "gd": -6,
+        "pts": 0
+      }
+    ],
+    "over25": 56,
+    "over35": 30,
+    "away_score_prob": 38,
+    "handicap": 70,
+    "handicap_label": "塞内加尔让一/球半(实力悬殊)",
+    "likely_scores": [
+      {
+        "score": "2-0",
+        "prob": 16
+      },
+      {
+        "score": "2-1",
+        "prob": 13
+      },
+      {
+        "score": "3-0",
+        "prob": 12
+      },
+      {
+        "score": "1-0",
+        "prob": 11
+      }
+    ],
+    "home_risks": [
+      "心态若松散恐再现把握机会不力的老问题",
+      "防线注意力不集中易被反击偷袭"
+    ],
+    "away_risks": [
+      "攻防两端均处下风，易遭压制",
+      "失球后阵型容易崩盘扩大比分"
+    ],
+    "verdict_rec": "塞内加尔实力碾压，建议看主胜/让球胜，进球数 2-3 球",
+    "verdict_score": "2-0",
+    "verdict_stars": 3,
+    "verdict_logic": [
+      "塞内加尔阵容质量远胜伊拉克且求荣誉首胜",
+      "伊拉克进攻贫弱，难以撕开对手防线",
+      "塞内加尔中等比分取胜最合理，需防其效率波动"
+    ]
+  },
+  {
+    "home_flag": "🇨🇻",
+    "home_name": "佛得角",
+    "home_prev": "2-2 🤝 平乌拉圭",
+    "home_prev2": "0-0 🤝 平西班牙",
+    "home_pts": 2,
+    "away_flag": "🇸🇦",
+    "away_name": "沙特阿拉伯",
+    "away_prev": "0-4 ❌ 负西班牙",
+    "away_prev2": "1-1 🤝 平乌拉圭",
+    "away_pts": 1,
+    "match_group": "H组 · 第3轮（末轮·佛得角取胜有望历史性出线 / 沙特需胜搏一线生机）",
+    "match_date": "2026-06-26 周五 · 20:00(东部)",
+    "match_venue": "NRG体育场 · 休斯顿",
+    "h_poss": 44,
+    "h_shots": 11,
+    "h_sot": 5,
+    "h_bc": 2,
+    "h_xg": 1.6,
+    "h_goals": 2,
+    "h_xga": 1.8,
+    "h_oshots": 13,
+    "h_osot": 5,
+    "a_poss": 40,
+    "a_shots": 8,
+    "a_sot": 2,
+    "a_bc": 1,
+    "a_xg": 0.6,
+    "a_goals": 0,
+    "a_xga": 3.0,
+    "a_oshots": 18,
+    "a_osot": 9,
+    "h2_poss": 33,
+    "h2_shots": 6,
+    "h2_sot": 2,
+    "h2_bc": 1,
+    "h2_xg": 0.5,
+    "h2_goals": 0,
+    "h2_xga": 1.4,
+    "h2_oshots": 16,
+    "h2_osot": 5,
+    "a2_poss": 43,
+    "a2_shots": 10,
+    "a2_sot": 4,
+    "a2_bc": 2,
+    "a2_xg": 1.1,
+    "a2_goals": 1,
+    "a2_xga": 1.5,
+    "a2_oshots": 12,
+    "a2_osot": 5,
+    "home_prob": 44,
+    "draw_prob": 30,
+    "home_odds": "2.10",
+    "draw_odds": "3.10",
+    "away_odds": "3.50",
+    "home_form": "4-4-2",
+    "away_form": "4-2-3-1",
+    "home_strategy": "首次参赛已逼平西班牙，末轮力争一胜创造历史出线，主动求三分",
+    "away_strategy": "出线形势危急，需全取三分并看他场脸色，势必倾力进攻",
+    "home_tactics": [
+      "稳固防守",
+      "边路反击",
+      "把握机会"
+    ],
+    "away_tactics": [
+      "压上进攻",
+      "边中结合",
+      "定位球"
+    ],
+    "home_tactic_notes": [
+      "延续逼平西班牙的防守纪律",
+      "门德斯/贝贝的速度是反击利器",
+      "一场平局可能就够出线，攻守需平衡"
+    ],
+    "away_tactic_notes": [
+      "必须取胜只能压上强攻",
+      "依靠布赖坎、谢赫里冲击禁区",
+      "压上后防反击空当是隐患"
+    ],
+    "home_mentality": [
+      {
+        "title": "黑马气势",
+        "desc": "逼平西班牙信心爆棚，历史性出线近在咫尺",
+        "quote": "我们要书写历史。"
+      },
+      {
+        "title": "稳中求进",
+        "desc": "深知一分可能足够，但仍想用胜利锁定",
+        "quote": "保持冷静，抓住机会。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "背水强攻",
+        "desc": "0-4惨败西班牙后需立刻反弹拼出线",
+        "quote": "只能赢，没有退路。"
+      },
+      {
+        "title": "求一份尊严",
+        "desc": "出线渺茫也要踢出血性回报球迷",
+        "quote": "战斗到最后一刻。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      7,
+      7,
+      6,
+      7,
+      7,
+      6
+    ],
+    "away_metrics": [
+      5,
+      8,
+      6,
+      5,
+      6,
+      5
+    ],
+    "home_comeback": 6,
+    "away_comeback": 5,
+    "home_comeback_note": "佛得角逆境中纪律性强，逼平乌拉圭显韧性",
+    "away_comeback_note": "沙特进攻效率有限，落后后翻盘能力一般",
+    "home_scorers": [
+      {
+        "name": "瑞安·门德斯",
+        "prob": 36
+      },
+      {
+        "name": "贝贝",
+        "prob": 30
+      },
+      {
+        "name": "加里·罗德里格斯",
+        "prob": 24
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "菲拉斯·布赖坎",
+        "prob": 38
+      },
+      {
+        "name": "萨利赫·谢赫里",
+        "prob": 30
+      },
+      {
+        "name": "阿尔多萨里",
+        "prob": 24
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "西班牙",
+        "flag": "🇪🇸",
+        "p": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 4,
+        "ga": 0,
+        "gd": 4,
+        "pts": 4
+      },
+      {
+        "team": "乌拉圭",
+        "flag": "🇺🇾",
+        "p": 2,
+        "w": 0,
+        "d": 2,
+        "l": 0,
+        "gf": 3,
+        "ga": 3,
+        "gd": 0,
+        "pts": 2
+      },
+      {
+        "team": "佛得角",
+        "flag": "🇨🇻",
+        "p": 2,
+        "w": 0,
+        "d": 2,
+        "l": 0,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "pts": 2
+      },
+      {
+        "team": "沙特阿拉伯",
+        "flag": "🇸🇦",
+        "p": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 1,
+        "ga": 5,
+        "gd": -4,
+        "pts": 1
+      }
+    ],
+    "over25": 48,
+    "over35": 22,
+    "away_score_prob": 48,
+    "handicap": 52,
+    "handicap_label": "佛得角让平手/平半(主场+状态略优)",
+    "likely_scores": [
+      {
+        "score": "1-1",
+        "prob": 15
+      },
+      {
+        "score": "1-0",
+        "prob": 14
+      },
+      {
+        "score": "2-1",
+        "prob": 12
+      },
+      {
+        "score": "0-0",
+        "prob": 11
+      }
+    ],
+    "home_risks": [
+      "求胜与保平心态摇摆，节奏处理需谨慎",
+      "面对沙特全力压上需防反击"
+    ],
+    "away_risks": [
+      "压上强攻后防身后空间暴露",
+      "进攻效率不足，破不开佛得角防线就被动"
+    ],
+    "verdict_rec": "比分胶着进球数中性，2 球上下，可看小比分/平局或佛得角小胜",
+    "verdict_score": "1-1",
+    "verdict_stars": 3,
+    "verdict_logic": [
+      "两队实力接近，佛得角防守纪律+主场略占优",
+      "沙特需取胜会压上，给佛得角反击空间",
+      "出线压力下双方谨慎，倾向小比分一球差"
+    ]
+  },
+  {
+    "home_flag": "🇺🇾",
+    "home_name": "乌拉圭",
+    "home_prev": "2-2 🤝 平佛得角",
+    "home_prev2": "1-1 🤝 平沙特阿拉伯",
+    "home_pts": 2,
+    "away_flag": "🇪🇸",
+    "away_name": "西班牙",
+    "away_prev": "4-0 ✅ 胜沙特阿拉伯",
+    "away_prev2": "0-0 🤝 平佛得角",
+    "away_pts": 4,
+    "match_group": "H组 · 第3轮（末轮·西班牙平局即夺头名 / 乌拉圭需分确保出线）",
+    "match_date": "2026-06-26 周五 · 20:00(东部)",
+    "match_venue": "阿克隆球场 · 萨波潘(瓜达拉哈拉)",
+    "h_poss": 56,
+    "h_shots": 15,
+    "h_sot": 6,
+    "h_bc": 3,
+    "h_xg": 2.0,
+    "h_goals": 2,
+    "h_xga": 1.6,
+    "h_oshots": 11,
+    "h_osot": 5,
+    "a_poss": 68,
+    "a_shots": 22,
+    "a_sot": 10,
+    "a_bc": 6,
+    "a_xg": 3.3,
+    "a_goals": 4,
+    "a_xga": 0.5,
+    "a_oshots": 6,
+    "a_osot": 2,
+    "h2_poss": 57,
+    "h2_shots": 14,
+    "h2_sot": 5,
+    "h2_bc": 2,
+    "h2_xg": 1.5,
+    "h2_goals": 1,
+    "h2_xga": 1.1,
+    "h2_oshots": 10,
+    "h2_osot": 4,
+    "a2_poss": 70,
+    "a2_shots": 17,
+    "a2_sot": 4,
+    "a2_bc": 3,
+    "a2_xg": 1.5,
+    "a2_goals": 0,
+    "a2_xga": 0.5,
+    "a2_oshots": 6,
+    "a2_osot": 2,
+    "home_prob": 26,
+    "draw_prob": 30,
+    "home_odds": "3.40",
+    "draw_odds": "3.10",
+    "away_odds": "2.05",
+    "home_form": "4-4-2",
+    "away_form": "4-3-3",
+    "home_strategy": "比埃尔萨主导，需至少一分确保出线，防守稳固伺机反击",
+    "away_strategy": "平局即头名，主导控球压制，争取拿下确保最佳签位",
+    "home_tactics": [
+      "高强逼抢",
+      "硬朗防守",
+      "快速反击"
+    ],
+    "away_tactics": [
+      "控球渗透",
+      "高位逼抢",
+      "边路传中"
+    ],
+    "home_tactic_notes": [
+      "比埃尔萨高压消耗西班牙中场",
+      "努涅斯支点+反击是主要威胁",
+      "需兼顾出线，避免冒进失球"
+    ],
+    "away_tactic_notes": [
+      "亚马尔、佩德里掌控中前场",
+      "控球压制减少乌拉圭反击",
+      "平局即可，不必过度冒险"
+    ],
+    "home_mentality": [
+      {
+        "title": "出线决心",
+        "desc": "两连平后必须确保不败拿到出线名额",
+        "quote": "我们要带着尊严晋级。"
+      },
+      {
+        "title": "硬汗精神",
+        "desc": "比埃尔萨调教下的拼抢与韧性是底色",
+        "quote": "为每一个球拼到底。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "掌控自如",
+        "desc": "领跑小组，平局即头名，从容掌控",
+        "quote": "按我们的方式踢。"
+      },
+      {
+        "title": "争最佳签位",
+        "desc": "想拿头名规避强敌，仍有取胜动力",
+        "quote": "拿下比赛更稳妥。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      6,
+      8,
+      6,
+      7,
+      7,
+      5
+    ],
+    "away_metrics": [
+      9,
+      6,
+      9,
+      7,
+      9,
+      8
+    ],
+    "home_comeback": 7,
+    "away_comeback": 8,
+    "home_comeback_note": "乌拉圭意志顽强，比埃尔萨球队落后时拼劲十足",
+    "away_comeback_note": "西班牙控球碾压，落后时机会众多，翻盘能力强",
+    "home_scorers": [
+      {
+        "name": "达尔文·努涅斯",
+        "prob": 38
+      },
+      {
+        "name": "巴尔韦德",
+        "prob": 30
+      },
+      {
+        "name": "佩列斯特里",
+        "prob": 22
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "拉明·亚马尔",
+        "prob": 40
+      },
+      {
+        "name": "奥亚萨瓦尔",
+        "prob": 32
+      },
+      {
+        "name": "梅里诺",
+        "prob": 24
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "西班牙",
+        "flag": "🇪🇸",
+        "p": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 4,
+        "ga": 0,
+        "gd": 4,
+        "pts": 4
+      },
+      {
+        "team": "乌拉圭",
+        "flag": "🇺🇾",
+        "p": 2,
+        "w": 0,
+        "d": 2,
+        "l": 0,
+        "gf": 3,
+        "ga": 3,
+        "gd": 0,
+        "pts": 2
+      },
+      {
+        "team": "佛得角",
+        "flag": "🇨🇻",
+        "p": 2,
+        "w": 0,
+        "d": 2,
+        "l": 0,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "pts": 2
+      },
+      {
+        "team": "沙特阿拉伯",
+        "flag": "🇸🇦",
+        "p": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 1,
+        "ga": 5,
+        "gd": -4,
+        "pts": 1
+      }
+    ],
+    "over25": 46,
+    "over35": 20,
+    "away_score_prob": 62,
+    "handicap": 58,
+    "handicap_label": "西班牙让平半/半球(实力占优但乌拉圭难缠)",
+    "likely_scores": [
+      {
+        "score": "1-1",
+        "prob": 15
+      },
+      {
+        "score": "0-1",
+        "prob": 13
+      },
+      {
+        "score": "1-2",
+        "prob": 12
+      },
+      {
+        "score": "0-0",
+        "prob": 11
+      }
+    ],
+    "home_risks": [
+      "面对西班牙控球易陷被动，体能消耗大",
+      "进攻机会有限，过分保守恐被绝杀"
+    ],
+    "away_risks": [
+      "乌拉圭高压逼抢可能制造失误",
+      "平局心态若松懈易被反击偷袭"
+    ],
+    "verdict_rec": "西班牙控场占优但乌拉圭顽强，进球数偏少 2 球内，可看小球/西班牙小胜或平",
+    "verdict_score": "1-1",
+    "verdict_stars": 3,
+    "verdict_logic": [
+      "西班牙整体实力明显占优且平局即头名",
+      "乌拉圭防守硬朗+出线刚需会死守反击",
+      "比赛或趋谨慎，倾向小比分，西班牙小胜或闷平"
+    ]
+  },
+  {
+    "home_flag": "🇪🇬",
+    "home_name": "埃及",
+    "home_prev": "3-1 ✅ 胜新西兰",
+    "home_prev2": "1-1 🤝 平比利时",
+    "home_pts": 4,
+    "away_flag": "🇮🇷",
+    "away_name": "伊朗",
+    "away_prev": "0-0 🤝 平比利时",
+    "away_prev2": "2-2 🤝 平新西兰",
+    "away_pts": 2,
+    "match_group": "G组 · 第3轮（末轮·埃及平局有望锁定出线 / 伊朗力争胜利抢占次名）",
+    "match_date": "2026-06-26 周五 · 23:00(东部) / 20:00(太平洋)",
+    "match_venue": "流明球场 · 西雅图",
+    "h_poss": 58,
+    "h_shots": 16,
+    "h_sot": 7,
+    "h_bc": 4,
+    "h_xg": 2.3,
+    "h_goals": 3,
+    "h_xga": 1.0,
+    "h_oshots": 9,
+    "h_osot": 4,
+    "a_poss": 42,
+    "a_shots": 8,
+    "a_sot": 2,
+    "a_bc": 1,
+    "a_xg": 0.7,
+    "a_goals": 0,
+    "a_xga": 0.9,
+    "a_oshots": 12,
+    "a_osot": 4,
+    "h2_poss": 48,
+    "h2_shots": 12,
+    "h2_sot": 4,
+    "h2_bc": 2,
+    "h2_xg": 1.2,
+    "h2_goals": 1,
+    "h2_xga": 1.3,
+    "h2_oshots": 11,
+    "h2_osot": 5,
+    "a2_poss": 54,
+    "a2_shots": 14,
+    "a2_sot": 6,
+    "a2_bc": 3,
+    "a2_xg": 1.8,
+    "a2_goals": 2,
+    "a2_xga": 1.7,
+    "a2_oshots": 10,
+    "a2_osot": 5,
+    "home_prob": 40,
+    "draw_prob": 32,
+    "home_odds": "2.25",
+    "draw_odds": "2.90",
+    "away_odds": "3.40",
+    "home_form": "4-2-3-1",
+    "away_form": "4-1-4-1",
+    "home_strategy": "萨拉赫领衔，状态正佳，平局或可锁定出线但仍想取胜占头名",
+    "away_strategy": "防守稳固，需取胜抢占次名，伺机用塔雷米、阿兹蒙反击",
+    "home_tactics": [
+      "边路突破",
+      "萨拉赫内切",
+      "快速转换"
+    ],
+    "away_tactics": [
+      "稳固防守",
+      "反击突击",
+      "定位球"
+    ],
+    "home_tactic_notes": [
+      "萨拉赫右路内切是头号杀招",
+      "上轮3球状态回暖信心十足",
+      "需防伊朗稳守反击与定位球"
+    ],
+    "away_tactic_notes": [
+      "延续防平比利时的稳守",
+      "塔雷米/阿兹蒙把握反击机会",
+      "必须取胜会增加进攻投入"
+    ],
+    "home_mentality": [
+      {
+        "title": "顺风掌控",
+        "desc": "小组领跑，平局或足够出线，心态从容",
+        "quote": "保持专注，拿下出线。"
+      },
+      {
+        "title": "萨拉赫领袖",
+        "desc": "上轮进球状态火热，全队信心高涨",
+        "quote": "跟着萨拉赫往前冲。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "出线刚需",
+        "desc": "需要一场胜利才能稳稳晋级，志在必得",
+        "quote": "我们要赢下去。"
+      },
+      {
+        "title": "钢铁防线",
+        "desc": "零封比利时信心十足，相信防守反击",
+        "quote": "守住，然后致命一击。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      8,
+      6,
+      8,
+      6,
+      7,
+      6
+    ],
+    "away_metrics": [
+      7,
+      8,
+      6,
+      8,
+      7,
+      5
+    ],
+    "home_comeback": 7,
+    "away_comeback": 6,
+    "home_comeback_note": "埃及有萨拉赫这一关键先生，落后时具备反扑能力",
+    "away_comeback_note": "伊朗以防守见长，进攻偏依赖反击，落后翻盘需冒险",
+    "home_scorers": [
+      {
+        "name": "萨拉赫",
+        "prob": 44
+      },
+      {
+        "name": "特雷泽盖",
+        "prob": 30
+      },
+      {
+        "name": "穆罕默德·谢里夫",
+        "prob": 24
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "塔雷米",
+        "prob": 40
+      },
+      {
+        "name": "阿兹蒙",
+        "prob": 32
+      },
+      {
+        "name": "加伊多斯",
+        "prob": 24
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "埃及",
+        "flag": "🇪🇬",
+        "p": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 4,
+        "ga": 2,
+        "gd": 2,
+        "pts": 4
+      },
+      {
+        "team": "伊朗",
+        "flag": "🇮🇷",
+        "p": 2,
+        "w": 0,
+        "d": 2,
+        "l": 0,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "pts": 2
+      },
+      {
+        "team": "比利时",
+        "flag": "🇧🇪",
+        "p": 2,
+        "w": 0,
+        "d": 2,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 2
+      },
+      {
+        "team": "新西兰",
+        "flag": "🇳🇿",
+        "p": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 3,
+        "ga": 5,
+        "gd": -2,
+        "pts": 1
+      }
+    ],
+    "over25": 46,
+    "over35": 20,
+    "away_score_prob": 48,
+    "handicap": 52,
+    "handicap_label": "埃及让平手/平半(萨拉赫+主导权)",
+    "likely_scores": [
+      {
+        "score": "1-1",
+        "prob": 15
+      },
+      {
+        "score": "1-0",
+        "prob": 13
+      },
+      {
+        "score": "2-1",
+        "prob": 12
+      },
+      {
+        "score": "0-0",
+        "prob": 10
+      }
+    ],
+    "home_risks": [
+      "若满足于平局易被伊朗反击偷袭",
+      "过度依赖萨拉赫，被针对盯防则乏力"
+    ],
+    "away_risks": [
+      "进攻手段单一，破不开埃及防线易被动",
+      "为求胜压上后防身后空当被萨拉赫利用"
+    ],
+    "verdict_rec": "防守强于进攻的对话，进球数偏少 2 球内，可看小球/小比分，平或埃及小胜",
+    "verdict_score": "1-1",
+    "verdict_stars": 3,
+    "verdict_logic": [
+      "埃及有萨拉赫且占据主动，但伊朗防守极硬",
+      "伊朗需胜会更进取，给埃及反击空间",
+      "整体偏谨慎，倾向小比分平局或埃及一球小胜"
+    ]
+  },
+  {
+    "home_flag": "🇳🇿",
+    "home_name": "新西兰",
+    "home_prev": "1-3 ❌ 负埃及",
+    "home_prev2": "2-2 🤝 平伊朗",
+    "home_pts": 1,
+    "away_flag": "🇧🇪",
+    "away_name": "比利时",
+    "away_prev": "0-0 🤝 平伊朗",
+    "away_prev2": "1-1 🤝 平埃及",
+    "away_pts": 2,
+    "match_group": "G组 · 第3轮（末轮·比利时需胜才能稳出线 / 新西兰力搏冷门）",
+    "match_date": "2026-06-26 周五 · 23:00(东部) / 20:00(太平洋)",
+    "match_venue": "BC Place球场 · 温哥华",
+    "h_poss": 40,
+    "h_shots": 9,
+    "h_sot": 3,
+    "h_bc": 1,
+    "h_xg": 1.0,
+    "h_goals": 1,
+    "h_xga": 2.4,
+    "h_oshots": 15,
+    "h_osot": 7,
+    "a_poss": 64,
+    "a_shots": 16,
+    "a_sot": 4,
+    "a_bc": 3,
+    "a_xg": 1.4,
+    "a_goals": 0,
+    "a_xga": 0.6,
+    "a_oshots": 7,
+    "a_osot": 2,
+    "h2_poss": 41,
+    "h2_shots": 10,
+    "h2_sot": 4,
+    "h2_bc": 2,
+    "h2_xg": 1.4,
+    "h2_goals": 2,
+    "h2_xga": 1.8,
+    "h2_oshots": 13,
+    "h2_osot": 6,
+    "a2_poss": 60,
+    "a2_shots": 15,
+    "a2_sot": 5,
+    "a2_bc": 3,
+    "a2_xg": 1.7,
+    "a2_goals": 1,
+    "a2_xga": 1.2,
+    "a2_oshots": 9,
+    "a2_osot": 4,
+    "home_prob": 22,
+    "draw_prob": 26,
+    "home_odds": "4.20",
+    "draw_odds": "3.30",
+    "away_odds": "1.75",
+    "home_form": "5-3-2",
+    "away_form": "4-3-3",
+    "home_strategy": "力量型打法，主打防守与定位球，搏一个冷门留住出线希望",
+    "away_strategy": "必须取胜才能稳稳出线，控球压制力争破密集防守",
+    "home_tactics": [
+      "密集防守",
+      "定位球",
+      "长传冲吊"
+    ],
+    "away_tactics": [
+      "控球渗透",
+      "边路传中",
+      "中场调度"
+    ],
+    "home_tactic_notes": [
+      "伍德支点+定位球是主要得分点",
+      "立足防守消耗比利时耐心",
+      "需顶住比利时控球压制"
+    ],
+    "away_tactic_notes": [
+      "德布劳内中场调度撕开防线",
+      "卢卡库支点+边路传中冲击",
+      "必须破密集防守，需耐心与效率"
+    ],
+    "home_mentality": [
+      {
+        "title": "搏命冷门",
+        "desc": "出线只剩理论希望，放手一搏无所畏惧",
+        "quote": "拼下去，制造惊喜。"
+      },
+      {
+        "title": "硬碰硬",
+        "desc": "身体与拼抢是对抗强敌的资本",
+        "quote": "用我们的方式战斗。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "出线焦虑",
+        "desc": "两场闷平仅2分，黄金一代必须立刻拿下",
+        "quote": "我们没有退路，必须赢。"
+      },
+      {
+        "title": "破局压力",
+        "desc": "进攻迟迟未见起色，亟需打开局面",
+        "quote": "把球打进去。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      5,
+      7,
+      5,
+      7,
+      6,
+      6
+    ],
+    "away_metrics": [
+      7,
+      9,
+      8,
+      6,
+      7,
+      4
+    ],
+    "home_comeback": 5,
+    "away_comeback": 7,
+    "home_comeback_note": "新西兰逆境靠身体与定位球，曾2-2逼平伊朗显韧性",
+    "away_comeback_note": "比利时个人能力强，落后时德布劳内等可制造机会扭转",
+    "home_scorers": [
+      {
+        "name": "克里斯·伍德",
+        "prob": 38
+      },
+      {
+        "name": "加内特",
+        "prob": 28
+      },
+      {
+        "name": "斯塔门",
+        "prob": 22
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "卢卡库",
+        "prob": 40
+      },
+      {
+        "name": "德布劳内",
+        "prob": 30
+      },
+      {
+        "name": "多库",
+        "prob": 26
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "埃及",
+        "flag": "🇪🇬",
+        "p": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 4,
+        "ga": 2,
+        "gd": 2,
+        "pts": 4
+      },
+      {
+        "team": "伊朗",
+        "flag": "🇮🇷",
+        "p": 2,
+        "w": 0,
+        "d": 2,
+        "l": 0,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "pts": 2
+      },
+      {
+        "team": "比利时",
+        "flag": "🇧🇪",
+        "p": 2,
+        "w": 0,
+        "d": 2,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 2
+      },
+      {
+        "team": "新西兰",
+        "flag": "🇳🇿",
+        "p": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 3,
+        "ga": 5,
+        "gd": -2,
+        "pts": 1
+      }
+    ],
+    "over25": 50,
+    "over35": 24,
+    "away_score_prob": 78,
+    "handicap": 72,
+    "handicap_label": "比利时让一球(实力悬殊但需破密防)",
+    "likely_scores": [
+      {
+        "score": "0-2",
+        "prob": 15
+      },
+      {
+        "score": "1-2",
+        "prob": 13
+      },
+      {
+        "score": "0-1",
+        "prob": 12
+      },
+      {
+        "score": "1-1",
+        "prob": 10
+      }
+    ],
+    "home_risks": [
+      "实力差距大，长时间防守易被洞穿",
+      "进攻手段单一，难以持续威胁比利时"
+    ],
+    "away_risks": [
+      "进攻状态低迷，破密集防守效率存疑",
+      "若久攻不下心态焦躁易被定位球偷袭"
+    ],
+    "verdict_rec": "比利时实力占优且志在必得，建议看客胜/让球胜，进球数 2-3 球",
+    "verdict_score": "0-2",
+    "verdict_stars": 3,
+    "verdict_logic": [
+      "比利时个人能力与整体实力明显占优且出线刚需",
+      "新西兰立足防守搏冷门，进攻威胁有限",
+      "比利时大概率掌控并取胜，需防其进攻状态低迷只小胜"
+    ]
+  }
+]

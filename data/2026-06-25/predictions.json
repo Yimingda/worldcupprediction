@@ -1,0 +1,1496 @@
+[
+  {
+    "home_flag": "🇹🇷",
+    "home_name": "土耳其",
+    "home_prev": "0-1 ❌ 负巴拉圭",
+    "home_prev2": "0-2 ❌ 负澳大利亚",
+    "home_pts": 0,
+    "away_flag": "🇺🇸",
+    "away_name": "美国",
+    "away_prev": "2-0 ✅ 胜澳大利亚",
+    "away_prev2": "4-1 ✅ 胜巴拉圭",
+    "away_pts": 6,
+    "match_group": "D组 · 第3轮（末轮·土耳其荣誉战 / 美国已锁头名）",
+    "match_date": "2026-06-25 周四 · 22:00(东部)",
+    "match_venue": "SoFi体育场 · 英格尔伍德(洛杉矶)",
+    "h_poss": 55,
+    "h_shots": 14,
+    "h_sot": 4,
+    "h_bc": 2,
+    "h_xg": 1.3,
+    "h_goals": 0,
+    "h_xga": 0.9,
+    "h_oshots": 9,
+    "h_osot": 3,
+    "a_poss": 53,
+    "a_shots": 16,
+    "a_sot": 6,
+    "a_bc": 4,
+    "a_xg": 2.1,
+    "a_goals": 2,
+    "a_xga": 0.6,
+    "a_oshots": 7,
+    "a_osot": 2,
+    "h2_poss": 52,
+    "h2_shots": 11,
+    "h2_sot": 3,
+    "h2_bc": 1,
+    "h2_xg": 0.9,
+    "h2_goals": 0,
+    "h2_xga": 1.6,
+    "h2_oshots": 13,
+    "h2_osot": 5,
+    "a2_poss": 56,
+    "a2_shots": 19,
+    "a2_sot": 9,
+    "a2_bc": 5,
+    "a2_xg": 3.1,
+    "a2_goals": 4,
+    "a2_xga": 1.0,
+    "a2_oshots": 8,
+    "a2_osot": 3,
+    "home_prob": 33,
+    "draw_prob": 28,
+    "home_odds": "2.55",
+    "draw_odds": "3.10",
+    "away_odds": "2.45",
+    "home_form": "4-2-3-1",
+    "away_form": "4-3-3",
+    "home_strategy": "已无出线希望，放手一搏靠居莱尔组织争取一场胜利挽回颜面",
+    "away_strategy": "已锁头名预计大幅轮换，控制节奏避免伤病、保留主力体能",
+    "home_tactics": [
+      "中场创造",
+      "定位球",
+      "边路突破"
+    ],
+    "away_tactics": [
+      "阵容轮换",
+      "控球消耗",
+      "高效反击"
+    ],
+    "home_tactic_notes": [
+      "居莱尔/恰尔汗奥卢主导中场出球",
+      "两轮挂零急需锋线兑现机会",
+      "定位球是破密集防线的捷径"
+    ],
+    "away_tactic_notes": [
+      "主力大概率休整、替补登场练兵",
+      "强度下降但个人能力仍占优",
+      "把握反击一两次即可"
+    ],
+    "home_mentality": [
+      {
+        "title": "背水一战",
+        "desc": "两连败提前出局，末轮只剩荣誉，反而轻装上阵",
+        "quote": "至少要赢球离场。"
+      },
+      {
+        "title": "锋无力焦虑",
+        "desc": "两场零进球，进攻信心受挫亟需破门",
+        "quote": "我们必须把握机会。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "从容轮换",
+        "desc": "稳坐头名无压力，重心已转向淘汰赛",
+        "quote": "保持健康最重要。"
+      },
+      {
+        "title": "练兵心态",
+        "desc": "替补渴望表现争取淘汰赛位置",
+        "quote": "这是证明自己的机会。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      5,
+      7,
+      6,
+      5,
+      6,
+      8
+    ],
+    "away_metrics": [
+      8,
+      4,
+      7,
+      7,
+      7,
+      9
+    ],
+    "home_comeback": 5,
+    "away_comeback": 7,
+    "home_comeback_note": "土耳其大赛偶有韧性(2024欧洲杯小组逆转)，但本届状态低迷",
+    "away_comeback_note": "美国本届进攻火力足，落后时有回应能力，但轮换后稳定性下降",
+    "home_scorers": [
+      {
+        "name": "阿尔达·居莱尔",
+        "prob": 38
+      },
+      {
+        "name": "耶尔德兹",
+        "prob": 32
+      },
+      {
+        "name": "阿克蒂尔克奥卢",
+        "prob": 26
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "巴洛贡",
+        "prob": 36
+      },
+      {
+        "name": "普利西奇",
+        "prob": 33
+      },
+      {
+        "name": "韦阿",
+        "prob": 25
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "美国",
+        "flag": "🇺🇸",
+        "p": 2,
+        "w": 2,
+        "d": 0,
+        "l": 0,
+        "gf": 6,
+        "ga": 1,
+        "gd": 5,
+        "pts": 6
+      },
+      {
+        "team": "澳大利亚",
+        "flag": "🇦🇺",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "pts": 3
+      },
+      {
+        "team": "巴拉圭",
+        "flag": "🇵🇾",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 2,
+        "ga": 4,
+        "gd": -2,
+        "pts": 3
+      },
+      {
+        "team": "土耳其",
+        "flag": "🇹🇷",
+        "p": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 0,
+        "ga": 3,
+        "gd": -3,
+        "pts": 0
+      }
+    ],
+    "over25": 52,
+    "over35": 27,
+    "away_score_prob": 60,
+    "handicap": 50,
+    "handicap_label": "平手盘，难分主次(美国轮换)",
+    "likely_scores": [
+      {
+        "score": "1-1",
+        "prob": 16
+      },
+      {
+        "score": "1-2",
+        "prob": 13
+      },
+      {
+        "score": "0-1",
+        "prob": 12
+      },
+      {
+        "score": "2-1",
+        "prob": 11
+      }
+    ],
+    "home_risks": [
+      "锋线两轮零进球，效率堪忧",
+      "队伍士气受连败打击易松散"
+    ],
+    "away_risks": [
+      "大幅轮换后默契与强度下降",
+      "替补门将/后防配合生疏"
+    ],
+    "verdict_rec": "比分接近，进球数 2-3 球，可看平局或土耳其小胜",
+    "verdict_score": "1-1",
+    "verdict_stars": 3,
+    "verdict_logic": [
+      "美国已锁头名预计轮换，实力优势缩水",
+      "土耳其放手一搏求胜欲更强",
+      "双方动机错位，平局或一球差最合理"
+    ]
+  },
+  {
+    "home_flag": "🇵🇾",
+    "home_name": "巴拉圭",
+    "home_prev": "1-0 ✅ 胜土耳其",
+    "home_prev2": "1-4 ❌ 负美国",
+    "home_pts": 3,
+    "away_flag": "🇦🇺",
+    "away_name": "澳大利亚",
+    "away_prev": "0-2 ❌ 负美国",
+    "away_prev2": "2-0 ✅ 胜土耳其",
+    "away_pts": 3,
+    "match_group": "D组 · 第3轮（末轮·直接对话争次名 / 平局澳进）",
+    "match_date": "2026-06-25 周四 · 22:00(东部)",
+    "match_venue": "李维斯球场 · 圣克拉拉",
+    "h_poss": 49,
+    "h_shots": 13,
+    "h_sot": 5,
+    "h_bc": 2,
+    "h_xg": 1.4,
+    "h_goals": 1,
+    "h_xga": 0.8,
+    "h_oshots": 10,
+    "h_osot": 3,
+    "a_poss": 46,
+    "a_shots": 9,
+    "a_sot": 2,
+    "a_bc": 1,
+    "a_xg": 0.7,
+    "a_goals": 0,
+    "a_xga": 2.0,
+    "a_oshots": 16,
+    "a_osot": 6,
+    "h2_poss": 44,
+    "h2_shots": 10,
+    "h2_sot": 4,
+    "h2_bc": 2,
+    "h2_xg": 1.2,
+    "h2_goals": 1,
+    "h2_xga": 3.0,
+    "h2_oshots": 18,
+    "h2_osot": 8,
+    "a2_poss": 53,
+    "a2_shots": 15,
+    "a2_sot": 7,
+    "a2_bc": 3,
+    "a2_xg": 1.9,
+    "a2_goals": 2,
+    "a2_xga": 0.9,
+    "a2_oshots": 9,
+    "a2_osot": 3,
+    "home_prob": 38,
+    "draw_prob": 28,
+    "home_odds": "2.30",
+    "draw_odds": "3.10",
+    "away_odds": "2.90",
+    "home_form": "4-3-3",
+    "away_form": "4-2-3-1",
+    "home_strategy": "必须取胜才能出线，主动施压依靠阿尔米隆边路爆点",
+    "away_strategy": "净胜球占优，平局即可出线，倾向稳守反击控制比赛",
+    "home_tactics": [
+      "边路提速",
+      "高位压迫",
+      "前场逼抢"
+    ],
+    "away_tactics": [
+      "稳守反击",
+      "中场拦截",
+      "定位球"
+    ],
+    "home_tactic_notes": [
+      "阿尔米隆是反击与突破的核心",
+      "必须进球，开局会全力压上",
+      "中卫前顶冒进风险需控制"
+    ],
+    "away_tactic_notes": [
+      "只需不输，控制节奏耗时间",
+      "古德温/博伊尔反击速度是杀招",
+      "丢球后须立刻回收保净胜球"
+    ],
+    "home_mentality": [
+      {
+        "title": "只能赢",
+        "desc": "平局即出局，背水一战必须全取三分",
+        "quote": "我们没有退路。"
+      },
+      {
+        "title": "上轮提气",
+        "desc": "1-0小胜土耳其重燃出线希望",
+        "quote": "保住了主动权。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "掌握主动",
+        "desc": "净胜球领先，平局即晋级心态占优",
+        "quote": "结果在我们手里。"
+      },
+      {
+        "title": "谨防保守过头",
+        "desc": "一味死守易被反扑，需保持专注",
+        "quote": "不能只想着防守。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      7,
+      9,
+      7,
+      6,
+      6,
+      4
+    ],
+    "away_metrics": [
+      7,
+      6,
+      6,
+      7,
+      7,
+      6
+    ],
+    "home_comeback": 6,
+    "away_comeback": 6,
+    "home_comeback_note": "巴拉圭南美球队韧性足，逆境中善打硬仗",
+    "away_comeback_note": "澳大利亚体能与拼劲突出，落后时压迫力强",
+    "home_scorers": [
+      {
+        "name": "阿尔米隆",
+        "prob": 40
+      },
+      {
+        "name": "桑纳布里亚",
+        "prob": 33
+      },
+      {
+        "name": "恩西索",
+        "prob": 27
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "杜克",
+        "prob": 36
+      },
+      {
+        "name": "古德温",
+        "prob": 32
+      },
+      {
+        "name": "博伊尔",
+        "prob": 25
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "美国",
+        "flag": "🇺🇸",
+        "p": 2,
+        "w": 2,
+        "d": 0,
+        "l": 0,
+        "gf": 6,
+        "ga": 1,
+        "gd": 5,
+        "pts": 6
+      },
+      {
+        "team": "澳大利亚",
+        "flag": "🇦🇺",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "pts": 3
+      },
+      {
+        "team": "巴拉圭",
+        "flag": "🇵🇾",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 2,
+        "ga": 4,
+        "gd": -2,
+        "pts": 3
+      },
+      {
+        "team": "土耳其",
+        "flag": "🇹🇷",
+        "p": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 0,
+        "ga": 3,
+        "gd": -3,
+        "pts": 0
+      }
+    ],
+    "over25": 46,
+    "over35": 20,
+    "away_score_prob": 50,
+    "handicap": 53,
+    "handicap_label": "平手/半球，主队微让",
+    "likely_scores": [
+      {
+        "score": "1-0",
+        "prob": 15
+      },
+      {
+        "score": "1-1",
+        "prob": 14
+      },
+      {
+        "score": "0-0",
+        "prob": 11
+      },
+      {
+        "score": "2-1",
+        "prob": 11
+      }
+    ],
+    "home_risks": [
+      "急于求胜后场压上易遭反击",
+      "净胜球落后，需净胜2球以上才稳"
+    ],
+    "away_risks": [
+      "保平心态过重或陷入被动挨打",
+      "进攻端缺乏稳定终结点"
+    ],
+    "verdict_rec": "低进球数硬仗，进球数 1-2 球，巴拉圭小胜或平局",
+    "verdict_score": "1-1",
+    "verdict_stars": 3,
+    "verdict_logic": [
+      "生死战双方谨慎，节奏偏闷",
+      "巴拉圭必须进攻，澳大利亚伺机反击",
+      "净胜球规则让澳倾向求稳，小球概率高"
+    ]
+  },
+  {
+    "home_flag": "🇪🇨",
+    "home_name": "厄瓜多尔",
+    "home_prev": "0-0 🤝 平库拉索",
+    "home_prev2": "0-1 ❌ 负科特迪瓦",
+    "home_pts": 1,
+    "away_flag": "🇩🇪",
+    "away_name": "德国",
+    "away_prev": "2-1 ✅ 胜科特迪瓦",
+    "away_prev2": "7-1 ✅ 胜库拉索",
+    "away_pts": 6,
+    "match_group": "E组 · 第3轮（末轮·厄瓜多尔搏出线 / 德国已锁头名）",
+    "match_date": "2026-06-25 周四 · 16:00(东部)",
+    "match_venue": "MetLife体育场 · 东卢瑟福(新泽西)",
+    "h_poss": 54,
+    "h_shots": 15,
+    "h_sot": 3,
+    "h_bc": 3,
+    "h_xg": 1.4,
+    "h_goals": 0,
+    "h_xga": 0.6,
+    "h_oshots": 7,
+    "h_osot": 2,
+    "a_poss": 60,
+    "a_shots": 18,
+    "a_sot": 7,
+    "a_bc": 4,
+    "a_xg": 2.3,
+    "a_goals": 2,
+    "a_xga": 1.0,
+    "a_oshots": 8,
+    "a_osot": 4,
+    "h2_poss": 51,
+    "h2_shots": 12,
+    "h2_sot": 4,
+    "h2_bc": 2,
+    "h2_xg": 1.1,
+    "h2_goals": 0,
+    "h2_xga": 1.0,
+    "h2_oshots": 11,
+    "h2_osot": 4,
+    "a2_poss": 64,
+    "a2_shots": 25,
+    "a2_sot": 13,
+    "a2_bc": 7,
+    "a2_xg": 4.5,
+    "a2_goals": 7,
+    "a2_xga": 0.4,
+    "a2_oshots": 5,
+    "a2_osot": 1,
+    "home_prob": 30,
+    "draw_prob": 28,
+    "home_odds": "2.90",
+    "draw_odds": "3.10",
+    "away_odds": "2.30",
+    "home_form": "4-3-3",
+    "away_form": "4-2-3-1",
+    "home_strategy": "为出线必须取分，依托身体与高位压迫冲击德国轮换阵容",
+    "away_strategy": "已锁头名预计轮换，控球练兵保持节奏避免伤病",
+    "home_tactics": [
+      "高位逼抢",
+      "身体对抗",
+      "边中结合"
+    ],
+    "away_tactics": [
+      "阵容轮换",
+      "控球渗透",
+      "定位球"
+    ],
+    "home_tactic_notes": [
+      "卡塞多坐镇中场拦截+推进",
+      "瓦伦西亚支点作用关键",
+      "两轮零进球，终结效率是死穴"
+    ],
+    "away_tactic_notes": [
+      "主力轮休，维尔茨等或登场练状态",
+      "控球率高但替补默契待检验",
+      "定位球仍是稳定得分点"
+    ],
+    "home_mentality": [
+      {
+        "title": "生死时速",
+        "desc": "想出线必须拿分，背水求战",
+        "quote": "我们要为晋级而战。"
+      },
+      {
+        "title": "锋线焦虑",
+        "desc": "两轮挂零，破门信心亟待重建",
+        "quote": "必须打进球。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "稳坐钓鱼台",
+        "desc": "头名在手无压力，重心转向淘汰赛",
+        "quote": "保持势头即可。"
+      },
+      {
+        "title": "替补求表现",
+        "desc": "轮换球员渴望抓住机会",
+        "quote": "这是证明自己的舞台。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      6,
+      9,
+      6,
+      7,
+      6,
+      4
+    ],
+    "away_metrics": [
+      8,
+      4,
+      8,
+      7,
+      7,
+      9
+    ],
+    "home_comeback": 6,
+    "away_comeback": 8,
+    "home_comeback_note": "厄瓜多尔防守稳固，高原与体能优势在逆境中可拼",
+    "away_comeback_note": "德国底蕴深厚、板凳火力足，落后翻盘能力强",
+    "home_scorers": [
+      {
+        "name": "恩内尔·瓦伦西亚",
+        "prob": 38
+      },
+      {
+        "name": "普拉塔",
+        "prob": 31
+      },
+      {
+        "name": "罗德里格斯",
+        "prob": 25
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "维尔茨",
+        "prob": 40
+      },
+      {
+        "name": "哈弗茨",
+        "prob": 35
+      },
+      {
+        "name": "福尔克鲁格",
+        "prob": 28
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "德国",
+        "flag": "🇩🇪",
+        "p": 2,
+        "w": 2,
+        "d": 0,
+        "l": 0,
+        "gf": 9,
+        "ga": 2,
+        "gd": 7,
+        "pts": 6
+      },
+      {
+        "team": "科特迪瓦",
+        "flag": "🇨🇮",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "pts": 3
+      },
+      {
+        "team": "厄瓜多尔",
+        "flag": "🇪🇨",
+        "p": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 0,
+        "ga": 1,
+        "gd": -1,
+        "pts": 1
+      },
+      {
+        "team": "库拉索",
+        "flag": "🇨🇼",
+        "p": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 1,
+        "ga": 7,
+        "gd": -6,
+        "pts": 1
+      }
+    ],
+    "over25": 48,
+    "over35": 24,
+    "away_score_prob": 66,
+    "handicap": 42,
+    "handicap_label": "客队让半球/一球(德实力占优)",
+    "likely_scores": [
+      {
+        "score": "0-1",
+        "prob": 15
+      },
+      {
+        "score": "1-1",
+        "prob": 14
+      },
+      {
+        "score": "1-2",
+        "prob": 12
+      },
+      {
+        "score": "0-2",
+        "prob": 11
+      }
+    ],
+    "home_risks": [
+      "两轮零进球，进攻终结力严重不足",
+      "急于求胜压上易被德国速度打反击"
+    ],
+    "away_risks": [
+      "大幅轮换后整体性下降",
+      "对厄瓜多尔身体对抗或吃亏"
+    ],
+    "verdict_rec": "德国实力占优但轮换，进球数 2-3 球，可看德国小胜或平局",
+    "verdict_score": "1-1",
+    "verdict_stars": 3,
+    "verdict_logic": [
+      "德国已出线轮换，强度打折但底子仍硬",
+      "厄瓜多尔为出线全力以赴，防守稳",
+      "德国效率更高，平局或一球小胜均合理"
+    ]
+  },
+  {
+    "home_flag": "🇨🇼",
+    "home_name": "库拉索",
+    "home_prev": "0-0 🤝 平厄瓜多尔",
+    "home_prev2": "1-7 ❌ 负德国",
+    "home_pts": 1,
+    "away_flag": "🇨🇮",
+    "away_name": "科特迪瓦",
+    "away_prev": "1-2 ❌ 负德国",
+    "away_prev2": "1-0 ✅ 胜厄瓜多尔",
+    "away_pts": 3,
+    "match_group": "E组 · 第3轮（末轮·科特迪瓦胜即锁次名 / 库拉索需大胜）",
+    "match_date": "2026-06-25 周四 · 16:00(东部)",
+    "match_venue": "林肯金融球场 · 费城",
+    "h_poss": 42,
+    "h_shots": 8,
+    "h_sot": 2,
+    "h_bc": 1,
+    "h_xg": 0.6,
+    "h_goals": 0,
+    "h_xga": 1.4,
+    "h_oshots": 15,
+    "h_osot": 3,
+    "a_poss": 44,
+    "a_shots": 13,
+    "a_sot": 5,
+    "a_bc": 3,
+    "a_xg": 1.6,
+    "a_goals": 1,
+    "a_xga": 2.2,
+    "a_oshots": 17,
+    "a_osot": 7,
+    "h2_poss": 36,
+    "h2_shots": 6,
+    "h2_sot": 2,
+    "h2_bc": 1,
+    "h2_xg": 0.8,
+    "h2_goals": 1,
+    "h2_xga": 4.4,
+    "h2_oshots": 24,
+    "h2_osot": 12,
+    "a2_poss": 48,
+    "a2_shots": 12,
+    "a2_sot": 4,
+    "a2_bc": 2,
+    "a2_xg": 1.0,
+    "a2_goals": 1,
+    "a2_xga": 1.1,
+    "a2_oshots": 11,
+    "a2_osot": 4,
+    "home_prob": 24,
+    "draw_prob": 26,
+    "home_odds": "3.60",
+    "draw_odds": "3.20",
+    "away_odds": "1.95",
+    "home_form": "5-3-2",
+    "away_form": "4-3-3",
+    "home_strategy": "收缩防守稳固阵型，靠反击与定位球抢分制造奇迹",
+    "away_strategy": "主导进攻一胜即出线，依靠哈勒、佩佩个人能力破密集防守",
+    "home_tactics": [
+      "五后卫死守",
+      "快速反击",
+      "定位球"
+    ],
+    "away_tactics": [
+      "阵地压制",
+      "边路传中",
+      "个人突破"
+    ],
+    "home_tactic_notes": [
+      "巴库纳兄弟串联中前场",
+      "防线退守保证不大败",
+      "反击与定位球是唯一指望"
+    ],
+    "away_tactic_notes": [
+      "哈勒支点+佩佩边路爆点",
+      "控球压上耐心破联防",
+      "防反击身后空当是隐患"
+    ],
+    "home_mentality": [
+      {
+        "title": "黑马余勇",
+        "desc": "上轮逼平厄瓜多尔士气可用，渴望续写奇迹",
+        "quote": "我们无所畏惧。"
+      },
+      {
+        "title": "实力差距",
+        "desc": "首战1-7惨败留阴影，需稳住心态",
+        "quote": "守住才有机会。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "出线在望",
+        "desc": "一胜即锁次名，目标明确求战欲强",
+        "quote": "拿下这场就晋级。"
+      },
+      {
+        "title": "破联防焦躁",
+        "desc": "面对铁桶阵需保持耐心防急躁",
+        "quote": "要冷静创造机会。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      5,
+      7,
+      4,
+      7,
+      6,
+      6
+    ],
+    "away_metrics": [
+      7,
+      8,
+      7,
+      6,
+      7,
+      5
+    ],
+    "home_comeback": 4,
+    "away_comeback": 6,
+    "home_comeback_note": "库拉索实力有限，逆境翻盘能力较弱",
+    "away_comeback_note": "科特迪瓦身体与速度突出，落后时冲击力强",
+    "home_scorers": [
+      {
+        "name": "巴库纳",
+        "prob": 32
+      },
+      {
+        "name": "巴卡",
+        "prob": 27
+      },
+      {
+        "name": "范登贝赫",
+        "prob": 22
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "哈勒",
+        "prob": 42
+      },
+      {
+        "name": "佩佩",
+        "prob": 35
+      },
+      {
+        "name": "阿丁格拉",
+        "prob": 27
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "德国",
+        "flag": "🇩🇪",
+        "p": 2,
+        "w": 2,
+        "d": 0,
+        "l": 0,
+        "gf": 9,
+        "ga": 2,
+        "gd": 7,
+        "pts": 6
+      },
+      {
+        "team": "科特迪瓦",
+        "flag": "🇨🇮",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "pts": 3
+      },
+      {
+        "team": "厄瓜多尔",
+        "flag": "🇪🇨",
+        "p": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 0,
+        "ga": 1,
+        "gd": -1,
+        "pts": 1
+      },
+      {
+        "team": "库拉索",
+        "flag": "🇨🇼",
+        "p": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 1,
+        "ga": 7,
+        "gd": -6,
+        "pts": 1
+      }
+    ],
+    "over25": 50,
+    "over35": 26,
+    "away_score_prob": 70,
+    "handicap": 35,
+    "handicap_label": "客队让一球(科特迪瓦明显占优)",
+    "likely_scores": [
+      {
+        "score": "0-1",
+        "prob": 16
+      },
+      {
+        "score": "0-2",
+        "prob": 14
+      },
+      {
+        "score": "1-2",
+        "prob": 12
+      },
+      {
+        "score": "1-1",
+        "prob": 10
+      }
+    ],
+    "home_risks": [
+      "进攻乏力，难以撕开科特迪瓦防线",
+      "若被先进球则全盘崩塌风险大"
+    ],
+    "away_risks": [
+      "久攻不下易心急，遭反击或定位球失分",
+      "需控制净胜球避免横生枝节"
+    ],
+    "verdict_rec": "科特迪瓦实力占优，进球数 1-2 球，倾向客队小胜/零封",
+    "verdict_score": "0-2",
+    "verdict_stars": 4,
+    "verdict_logic": [
+      "科特迪瓦一胜即出线，求战动机强",
+      "库拉索退守为主，进攻威胁有限",
+      "实力与动机双重占优，客胜概率高"
+    ]
+  },
+  {
+    "home_flag": "🇯🇵",
+    "home_name": "日本",
+    "home_prev": "4-0 ✅ 胜突尼斯",
+    "home_prev2": "2-2 🤝 平荷兰",
+    "home_pts": 4,
+    "away_flag": "🇸🇪",
+    "away_name": "瑞典",
+    "away_prev": "1-5 ❌ 负荷兰",
+    "away_prev2": "5-1 ✅ 胜突尼斯",
+    "away_pts": 3,
+    "match_group": "F组 · 第3轮（末轮·日本胜平即出线 / 瑞典须胜）",
+    "match_date": "2026-06-25 周四 · 19:00(东部)",
+    "match_venue": "AT&T体育场 · 阿灵顿(达拉斯)",
+    "h_poss": 58,
+    "h_shots": 20,
+    "h_sot": 9,
+    "h_bc": 5,
+    "h_xg": 3.0,
+    "h_goals": 4,
+    "h_xga": 0.5,
+    "h_oshots": 6,
+    "h_osot": 2,
+    "a_poss": 46,
+    "a_shots": 10,
+    "a_sot": 3,
+    "a_bc": 1,
+    "a_xg": 1.0,
+    "a_goals": 1,
+    "a_xga": 3.4,
+    "a_oshots": 19,
+    "a_osot": 9,
+    "h2_poss": 52,
+    "h2_shots": 15,
+    "h2_sot": 6,
+    "h2_bc": 3,
+    "h2_xg": 1.9,
+    "h2_goals": 2,
+    "h2_xga": 1.8,
+    "h2_oshots": 14,
+    "h2_osot": 6,
+    "a2_poss": 55,
+    "a2_shots": 18,
+    "a2_sot": 10,
+    "a2_bc": 5,
+    "a2_xg": 3.2,
+    "a2_goals": 5,
+    "a2_xga": 0.9,
+    "a2_oshots": 8,
+    "a2_osot": 3,
+    "home_prob": 46,
+    "draw_prob": 27,
+    "home_odds": "1.95",
+    "draw_odds": "3.30",
+    "away_odds": "3.70",
+    "home_form": "3-4-2-1",
+    "away_form": "4-3-3",
+    "home_strategy": "状态正佳，控球+快速边路转换争取小组头名",
+    "away_strategy": "必须取胜方能出线，依靠伊萨克+古德蒙德松强攻搏命",
+    "home_tactics": [
+      "技术控球",
+      "边翼卫推进",
+      "快速转换"
+    ],
+    "away_tactics": [
+      "强力前压",
+      "高空轰炸",
+      "边路传中"
+    ],
+    "home_tactic_notes": [
+      "久保/三笘边路一对一制造杀机",
+      "上田绮世支点+抢点能力出色",
+      "三中卫体系攻守平衡"
+    ],
+    "away_tactic_notes": [
+      "伊萨克是终结核心",
+      "身体与高空球冲击日本防线",
+      "必须进球，开局即施压"
+    ],
+    "home_mentality": [
+      {
+        "title": "势头正盛",
+        "desc": "4-0大胜突尼斯，攻防俱佳信心爆棚",
+        "quote": "我们要拿小组第一。"
+      },
+      {
+        "title": "目标明确",
+        "desc": "胜平即出线，主动权在握",
+        "quote": "按自己的节奏踢。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "悬崖边缘",
+        "desc": "上轮1-5惨败荷兰，末轮必须取胜",
+        "quote": "只能赢，没有退路。"
+      },
+      {
+        "title": "强援待发",
+        "desc": "伊萨克状态在线，仍有一搏之力",
+        "quote": "我们能创造机会。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      9,
+      6,
+      8,
+      7,
+      8,
+      7
+    ],
+    "away_metrics": [
+      6,
+      9,
+      7,
+      5,
+      6,
+      4
+    ],
+    "home_comeback": 7,
+    "away_comeback": 6,
+    "home_comeback_note": "日本本届韧性强，技术流逆境中善控场(对荷兰两度扳平)",
+    "away_comeback_note": "瑞典身体强硬，落后时高举高打有冲击力但防线脆弱",
+    "home_scorers": [
+      {
+        "name": "上田绮世",
+        "prob": 40
+      },
+      {
+        "name": "久保建英",
+        "prob": 34
+      },
+      {
+        "name": "三笘薫",
+        "prob": 30
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "伊萨克",
+        "prob": 44
+      },
+      {
+        "name": "古德蒙德松",
+        "prob": 33
+      },
+      {
+        "name": "埃兰加",
+        "prob": 26
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "荷兰",
+        "flag": "🇳🇱",
+        "p": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 7,
+        "ga": 3,
+        "gd": 4,
+        "pts": 4
+      },
+      {
+        "team": "日本",
+        "flag": "🇯🇵",
+        "p": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 6,
+        "ga": 2,
+        "gd": 4,
+        "pts": 4
+      },
+      {
+        "team": "瑞典",
+        "flag": "🇸🇪",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 6,
+        "ga": 6,
+        "gd": 0,
+        "pts": 3
+      },
+      {
+        "team": "突尼斯",
+        "flag": "🇹🇳",
+        "p": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 1,
+        "ga": 9,
+        "gd": -8,
+        "pts": 0
+      }
+    ],
+    "over25": 58,
+    "over35": 32,
+    "away_score_prob": 56,
+    "handicap": 58,
+    "handicap_label": "主队让半球(日本状态占优)",
+    "likely_scores": [
+      {
+        "score": "2-1",
+        "prob": 15
+      },
+      {
+        "score": "1-1",
+        "prob": 13
+      },
+      {
+        "score": "2-0",
+        "prob": 12
+      },
+      {
+        "score": "1-0",
+        "prob": 10
+      }
+    ],
+    "home_risks": [
+      "瑞典定位球与高空球冲击防空隐患",
+      "若过早求稳易被搏命瑞典反扑"
+    ],
+    "away_risks": [
+      "防线两轮失球多，面对日本速度承压",
+      "急攻压上后场空当大易遭反击"
+    ],
+    "verdict_rec": "日本状态占优，进球数 2-3 球，倾向日本小胜或平局",
+    "verdict_score": "2-1",
+    "verdict_stars": 4,
+    "verdict_logic": [
+      "日本攻防俱佳且只需不输，掌控力强",
+      "瑞典必须取胜会全力压上，攻守失衡",
+      "日本反击效率更高，小胜概率最大"
+    ]
+  },
+  {
+    "home_flag": "🇹🇳",
+    "home_name": "突尼斯",
+    "home_prev": "0-4 ❌ 负日本",
+    "home_prev2": "1-5 ❌ 负瑞典",
+    "home_pts": 0,
+    "away_flag": "🇳🇱",
+    "away_name": "荷兰",
+    "away_prev": "5-1 ✅ 胜瑞典",
+    "away_prev2": "2-2 🤝 平日本",
+    "away_pts": 4,
+    "match_group": "F组 · 第3轮（末轮·突尼斯已出局 / 荷兰争头名）",
+    "match_date": "2026-06-25 周四 · 19:00(东部)",
+    "match_venue": "Arrowhead体育场 · 堪萨斯城",
+    "h_poss": 40,
+    "h_shots": 7,
+    "h_sot": 1,
+    "h_bc": 0,
+    "h_xg": 0.5,
+    "h_goals": 0,
+    "h_xga": 3.2,
+    "h_oshots": 20,
+    "h_osot": 9,
+    "a_poss": 57,
+    "a_shots": 21,
+    "a_sot": 11,
+    "a_bc": 6,
+    "a_xg": 3.6,
+    "a_goals": 5,
+    "a_xga": 0.8,
+    "a_oshots": 9,
+    "a_osot": 3,
+    "h2_poss": 43,
+    "h2_shots": 9,
+    "h2_sot": 3,
+    "h2_bc": 1,
+    "h2_xg": 0.9,
+    "h2_goals": 1,
+    "h2_xga": 3.5,
+    "h2_oshots": 18,
+    "h2_osot": 10,
+    "a2_poss": 56,
+    "a2_shots": 16,
+    "a2_sot": 6,
+    "a2_bc": 3,
+    "a2_xg": 2.0,
+    "a2_goals": 2,
+    "a2_xga": 1.9,
+    "a2_oshots": 13,
+    "a2_osot": 5,
+    "home_prob": 20,
+    "draw_prob": 24,
+    "home_odds": "4.50",
+    "draw_odds": "3.50",
+    "away_odds": "1.70",
+    "home_form": "4-3-2-1",
+    "away_form": "4-3-3",
+    "home_strategy": "已出局，收缩防守减少失球，靠零星反击保留尊严",
+    "away_strategy": "争头名预计派强阵，控球压制力争大胜锁定小组第一",
+    "home_tactics": [
+      "密集防守",
+      "中场拦截",
+      "偶发反击"
+    ],
+    "away_tactics": [
+      "控球压制",
+      "边路传中",
+      "高位逼抢"
+    ],
+    "home_tactic_notes": [
+      "退守保不大败为主基调",
+      "姆萨克尼经验串联前场",
+      "反击机会稀少需高效"
+    ],
+    "away_tactic_notes": [
+      "加克波/西蒙斯主导进攻",
+      "邓弗里斯边路套上传中",
+      "需净胜球力争头名"
+    ],
+    "home_mentality": [
+      {
+        "title": "提前出局",
+        "desc": "两连败无缘晋级，只为荣誉而战",
+        "quote": "踢出尊严就好。"
+      },
+      {
+        "title": "信心受挫",
+        "desc": "连续大比分失利，士气低迷",
+        "quote": "把伤害降到最低。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "锁定头名",
+        "desc": "5-1大胜后状态火热，志在小组第一",
+        "quote": "我们要赢下小组。"
+      },
+      {
+        "title": "保持专注",
+        "desc": "面对弱旅须避免轻敌与伤病",
+        "quote": "认真踢好每一分钟。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      4,
+      5,
+      4,
+      6,
+      5,
+      7
+    ],
+    "away_metrics": [
+      9,
+      7,
+      9,
+      7,
+      8,
+      7
+    ],
+    "home_comeback": 3,
+    "away_comeback": 8,
+    "home_comeback_note": "突尼斯本届防守崩盘，逆境翻盘能力很弱",
+    "away_comeback_note": "荷兰阵容豪华、火力凶猛，落后时反扑能力极强",
+    "home_scorers": [
+      {
+        "name": "姆萨克尼",
+        "prob": 30
+      },
+      {
+        "name": "杰巴利",
+        "prob": 26
+      },
+      {
+        "name": "哈兹里",
+        "prob": 21
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "加克波",
+        "prob": 45
+      },
+      {
+        "name": "德佩",
+        "prob": 36
+      },
+      {
+        "name": "西蒙斯",
+        "prob": 30
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "荷兰",
+        "flag": "🇳🇱",
+        "p": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 7,
+        "ga": 3,
+        "gd": 4,
+        "pts": 4
+      },
+      {
+        "team": "日本",
+        "flag": "🇯🇵",
+        "p": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 6,
+        "ga": 2,
+        "gd": 4,
+        "pts": 4
+      },
+      {
+        "team": "瑞典",
+        "flag": "🇸🇪",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 6,
+        "ga": 6,
+        "gd": 0,
+        "pts": 3
+      },
+      {
+        "team": "突尼斯",
+        "flag": "🇹🇳",
+        "p": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 1,
+        "ga": 9,
+        "gd": -8,
+        "pts": 0
+      }
+    ],
+    "over25": 60,
+    "over35": 38,
+    "away_score_prob": 78,
+    "handicap": 28,
+    "handicap_label": "客队让一球半/两球(荷兰悬殊占优)",
+    "likely_scores": [
+      {
+        "score": "0-3",
+        "prob": 15
+      },
+      {
+        "score": "0-2",
+        "prob": 14
+      },
+      {
+        "score": "1-3",
+        "prob": 11
+      },
+      {
+        "score": "0-4",
+        "prob": 10
+      }
+    ],
+    "home_risks": [
+      "防守两轮丢9球，面对荷兰恐再失大比分",
+      "进攻乏力难以创造像样机会"
+    ],
+    "away_risks": [
+      "争头名压上后偶有反击空当",
+      "需控制体能与黄牌避免影响淘汰赛"
+    ],
+    "verdict_rec": "荷兰实力悬殊占优，建议看过3.5球 / 荷兰大胜",
+    "verdict_score": "0-3",
+    "verdict_stars": 4,
+    "verdict_logic": [
+      "荷兰为头名将全力进攻，火力凶猛",
+      "突尼斯已出局且防守崩盘",
+      "实力差距悬殊，大球与客队大胜概率高"
+    ]
+  }
+]

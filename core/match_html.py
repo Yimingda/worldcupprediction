@@ -584,6 +584,35 @@ def render_match(match: dict) -> str:
              f'<div style="font-size:36px;font-weight:700;color:#0F6E56">{esc(m["verdict_score"])}</div>'
              f'<div style="font-size:12px;color:#0F6E56;margin-top:4px">把握度 {stars}</div></div></div>')
 
+    # ⑪ 两队本届全部比赛汇总（跨日期聚合；数据不可用时自动跳过）
+    def _all_matches_panel(_name, _flag):
+        try:
+            from core.team_history import team_matches as _tm
+            _rows = _tm(_name)
+        except Exception:
+            _rows = []
+        if not _rows:
+            return (f'<div class="sec-label">{_flag} {esc(_name)}</div>'
+                    f'<div style="font-size:11px;color:#aaa">（暂无更早比赛数据）</div>')
+        _out = [f'<div class="sec-label">{_flag} {esc(_name)} — 本届 {len(_rows)} 场</div>']
+        for _r in _rows:
+            _oc = _r.get("outcome")
+            _clr = {"胜": "#1D9E75", "平": "#888", "负": "#c0392b"}.get(_oc, "#bbb")
+            _res = _r.get("actual") or "待赛"
+            _out.append(
+                '<div style="display:flex;justify-content:space-between;gap:8px;font-size:11px;'
+                'padding:4px 0;border-bottom:1px solid #f0efe8">'
+                f'<div style="color:#888;width:74px;flex-shrink:0">{esc(_r["date"])}</div>'
+                f'<div style="flex:1">vs {esc(_r["opponent"])}</div>'
+                f'<div style="text-align:right;flex-shrink:0">预测 {esc(_r["pred"])} · 实际 '
+                f'<b>{esc(_res)}</b> <span style="color:{_clr};font-weight:700">{_oc or ""}</span></div></div>')
+        return "".join(_out)
+
+    P.append('<h3 class="sec">⑪ 两队本届全部比赛</h3><div class="grid2">')
+    P.append(f'<div class="card">{_all_matches_panel(m["home_name"], m["home_flag"])}</div>')
+    P.append(f'<div class="card">{_all_matches_panel(m["away_name"], m["away_flag"])}</div>')
+    P.append('</div>')
+
     P.append('<div class="foot">⚠ 以上分析由模型基于公开数据自动生成，仅供参考。体育赛事充满不确定性，请理性博彩，量力而行。</div>')
 
     body = "\n".join(P)

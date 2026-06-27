@@ -88,13 +88,19 @@ def _d(match: dict) -> dict:
         "verdict_stars": g("verdict_stars", 3), "verdict_logic": g("verdict_logic", []),
     }
     m["away_prob"] = 100 - int(m["home_prob"]) - int(m["draw_prob"])
-    # 一致性保护：⑧最可能比分(likely_scores[0]) 与 ⑩综合推荐比分(verdict_score) 必须一致；以 verdict_score 为准
-    _vs = str(m.get("verdict_score", "")).strip()
-    _ls = [str(x).strip() for x in (m.get("likely_scores") or []) if str(x).strip()]
-    if _vs and _vs not in ("-", "—"):
-        m["likely_scores"] = ([_vs] + [x for x in _ls if x != _vs])[:4]
-    elif _ls:
-        m["verdict_score"] = _ls[0]
+    # 一致性保护：⑧最可能比分(likely_scores[0]) 与 ⑩综合推荐比分(verdict_score) 必须一致。
+    # 兼容 likely_scores 为字符串或 {'score','prob'} 字典；仅重排，不改写元素结构。
+    def _sc(x):
+        return str(x.get("score", "")).strip() if isinstance(x, dict) else str(x).strip()
+    _items = [x for x in (m.get("likely_scores") or []) if _sc(x)]
+    if _items:
+        _scores = [_sc(x) for x in _items]
+        _vs = str(m.get("verdict_score", "")).strip()
+        if _vs and _vs in _scores:
+            _i = _scores.index(_vs)
+            m["likely_scores"] = [_items[_i]] + _items[:_i] + _items[_i + 1:]
+        else:
+            m["verdict_score"] = _scores[0]
     return m
 
 

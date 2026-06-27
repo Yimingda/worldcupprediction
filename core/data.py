@@ -59,17 +59,25 @@ def _load_results(path):
     return out
 
 
+def _score_of(x):
+    """兼容两种 likely_scores 元素格式：字符串 '1-2' 或 字典 {'score':'1-2','prob':14}。"""
+    return str(x.get("score", "")).strip() if isinstance(x, dict) else str(x).strip()
+
+
 def reconcile_scores(p):
     """一致性保护：⑧『最可能比分(likely_scores[0])』必须与⑩『综合推荐比分(verdict_score)』一致。
-    以 verdict_score 为准（它同时是回测精确比分的评分依据），把它排到 likely_scores 首位；
-    若 verdict_score 缺失，则反向用 likely_scores[0] 回填 verdict_score。原地修改并返回 p。"""
+    保留 likely_scores 元素的原始类型（字符串/字典），仅做重排，绝不改写其结构。
+    若 verdict_score 在列表中→把它对应的元素移到首位；否则以列表首位的比分回填 verdict_score。"""
+    items = [x for x in (p.get("likely_scores") or []) if _score_of(x)]
+    if not items:
+        return p
+    scores = [_score_of(x) for x in items]
     vs = str(p.get("verdict_score", "")).strip()
-    ls = [str(x).strip() for x in (p.get("likely_scores") or []) if str(x).strip()]
-    if vs and vs not in ("-", "—"):
-        ls = [vs] + [x for x in ls if x != vs]
-        p["likely_scores"] = ls[:4]
-    elif ls:
-        p["verdict_score"] = ls[0]
+    if vs and vs in scores:
+        i = scores.index(vs)
+        p["likely_scores"] = [items[i]] + items[:i] + items[i + 1:]
+    else:
+        p["verdict_score"] = scores[0]
     return p
 
 

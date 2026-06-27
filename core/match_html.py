@@ -109,6 +109,11 @@ def esc(x) -> str:
     return _html.escape(str(x), quote=True)
 
 
+def _score_str(x):
+    """likely_scores 元素可能是 '1-2' 或 {'score':'1-2','prob':14}，统一取比分字符串。"""
+    return str(x.get("score", "")).strip() if isinstance(x, dict) else str(x).strip()
+
+
 def _f(x, default=0.0):
     try:
         return float(re.sub(r"[^0-9.\-]", "", str(x)) or default)
@@ -558,7 +563,7 @@ def render_match(match: dict) -> str:
     if scores:
         P.append('<div style="margin-top:10px"><div class="sec-label">最可能比分</div>')
         for i, sc in enumerate(scores):
-            P.append(score_chip(sc, "最高概率" if i == 0 else "次选", i == 0))
+            P.append(score_chip(_score_str(sc), "最高概率" if i == 0 else "次选", i == 0))
         P.append('</div>')
     # 进球组合
     P.append('<div class="grid2" style="margin-top:12px">')

@@ -154,8 +154,10 @@ def render_detail(p, actual, scored):
     scores = g("likely_scores", [])
     if scores:
         chips = "".join(
-            f'<span class="wc-badge {"b-green" if i == 0 else "b-gray"}" style="font-size:14px;font-weight:700">{esc(s)}'
-            f'<span style="font-size:9px;font-weight:400"> {"最高" if i == 0 else "次选"}</span></span>' for i, s in enumerate(scores))
+            f'<span class="wc-badge {"b-green" if i == 0 else "b-gray"}" style="font-size:14px;font-weight:700">'
+            f'{esc(s["score"] if isinstance(s, dict) else s)}'
+            f'<span style="font-size:9px;font-weight:400"> {"最高" if i == 0 else "次选"}</span></span>'
+            for i, s in enumerate(scores))
         md(f'<div style="margin-top:6px">{chips}</div>')
 
     # 风险点

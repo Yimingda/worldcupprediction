@@ -1,0 +1,1496 @@
+[
+  {
+    "home_flag": "🇨🇴",
+    "home_name": "哥伦比亚",
+    "home_prev": "1-0 ✅ 胜刚果(金)",
+    "home_prev2": "3-1 ✅ 胜乌兹别克斯坦",
+    "home_pts": 6,
+    "away_flag": "🇵🇹",
+    "away_name": "葡萄牙",
+    "away_prev": "5-0 ✅ 胜乌兹别克斯坦",
+    "away_prev2": "1-1 🤝 平刚果(金)",
+    "away_pts": 4,
+    "match_group": "K组 · 第3轮（末轮·榜首大战 / 两队均已出线，胜者夺头名避开死亡半区）",
+    "match_date": "2026-06-27 周六 · 19:30(东部) / 北京28日07:30",
+    "match_venue": "硬石体育场 · 迈阿密花园",
+    "h_poss": 57,
+    "h_shots": 14,
+    "h_sot": 5,
+    "h_bc": 2,
+    "h_xg": 1.5,
+    "h_goals": 1,
+    "h_xga": 0.7,
+    "h_oshots": 8,
+    "h_osot": 2,
+    "a_poss": 64,
+    "a_shots": 22,
+    "a_sot": 11,
+    "a_bc": 6,
+    "a_xg": 3.6,
+    "a_goals": 5,
+    "a_xga": 0.3,
+    "a_oshots": 5,
+    "a_osot": 1,
+    "h2_poss": 60,
+    "h2_shots": 17,
+    "h2_sot": 8,
+    "h2_bc": 4,
+    "h2_xg": 2.7,
+    "h2_goals": 3,
+    "h2_xga": 1.0,
+    "h2_oshots": 9,
+    "h2_osot": 3,
+    "a2_poss": 61,
+    "a2_shots": 15,
+    "a2_sot": 5,
+    "a2_bc": 3,
+    "a2_xg": 1.4,
+    "a2_goals": 1,
+    "a2_xga": 1.2,
+    "a2_oshots": 9,
+    "a2_osot": 4,
+    "home_prob": 33,
+    "draw_prob": 30,
+    "home_odds": "2.65",
+    "draw_odds": "3.15",
+    "away_odds": "2.55",
+    "home_form": "4-2-3-1",
+    "away_form": "4-3-3",
+    "home_strategy": "主场作战依托J罗调度+迪亚斯爆点，争取小胜拿头名；平局亦可接受(净胜球需看葡萄牙)",
+    "away_strategy": "C罗领衔火力全开，近2场打入6球状态火热，全取三分即压哥伦比亚登顶",
+    "home_tactics": [
+      "中场控制",
+      "边路突击",
+      "快速反击"
+    ],
+    "away_tactics": [
+      "高位逼抢",
+      "个人能力",
+      "传中冲击"
+    ],
+    "home_tactic_notes": [
+      "J罗居中串联是进攻发动机",
+      "迪亚斯左路一对一极具威胁",
+      "防线需限制葡萄牙边中结合"
+    ],
+    "away_tactic_notes": [
+      "C罗禁区嗅觉与定位球终结",
+      "B费前插与直塞撕扯防线",
+      "莱昂/B席边路提速"
+    ],
+    "home_mentality": [
+      {
+        "title": "登顶野心",
+        "desc": "两连胜领跑小组，主场盼力压葡萄牙拿头名",
+        "quote": "迈阿密属于我们。"
+      },
+      {
+        "title": "黄金一代",
+        "desc": "J罗带队渴望证明哥伦比亚的硬实力",
+        "quote": "我们能和任何强队掰手腕。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "状态火热",
+        "desc": "5-0血洗对手士气爆棚，锋线手感正佳",
+        "quote": "保持这股势头。"
+      },
+      {
+        "title": "C罗传奇",
+        "desc": "C罗连续6届世界杯破门，仍想率队夺头名",
+        "quote": "我还能继续进球。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      8,
+      7,
+      8,
+      7,
+      7,
+      6
+    ],
+    "away_metrics": [
+      9,
+      7,
+      9,
+      7,
+      8,
+      6
+    ],
+    "home_comeback": 7,
+    "away_comeback": 8,
+    "home_comeback_note": "迪亚斯+J罗具备瞬间改变战局的能力，落后时反扑火力可观",
+    "away_comeback_note": "葡萄牙板凳深度顶级，C罗+拉莫斯+若塔随时逆境破局",
+    "home_scorers": [
+      {
+        "name": "路易斯·迪亚斯",
+        "prob": 42
+      },
+      {
+        "name": "J·罗德里格斯",
+        "prob": 30
+      },
+      {
+        "name": "杜兰",
+        "prob": 24
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "C罗",
+        "prob": 46
+      },
+      {
+        "name": "B·费尔南德斯",
+        "prob": 32
+      },
+      {
+        "name": "拉斐尔·莱昂",
+        "prob": 26
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "哥伦比亚",
+        "flag": "🇨🇴",
+        "p": 2,
+        "w": 2,
+        "d": 0,
+        "l": 0,
+        "gf": 4,
+        "ga": 1,
+        "gd": 3,
+        "pts": 6
+      },
+      {
+        "team": "葡萄牙",
+        "flag": "🇵🇹",
+        "p": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 6,
+        "ga": 1,
+        "gd": 5,
+        "pts": 4
+      },
+      {
+        "team": "刚果(金)",
+        "flag": "🇨🇩",
+        "p": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 1,
+        "ga": 2,
+        "gd": -1,
+        "pts": 1
+      },
+      {
+        "team": "乌兹别克斯坦",
+        "flag": "🇺🇿",
+        "p": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 1,
+        "ga": 8,
+        "gd": -7,
+        "pts": 0
+      }
+    ],
+    "over25": 56,
+    "over35": 30,
+    "away_score_prob": 72,
+    "handicap": 52,
+    "handicap_label": "平手/葡萄牙让平半，分歧大(哥主场 vs 葡状态)",
+    "likely_scores": [
+      {
+        "score": "1-1",
+        "prob": 14
+      },
+      {
+        "score": "1-2",
+        "prob": 13
+      },
+      {
+        "score": "2-1",
+        "prob": 12
+      },
+      {
+        "score": "2-2",
+        "prob": 10
+      }
+    ],
+    "home_risks": [
+      "后防被C罗/B费的跑位扯空",
+      "若过早压上易遭莱昂反击"
+    ],
+    "away_risks": [
+      "客场面对哥主场氛围与裁判压力",
+      "前两轮防守专注度起伏，易被迪亚斯突破"
+    ],
+    "verdict_rec": "强强对话且都想头名，看好双方进球/互有进球，比分一球差，2-3球",
+    "verdict_score": "1-1",
+    "verdict_stars": 3,
+    "verdict_logic": [
+      "两队均出线但都想避开死亡半区，求胜意愿强",
+      "葡萄牙火力更猛，哥伦比亚主场+J罗调度抗衡",
+      "实力接近，平局或一球小胜概率最高"
+    ]
+  },
+  {
+    "home_flag": "🇩🇿",
+    "home_name": "阿尔及利亚",
+    "home_prev": "2-1 ✅ 胜约旦",
+    "home_prev2": "0-3 ❌ 负阿根廷",
+    "home_pts": 3,
+    "away_flag": "🇦🇹",
+    "away_name": "奥地利",
+    "away_prev": "0-2 ❌ 负阿根廷",
+    "away_prev2": "3-1 ✅ 胜约旦",
+    "away_pts": 3,
+    "match_group": "J组 · 第3轮（末轮·出线生死战 / 阿根廷已锁头名，本场胜者携手出线）",
+    "match_date": "2026-06-27 周六 · 22:00(东部) / 北京28日10:00",
+    "match_venue": "箭头体育场 · 堪萨斯城",
+    "h_poss": 52,
+    "h_shots": 13,
+    "h_sot": 5,
+    "h_bc": 3,
+    "h_xg": 1.7,
+    "h_goals": 2,
+    "h_xga": 1.2,
+    "h_oshots": 10,
+    "h_osot": 4,
+    "a_poss": 41,
+    "a_shots": 8,
+    "a_sot": 2,
+    "a_bc": 1,
+    "a_xg": 0.6,
+    "a_goals": 0,
+    "a_xga": 2.4,
+    "a_oshots": 16,
+    "a_osot": 7,
+    "h2_poss": 44,
+    "h2_shots": 9,
+    "h2_sot": 3,
+    "h2_bc": 2,
+    "h2_xg": 0.8,
+    "h2_goals": 0,
+    "h2_xga": 2.6,
+    "h2_oshots": 17,
+    "h2_osot": 8,
+    "a2_poss": 55,
+    "a2_shots": 16,
+    "a2_sot": 7,
+    "a2_bc": 4,
+    "a2_xg": 2.3,
+    "a2_goals": 3,
+    "a2_xga": 1.0,
+    "a2_oshots": 9,
+    "a2_osot": 3,
+    "home_prob": 38,
+    "draw_prob": 28,
+    "home_odds": "2.45",
+    "draw_odds": "3.20",
+    "away_odds": "2.85",
+    "home_form": "4-3-3",
+    "away_form": "4-2-3-1",
+    "home_strategy": "净胜球落后(-2 vs 0)，必须取胜才能出线，势必全力进攻博命",
+    "away_strategy": "净胜球占优，平局即可携阿根廷出线，可稳守反击控制节奏",
+    "home_tactics": [
+      "高位逼抢",
+      "边路突击",
+      "快速反击"
+    ],
+    "away_tactics": [
+      "稳守反击",
+      "中场控制",
+      "定位球"
+    ],
+    "home_tactic_notes": [
+      "古伊里+马赫雷斯是攻坚核心",
+      "必须取胜进攻投入最大化",
+      "需提防奥地利反击与定位球"
+    ],
+    "away_tactic_notes": [
+      "萨比策+鲍姆加特纳中场硬度",
+      "阿瑙托维奇支点策应",
+      "平局即可，控节奏避免失误"
+    ],
+    "home_mentality": [
+      {
+        "title": "背水一战",
+        "desc": "唯有取胜方能晋级，全队带着压力出击",
+        "quote": "我们没有退路。"
+      },
+      {
+        "title": "非洲之雄",
+        "desc": "渴望时隔多届重返淘汰赛舞台",
+        "quote": "为荣誉而战。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "掌控命运",
+        "desc": "平局即出线，心态相对从容",
+        "quote": "做好自己就能晋级。"
+      },
+      {
+        "title": "谨慎克制",
+        "desc": "净胜球优势让球队倾向稳妥",
+        "quote": "别犯致命错误。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      7,
+      9,
+      7,
+      6,
+      7,
+      4
+    ],
+    "away_metrics": [
+      7,
+      6,
+      7,
+      7,
+      7,
+      7
+    ],
+    "home_comeback": 6,
+    "away_comeback": 6,
+    "home_comeback_note": "阿尔及利亚对约旦曾逆转(先丢后赢)，落后时有反扑韧性",
+    "away_comeback_note": "奥地利身体强硬、定位球见长，逆境靠头球与远射搏命",
+    "home_scorers": [
+      {
+        "name": "古伊里",
+        "prob": 40
+      },
+      {
+        "name": "马赫雷斯",
+        "prob": 33
+      },
+      {
+        "name": "本布瓦利",
+        "prob": 25
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "阿瑙托维奇",
+        "prob": 36
+      },
+      {
+        "name": "鲍姆加特纳",
+        "prob": 30
+      },
+      {
+        "name": "格雷戈里奇",
+        "prob": 24
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "阿根廷",
+        "flag": "🇦🇷",
+        "p": 2,
+        "w": 2,
+        "d": 0,
+        "l": 0,
+        "gf": 5,
+        "ga": 0,
+        "gd": 5,
+        "pts": 6
+      },
+      {
+        "team": "奥地利",
+        "flag": "🇦🇹",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 3,
+        "ga": 3,
+        "gd": 0,
+        "pts": 3
+      },
+      {
+        "team": "阿尔及利亚",
+        "flag": "🇩🇿",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 2,
+        "ga": 4,
+        "gd": -2,
+        "pts": 3
+      },
+      {
+        "team": "约旦",
+        "flag": "🇯🇴",
+        "p": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 2,
+        "ga": 5,
+        "gd": -3,
+        "pts": 0
+      }
+    ],
+    "over25": 48,
+    "over35": 22,
+    "away_score_prob": 52,
+    "handicap": 50,
+    "handicap_label": "平手(阿必须赢 vs 奥平局即可)，分歧明显",
+    "likely_scores": [
+      {
+        "score": "1-1",
+        "prob": 15
+      },
+      {
+        "score": "1-0",
+        "prob": 13
+      },
+      {
+        "score": "2-1",
+        "prob": 12
+      },
+      {
+        "score": "0-1",
+        "prob": 10
+      }
+    ],
+    "home_risks": [
+      "求胜压上后被奥地利反击/定位球反制",
+      "把握机会能力不稳，易久攻不下"
+    ],
+    "away_risks": [
+      "消极防守易陷被动，平局心态可能保守失分",
+      "面对必须取胜的对手承压能力受考验"
+    ],
+    "verdict_rec": "出线生死战，阿必须赢、奥平局即可，节奏纠缠进球数偏少，1-2球",
+    "verdict_score": "1-1",
+    "verdict_stars": 3,
+    "verdict_logic": [
+      "阿尔及利亚净胜球落后须取胜，进攻更主动",
+      "奥地利平局即出线，倾向稳守反击",
+      "心态错位下平局/一球小胜概率高，可关注小球与互有进球"
+    ]
+  },
+  {
+    "home_flag": "🇭🇷",
+    "home_name": "克罗地亚",
+    "home_prev": "1-0 ✅ 胜巴拿马",
+    "home_prev2": "2-4 ❌ 负英格兰",
+    "home_pts": 3,
+    "away_flag": "🇬🇭",
+    "away_name": "加纳",
+    "away_prev": "0-0 🤝 平英格兰",
+    "away_prev2": "1-0 ✅ 胜巴拿马",
+    "away_pts": 4,
+    "match_group": "L组 · 第3轮（末轮·出线生死战 / 加纳平即出线，克罗地亚必须取胜）",
+    "match_date": "2026-06-27 周六 · 17:00(东部) / 北京28日05:00",
+    "match_venue": "林肯金融球场 · 费城",
+    "h_poss": 58,
+    "h_shots": 15,
+    "h_sot": 5,
+    "h_bc": 3,
+    "h_xg": 1.4,
+    "h_goals": 1,
+    "h_xga": 0.6,
+    "h_oshots": 7,
+    "h_osot": 2,
+    "a_poss": 45,
+    "a_shots": 9,
+    "a_sot": 2,
+    "a_bc": 2,
+    "a_xg": 0.8,
+    "a_goals": 0,
+    "a_xga": 0.7,
+    "a_oshots": 11,
+    "a_osot": 3,
+    "h2_poss": 56,
+    "h2_shots": 16,
+    "h2_sot": 6,
+    "h2_bc": 3,
+    "h2_xg": 1.9,
+    "h2_goals": 2,
+    "h2_xga": 2.5,
+    "h2_oshots": 18,
+    "h2_osot": 8,
+    "a2_poss": 47,
+    "a2_shots": 12,
+    "a2_sot": 4,
+    "a2_bc": 3,
+    "a2_xg": 1.3,
+    "a2_goals": 1,
+    "a2_xga": 0.9,
+    "a2_oshots": 10,
+    "a2_osot": 3,
+    "home_prob": 44,
+    "draw_prob": 28,
+    "home_odds": "2.15",
+    "draw_odds": "3.20",
+    "away_odds": "3.40",
+    "home_form": "4-3-3",
+    "away_form": "4-2-3-1",
+    "home_strategy": "莫德里奇坐镇中场掌控，必须取胜出线，全力进攻但需防加纳反击",
+    "away_strategy": "平局即出线，预计稳守反击+库杜斯爆点，控节奏消耗克罗地亚",
+    "home_tactics": [
+      "中场控制",
+      "边路传中",
+      "定位球"
+    ],
+    "away_tactics": [
+      "稳守反击",
+      "个人能力",
+      "高位逼抢"
+    ],
+    "home_tactic_notes": [
+      "莫德里奇+科瓦契奇中场组织",
+      "佩里西奇/边卫传中找中锋",
+      "急于求成需防身后空间"
+    ],
+    "away_tactic_notes": [
+      "库杜斯持球突破是反击发起点",
+      "塞梅尼奥速度冲击克防线",
+      "全队回收保平即可晋级"
+    ],
+    "home_mentality": [
+      {
+        "title": "老兵不死",
+        "desc": "黄金一代渴望再进淘汰赛，莫德里奇压阵",
+        "quote": "我们还想走得更远。"
+      },
+      {
+        "title": "必胜决心",
+        "desc": "唯有取胜方能晋级，斗志被彻底激发",
+        "quote": "拿下这场，别无选择。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "把握良机",
+        "desc": "平局即出线，黑色之星嗅到历史机会",
+        "quote": "守住就能晋级。"
+      },
+      {
+        "title": "无畏冲击",
+        "desc": "库杜斯带队相信能爆冷掀翻强敌",
+        "quote": "我们什么都不怕。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      7,
+      9,
+      7,
+      7,
+      8,
+      4
+    ],
+    "away_metrics": [
+      7,
+      6,
+      7,
+      7,
+      7,
+      7
+    ],
+    "home_comeback": 7,
+    "away_comeback": 6,
+    "home_comeback_note": "克罗地亚大赛韧性极强，加时与逆境作战经验丰富",
+    "away_comeback_note": "加纳靠库杜斯个人能力可瞬间逆转，但稳定性一般",
+    "home_scorers": [
+      {
+        "name": "克拉马里奇",
+        "prob": 38
+      },
+      {
+        "name": "布迪米尔",
+        "prob": 30
+      },
+      {
+        "name": "莫德里奇",
+        "prob": 22
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "库杜斯",
+        "prob": 38
+      },
+      {
+        "name": "塞梅尼奥",
+        "prob": 30
+      },
+      {
+        "name": "J·阿尤",
+        "prob": 24
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "英格兰",
+        "flag": "🏴",
+        "p": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 4,
+        "ga": 2,
+        "gd": 2,
+        "pts": 4
+      },
+      {
+        "team": "加纳",
+        "flag": "🇬🇭",
+        "p": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 0,
+        "gd": 1,
+        "pts": 4
+      },
+      {
+        "team": "克罗地亚",
+        "flag": "🇭🇷",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 3,
+        "ga": 4,
+        "gd": -1,
+        "pts": 3
+      },
+      {
+        "team": "巴拿马",
+        "flag": "🇵🇦",
+        "p": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 0,
+        "ga": 2,
+        "gd": -2,
+        "pts": 0
+      }
+    ],
+    "over25": 46,
+    "over35": 20,
+    "away_score_prob": 48,
+    "handicap": 58,
+    "handicap_label": "克罗地亚让平半/半球(主控+必须赢)",
+    "likely_scores": [
+      {
+        "score": "1-0",
+        "prob": 16
+      },
+      {
+        "score": "1-1",
+        "prob": 14
+      },
+      {
+        "score": "2-1",
+        "prob": 12
+      },
+      {
+        "score": "2-0",
+        "prob": 10
+      }
+    ],
+    "home_risks": [
+      "急攻被库杜斯/塞梅尼奥反击打身后",
+      "中场年龄偏大，节奏过快后段体能存隐忧"
+    ],
+    "away_risks": [
+      "一味死守易被克罗地亚定位球与传中攻破",
+      "进攻终结依赖库杜斯个人，火力点单一"
+    ],
+    "verdict_rec": "克罗地亚主控且必须取胜，看好其小胜，比分1-0/2-1，进球数偏少",
+    "verdict_score": "1-0",
+    "verdict_stars": 3,
+    "verdict_logic": [
+      "克罗地亚控球与中场质量占优，求胜欲望更强",
+      "加纳平局即出线，倾向稳守反击使比赛偏沉闷",
+      "克罗地亚一球小胜或纠缠平局，可关注小球"
+    ]
+  },
+  {
+    "home_flag": "🇵🇦",
+    "home_name": "巴拿马",
+    "home_prev": "0-1 ❌ 负克罗地亚",
+    "home_prev2": "0-1 ❌ 负加纳",
+    "home_pts": 0,
+    "away_flag": "🏴",
+    "away_name": "英格兰",
+    "away_prev": "0-0 🤝 平加纳",
+    "away_prev2": "4-2 ✅ 胜克罗地亚",
+    "away_pts": 4,
+    "match_group": "L组 · 第3轮（末轮 / 巴拿马已出局，英格兰胜或平即锁头名）",
+    "match_date": "2026-06-27 周六 · 17:00(东部) / 北京28日05:00",
+    "match_venue": "大都会人寿体育场 · 东卢瑟福(纽约/新泽西)",
+    "h_poss": 40,
+    "h_shots": 8,
+    "h_sot": 2,
+    "h_bc": 1,
+    "h_xg": 0.7,
+    "h_goals": 0,
+    "h_xga": 1.4,
+    "h_oshots": 15,
+    "h_osot": 5,
+    "a_poss": 60,
+    "a_shots": 12,
+    "a_sot": 3,
+    "a_bc": 2,
+    "a_xg": 0.9,
+    "a_goals": 0,
+    "a_xga": 0.5,
+    "a_oshots": 9,
+    "a_osot": 2,
+    "h2_poss": 42,
+    "h2_shots": 9,
+    "h2_sot": 3,
+    "h2_bc": 2,
+    "h2_xg": 0.9,
+    "h2_goals": 0,
+    "h2_xga": 1.1,
+    "h2_oshots": 11,
+    "h2_osot": 4,
+    "a2_poss": 58,
+    "a2_shots": 18,
+    "a2_sot": 8,
+    "a2_bc": 5,
+    "a2_xg": 2.8,
+    "a2_goals": 4,
+    "a2_xga": 1.6,
+    "a2_oshots": 13,
+    "a2_osot": 6,
+    "home_prob": 14,
+    "draw_prob": 24,
+    "home_odds": "6.50",
+    "draw_odds": "3.80",
+    "away_odds": "1.45",
+    "home_form": "4-5-1",
+    "away_form": "4-2-3-1",
+    "home_strategy": "已出局但为荣誉与主帅而战，密集防守+反击搏一个好结果",
+    "away_strategy": "胜或平即头名，预计轮换部分主力，控球渗透寻找破门",
+    "home_tactics": [
+      "稳守反击",
+      "密集防守",
+      "定位球"
+    ],
+    "away_tactics": [
+      "中场控制",
+      "边路突击",
+      "高位逼抢"
+    ],
+    "home_tactic_notes": [
+      "全线退守压缩英格兰空间",
+      "卡拉斯基亚组织为数不多的反击",
+      "拼定位球争取冷门"
+    ],
+    "away_tactic_notes": [
+      "贝林厄姆+赖斯掌控中场",
+      "萨卡/福登边路一对一",
+      "凯恩支点+前插终结"
+    ],
+    "home_mentality": [
+      {
+        "title": "荣誉之战",
+        "desc": "虽已出局仍想留下尊严的一战",
+        "quote": "为国旗踢满最后一场。"
+      },
+      {
+        "title": "搏冷信念",
+        "desc": "面对豪门渴望制造惊喜",
+        "quote": "足球什么皆有可能。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "稳中求胜",
+        "desc": "胜平即头名，掌控比赛即可",
+        "quote": "拿下小组第一。"
+      },
+      {
+        "title": "轮换蓄力",
+        "desc": "为淘汰赛保存体能，给替补机会",
+        "quote": "保持状态，避免伤病。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      4,
+      6,
+      4,
+      6,
+      6,
+      8
+    ],
+    "away_metrics": [
+      8,
+      6,
+      8,
+      8,
+      8,
+      7
+    ],
+    "home_comeback": 4,
+    "away_comeback": 8,
+    "home_comeback_note": "实力有限，落后后翻盘概率低，主打防守不崩",
+    "away_comeback_note": "英格兰阵容深度顶级，落后随时凭凯恩/贝林厄姆扳回",
+    "home_scorers": [
+      {
+        "name": "法哈多",
+        "prob": 24
+      },
+      {
+        "name": "卡拉斯基亚",
+        "prob": 20
+      },
+      {
+        "name": "巴尔塞纳斯",
+        "prob": 16
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "凯恩",
+        "prob": 50
+      },
+      {
+        "name": "贝林厄姆",
+        "prob": 34
+      },
+      {
+        "name": "萨卡",
+        "prob": 28
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "英格兰",
+        "flag": "🏴",
+        "p": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 4,
+        "ga": 2,
+        "gd": 2,
+        "pts": 4
+      },
+      {
+        "team": "加纳",
+        "flag": "🇬🇭",
+        "p": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 0,
+        "gd": 1,
+        "pts": 4
+      },
+      {
+        "team": "克罗地亚",
+        "flag": "🇭🇷",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 3,
+        "ga": 4,
+        "gd": -1,
+        "pts": 3
+      },
+      {
+        "team": "巴拿马",
+        "flag": "🇵🇦",
+        "p": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 0,
+        "ga": 2,
+        "gd": -2,
+        "pts": 0
+      }
+    ],
+    "over25": 50,
+    "over35": 24,
+    "away_score_prob": 32,
+    "handicap": 70,
+    "handicap_label": "英格兰让一球/一球半(实力悬殊)",
+    "likely_scores": [
+      {
+        "score": "0-2",
+        "prob": 18
+      },
+      {
+        "score": "0-1",
+        "prob": 16
+      },
+      {
+        "score": "0-3",
+        "prob": 11
+      },
+      {
+        "score": "1-2",
+        "prob": 9
+      }
+    ],
+    "home_risks": [
+      "实力差距大，长时间被压制易丢球",
+      "反击人手不足，难形成持续威胁"
+    ],
+    "away_risks": [
+      "轮换+提前出线易松懈，进攻效率打折",
+      "急于取胜不下反被巴拿马拖入闷局"
+    ],
+    "verdict_rec": "实力悬殊英格兰掌控，看好其零封小胜/中胜，2球差，让球可信",
+    "verdict_score": "0-2",
+    "verdict_stars": 3,
+    "verdict_logic": [
+      "英格兰整体实力碾压，胜平即头名动力充足",
+      "巴拿马已出局退守，进球乏力",
+      "英格兰多为1-2球净胜，可关注英格兰零封"
+    ]
+  },
+  {
+    "home_flag": "🇯🇴",
+    "home_name": "约旦",
+    "home_prev": "1-2 ❌ 负阿尔及利亚",
+    "home_prev2": "1-3 ❌ 负奥地利",
+    "home_pts": 0,
+    "away_flag": "🇦🇷",
+    "away_name": "阿根廷",
+    "away_prev": "2-0 ✅ 胜奥地利",
+    "away_prev2": "3-0 ✅ 胜阿尔及利亚",
+    "away_pts": 6,
+    "match_group": "J组 · 第3轮（末轮 / 约旦已出局，阿根廷已锁头名预计轮换）",
+    "match_date": "2026-06-27 周六 · 22:00(东部) / 北京28日10:00",
+    "match_venue": "AT&T体育场 · 阿灵顿(达拉斯)",
+    "h_poss": 42,
+    "h_shots": 10,
+    "h_sot": 4,
+    "h_bc": 2,
+    "h_xg": 1.1,
+    "h_goals": 1,
+    "h_xga": 1.6,
+    "h_oshots": 13,
+    "h_osot": 5,
+    "a_poss": 63,
+    "a_shots": 17,
+    "a_sot": 8,
+    "a_bc": 5,
+    "a_xg": 2.4,
+    "a_goals": 2,
+    "a_xga": 0.5,
+    "a_oshots": 6,
+    "a_osot": 2,
+    "h2_poss": 40,
+    "h2_shots": 8,
+    "h2_sot": 3,
+    "h2_bc": 1,
+    "h2_xg": 0.9,
+    "h2_goals": 1,
+    "h2_xga": 2.3,
+    "h2_oshots": 16,
+    "h2_osot": 7,
+    "a2_poss": 66,
+    "a2_shots": 20,
+    "a2_sot": 10,
+    "a2_bc": 6,
+    "a2_xg": 3.1,
+    "a2_goals": 3,
+    "a2_xga": 0.3,
+    "a2_oshots": 5,
+    "a2_osot": 1,
+    "home_prob": 13,
+    "draw_prob": 23,
+    "home_odds": "7.00",
+    "draw_odds": "4.20",
+    "away_odds": "1.40",
+    "home_form": "4-5-1",
+    "away_form": "4-3-3",
+    "home_strategy": "已出局为荣誉而战，密集防守+塔马里反击力争首胜或进球",
+    "away_strategy": "头名锁定，预计大幅轮换、保护梅西与主力，给替补练兵",
+    "home_tactics": [
+      "密集防守",
+      "稳守反击",
+      "定位球"
+    ],
+    "away_tactics": [
+      "中场控制",
+      "个人能力",
+      "快速反击"
+    ],
+    "home_tactic_notes": [
+      "全员退防限制阿根廷渗透",
+      "塔马里持球反击是唯一爆点",
+      "拼定位球争取入球"
+    ],
+    "away_tactic_notes": [
+      "即便轮换中场控球依旧占优",
+      "劳塔罗/阿尔瓦雷斯轮换终结",
+      "梅西若登场仍能定海神针"
+    ],
+    "home_mentality": [
+      {
+        "title": "荣誉收官",
+        "desc": "已出局但盼以好表现告别世界杯",
+        "quote": "踢出我们的水平。"
+      },
+      {
+        "title": "无惧豪门",
+        "desc": "面对卫冕冠军渴望制造话题",
+        "quote": "拼到最后一秒。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "从容轮换",
+        "desc": "头名在手，无需冒险，重在保护主力",
+        "quote": "保持健康进淘汰赛。"
+      },
+      {
+        "title": "替补练兵",
+        "desc": "给轮换球员机会，维持竞技状态",
+        "quote": "每个人都要做好准备。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      4,
+      6,
+      4,
+      6,
+      6,
+      8
+    ],
+    "away_metrics": [
+      9,
+      4,
+      9,
+      8,
+      8,
+      9
+    ],
+    "home_comeback": 4,
+    "away_comeback": 8,
+    "home_comeback_note": "实力有限，落后翻盘极难，主打不大比分失利",
+    "away_comeback_note": "阿根廷即便轮换个人能力仍碾压，逆境随时破局",
+    "home_scorers": [
+      {
+        "name": "塔马里",
+        "prob": 30
+      },
+      {
+        "name": "阿尔-纳伊马特",
+        "prob": 22
+      },
+      {
+        "name": "阿尔-拉什丹",
+        "prob": 16
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "劳塔罗·马丁内斯",
+        "prob": 42
+      },
+      {
+        "name": "J·阿尔瓦雷斯",
+        "prob": 34
+      },
+      {
+        "name": "梅西",
+        "prob": 30
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "阿根廷",
+        "flag": "🇦🇷",
+        "p": 2,
+        "w": 2,
+        "d": 0,
+        "l": 0,
+        "gf": 5,
+        "ga": 0,
+        "gd": 5,
+        "pts": 6
+      },
+      {
+        "team": "奥地利",
+        "flag": "🇦🇹",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 3,
+        "ga": 3,
+        "gd": 0,
+        "pts": 3
+      },
+      {
+        "team": "阿尔及利亚",
+        "flag": "🇩🇿",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 2,
+        "ga": 4,
+        "gd": -2,
+        "pts": 3
+      },
+      {
+        "team": "约旦",
+        "flag": "🇯🇴",
+        "p": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 2,
+        "ga": 5,
+        "gd": -3,
+        "pts": 0
+      }
+    ],
+    "over25": 52,
+    "over35": 26,
+    "away_score_prob": 30,
+    "handicap": 68,
+    "handicap_label": "阿根廷让一球/一球半(但轮换或缩水)",
+    "likely_scores": [
+      {
+        "score": "0-2",
+        "prob": 16
+      },
+      {
+        "score": "0-1",
+        "prob": 13
+      },
+      {
+        "score": "1-2",
+        "prob": 12
+      },
+      {
+        "score": "0-3",
+        "prob": 10
+      }
+    ],
+    "home_risks": [
+      "实力差距巨大，易被多球击穿",
+      "反击资源有限难持续威胁"
+    ],
+    "away_risks": [
+      "大轮换+无欲无求或致配合生疏",
+      "替补阵容防守专注度可能下降"
+    ],
+    "verdict_rec": "阿根廷轮换但实力仍碾压，看好其小胜/中胜，让球需留意轮换缩水",
+    "verdict_score": "0-2",
+    "verdict_stars": 3,
+    "verdict_logic": [
+      "阿根廷已锁头名预计大轮换，求胜动力下降",
+      "约旦已出局退守，但难挡阿根廷个人能力",
+      "看好阿根廷1-2球净胜，谨防轮换后赢盘不稳"
+    ]
+  },
+  {
+    "home_flag": "🇨🇩",
+    "home_name": "刚果(金)",
+    "home_prev": "0-1 ❌ 负哥伦比亚",
+    "home_prev2": "1-1 🤝 平葡萄牙",
+    "home_pts": 1,
+    "away_flag": "🇺🇿",
+    "away_name": "乌兹别克斯坦",
+    "away_prev": "0-5 ❌ 负葡萄牙",
+    "away_prev2": "1-3 ❌ 负哥伦比亚",
+    "away_pts": 0,
+    "match_group": "K组 · 第3轮（末轮 / 刚果(金)取胜或可争最佳第三，乌兹已出局）",
+    "match_date": "2026-06-27 周六 · 19:30(东部) / 北京28日07:30",
+    "match_venue": "梅赛德斯-奔驰体育场 · 亚特兰大",
+    "h_poss": 46,
+    "h_shots": 10,
+    "h_sot": 3,
+    "h_bc": 2,
+    "h_xg": 0.9,
+    "h_goals": 0,
+    "h_xga": 1.6,
+    "h_oshots": 14,
+    "h_osot": 5,
+    "a_poss": 36,
+    "a_shots": 6,
+    "a_sot": 2,
+    "a_bc": 1,
+    "a_xg": 0.5,
+    "a_goals": 0,
+    "a_xga": 3.6,
+    "a_oshots": 22,
+    "a_osot": 11,
+    "h2_poss": 44,
+    "h2_shots": 12,
+    "h2_sot": 5,
+    "h2_bc": 3,
+    "h2_xg": 1.3,
+    "h2_goals": 1,
+    "h2_xga": 1.4,
+    "h2_oshots": 16,
+    "h2_osot": 5,
+    "a2_poss": 40,
+    "a2_shots": 11,
+    "a2_sot": 4,
+    "a2_bc": 2,
+    "a2_xg": 1.2,
+    "a2_goals": 1,
+    "a2_xga": 2.7,
+    "a2_oshots": 17,
+    "a2_osot": 8,
+    "home_prob": 47,
+    "draw_prob": 28,
+    "home_odds": "2.00",
+    "draw_odds": "3.20",
+    "away_odds": "3.70",
+    "home_form": "4-3-3",
+    "away_form": "4-4-2",
+    "home_strategy": "取胜方有望以最佳第三晋级，全力争胜并尽量扩大净胜球",
+    "away_strategy": "已出局，力争收官打出尊严，避免再遭大比分",
+    "home_tactics": [
+      "边路突击",
+      "高位逼抢",
+      "快速反击"
+    ],
+    "away_tactics": [
+      "稳守反击",
+      "中场控制",
+      "定位球"
+    ],
+    "home_tactic_notes": [
+      "维萨支点+边路速度冲击",
+      "需取胜并多进球争最佳第三",
+      "巴卡约科中场推进"
+    ],
+    "away_tactic_notes": [
+      "收缩防线减少失球",
+      "绍穆罗多夫反击支点",
+      "拼定位球争入球"
+    ],
+    "home_mentality": [
+      {
+        "title": "晋级在望",
+        "desc": "取胜有望历史性闯入淘汰赛，动力十足",
+        "quote": "为历史而战。"
+      },
+      {
+        "title": "首球激励",
+        "desc": "已打入队史世界杯首球，信心提振",
+        "quote": "我们能做得更多。"
+      }
+    ],
+    "away_mentality": [
+      {
+        "title": "荣誉收官",
+        "desc": "已出局盼以体面表现告别首届世界杯",
+        "quote": "为球迷拼到最后。"
+      },
+      {
+        "title": "止血求稳",
+        "desc": "经历0-5惨败后重在重整旗鼓",
+        "quote": "找回我们的节奏。"
+      }
+    ],
+    "metric_labels": [
+      "当前信心",
+      "求胜紧迫",
+      "进攻实力",
+      "防守组织",
+      "战术执行",
+      "无压力感"
+    ],
+    "home_metrics": [
+      7,
+      8,
+      7,
+      6,
+      6,
+      5
+    ],
+    "away_metrics": [
+      5,
+      6,
+      5,
+      5,
+      6,
+      7
+    ],
+    "home_comeback": 6,
+    "away_comeback": 4,
+    "home_comeback_note": "曾逼平葡萄牙，落后时有反扑斗志与身体优势",
+    "away_comeback_note": "实力有限，落后后翻盘概率低",
+    "home_scorers": [
+      {
+        "name": "维萨",
+        "prob": 40
+      },
+      {
+        "name": "巴卡约科",
+        "prob": 30
+      },
+      {
+        "name": "马辛巴",
+        "prob": 24
+      }
+    ],
+    "away_scorers": [
+      {
+        "name": "绍穆罗多夫",
+        "prob": 32
+      },
+      {
+        "name": "乌鲁诺夫",
+        "prob": 24
+      },
+      {
+        "name": "哈姆罗别科夫",
+        "prob": 18
+      }
+    ],
+    "group_standings": [
+      {
+        "team": "哥伦比亚",
+        "flag": "🇨🇴",
+        "p": 2,
+        "w": 2,
+        "d": 0,
+        "l": 0,
+        "gf": 4,
+        "ga": 1,
+        "gd": 3,
+        "pts": 6
+      },
+      {
+        "team": "葡萄牙",
+        "flag": "🇵🇹",
+        "p": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 6,
+        "ga": 1,
+        "gd": 5,
+        "pts": 4
+      },
+      {
+        "team": "刚果(金)",
+        "flag": "🇨🇩",
+        "p": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 1,
+        "ga": 2,
+        "gd": -1,
+        "pts": 1
+      },
+      {
+        "team": "乌兹别克斯坦",
+        "flag": "🇺🇿",
+        "p": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 1,
+        "ga": 8,
+        "gd": -7,
+        "pts": 0
+      }
+    ],
+    "over25": 48,
+    "over35": 22,
+    "away_score_prob": 42,
+    "handicap": 60,
+    "handicap_label": "刚果(金)让平半/半球(主动求胜)",
+    "likely_scores": [
+      {
+        "score": "2-0",
+        "prob": 15
+      },
+      {
+        "score": "1-0",
+        "prob": 14
+      },
+      {
+        "score": "2-1",
+        "prob": 12
+      },
+      {
+        "score": "1-1",
+        "prob": 11
+      }
+    ],
+    "home_risks": [
+      "急于取胜并扩大净胜球，后防易被反击",
+      "把握机会能力一般，恐久攻不下"
+    ],
+    "away_risks": [
+      "防守强度不足，连续失球风险高",
+      "反击资源有限难给对手压力"
+    ],
+    "verdict_rec": "刚果(金)求胜动力足且实力占优，看好其小胜/中胜，1-2球净胜",
+    "verdict_score": "2-0",
+    "verdict_stars": 3,
+    "verdict_logic": [
+      "刚果(金)取胜有望争最佳第三，动力与实力双占优",
+      "乌兹别克斯坦已出局且防守脆弱",
+      "看好刚果(金)零封或一两球净胜，可关注其胜+小球转大球的弹性"
+    ]
+  }
+]

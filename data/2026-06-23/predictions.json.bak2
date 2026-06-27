@@ -1,0 +1,818 @@
+[
+ {
+  "home_flag": "🇵🇹",
+  "home_name": "葡萄牙",
+  "home_prev": "1-1 ⚪ 平刚果(金)",
+  "home_pts": 1,
+  "away_flag": "🇺🇿",
+  "away_name": "乌兹别克斯坦",
+  "away_prev": "1-3 ❌ 负哥伦比亚",
+  "away_pts": 0,
+  "match_group": "K组 第2轮",
+  "match_date": "6月24日 · 北京时间 01:00（休斯顿当地23日12:00）",
+  "match_venue": "休斯顿 NRG Stadium",
+  "h_poss": 64,
+  "h_shots": 16,
+  "h_sot": 5,
+  "h_bc": 3,
+  "h_xg": 1.8,
+  "h_goals": 1,
+  "h_xga": 0.9,
+  "h_oshots": 8,
+  "h_osot": 3,
+  "a_poss": 42,
+  "a_shots": 9,
+  "a_sot": 3,
+  "a_bc": 1,
+  "a_xg": 0.9,
+  "a_goals": 1,
+  "a_xga": 2.2,
+  "a_oshots": 15,
+  "a_osot": 6,
+  "home_prob": 75,
+  "draw_prob": 16,
+  "home_odds": "-360",
+  "draw_odds": "+360",
+  "away_odds": "+1100",
+  "home_form": "4-2-3-1",
+  "away_form": "3-4-2-1",
+  "home_strategy": "控球压上、加快终结，必须取胜重夺主动",
+  "away_strategy": "密集防守、伺机反击，力争爆冷或抢分",
+  "home_tactics": [
+   "控球渗透",
+   "边路传中",
+   "前场逼抢"
+  ],
+  "away_tactics": [
+   "低位防守",
+   "快速反击",
+   "舒穆罗多夫支点"
+  ],
+  "home_mentality": [
+   {
+    "title": "急需回应",
+    "desc": "首战1-1被刚果逼平，必须拿下小组弱旅",
+    "quote": "这场必须赢回主动权。"
+   },
+   {
+    "title": "夺冠心气",
+    "desc": "黄金一代不容再失分",
+    "quote": "踢出我们的统治力。"
+   }
+  ],
+  "away_mentality": [
+   {
+    "title": "初登世界杯",
+    "desc": "队史首次参赛，放手一搏",
+    "quote": "享受比赛、无所畏惧。"
+   },
+   {
+    "title": "搏冷门",
+    "desc": "面对强敌博一个结果",
+    "quote": "守住，找机会偷袭。"
+   }
+  ],
+  "metric_labels": [
+   "当前信心",
+   "求胜紧迫",
+   "进攻实力",
+   "防守组织",
+   "战术执行",
+   "无压力感"
+  ],
+  "home_metrics": [
+   7,
+   9,
+   9,
+   6,
+   8,
+   5
+  ],
+  "away_metrics": [
+   5,
+   7,
+   5,
+   7,
+   6,
+   8
+  ],
+  "home_comeback": 8,
+  "home_comeback_note": "锋线深度足，落后后有充足反扑手段。",
+  "away_comeback": 4,
+  "away_comeback_note": "进攻乏力，落后后难以翻盘。",
+  "home_scorers": [
+   {
+    "name": "C罗",
+    "prob": 34
+   },
+   {
+    "name": "B费",
+    "prob": 24
+   },
+   {
+    "name": "莱昂",
+    "prob": 20
+   }
+  ],
+  "away_scorers": [
+   {
+    "name": "舒穆罗多夫",
+    "prob": 18
+   },
+   {
+    "name": "法伊祖拉耶夫",
+    "prob": 12
+   }
+  ],
+  "group_standings": [
+   {
+    "team": "哥伦比亚",
+    "flag": "🇨🇴",
+    "p": 1,
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "gf": 3,
+    "ga": 1,
+    "gd": 2,
+    "pts": 3
+   },
+   {
+    "team": "葡萄牙",
+    "flag": "🇵🇹",
+    "p": 1,
+    "w": 0,
+    "d": 1,
+    "l": 0,
+    "gf": 1,
+    "ga": 1,
+    "gd": 0,
+    "pts": 1
+   },
+   {
+    "team": "刚果(金)",
+    "flag": "🇨🇩",
+    "p": 1,
+    "w": 0,
+    "d": 1,
+    "l": 0,
+    "gf": 1,
+    "ga": 1,
+    "gd": 0,
+    "pts": 1
+   },
+   {
+    "team": "乌兹别克斯坦",
+    "flag": "🇺🇿",
+    "p": 1,
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "gf": 1,
+    "ga": 3,
+    "gd": -2,
+    "pts": 0
+   }
+  ],
+  "over25": 60,
+  "over35": 38,
+  "away_score_prob": 38,
+  "handicap": 58,
+  "handicap_label": "葡萄牙 -1.5",
+  "likely_scores": [
+   "3-1",
+   "2-0",
+   "3-0",
+   "2-1"
+  ],
+  "home_risks": [
+   "首战终结低效，若再卡壳易陷僵局",
+   "压上后被反击偷袭"
+  ],
+  "away_risks": [
+   "实力差距明显、防线承压久",
+   "终结效率低、反击机会有限"
+  ],
+  "verdict_rec": "葡萄牙胜 · 过3.5",
+  "verdict_score": "3-1",
+  "verdict_stars": 4,
+  "verdict_logic": [
+   "葡萄牙纸面实力与求胜动机均占绝对上风",
+   "乌兹别克斯坦首战被零封后防线脆弱、易再丢球",
+   "葡萄牙急需大胜刷新净胜球，进球数有保障"
+  ]
+ },
+ {
+  "home_flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+  "home_name": "英格兰",
+  "home_prev": "4-2 ✅ 胜克罗地亚",
+  "home_pts": 3,
+  "away_flag": "🇬🇭",
+  "away_name": "加纳",
+  "away_prev": "1-0 ✅ 胜巴拿马",
+  "away_pts": 3,
+  "match_group": "L组 第2轮 (头名之争)",
+  "match_date": "6月24日 · 北京时间 04:00（福克斯堡当地23日16:00）",
+  "match_venue": "福克斯堡 Gillette Stadium",
+  "h_poss": 58,
+  "h_shots": 18,
+  "h_sot": 8,
+  "h_bc": 4,
+  "h_xg": 2.8,
+  "h_goals": 4,
+  "h_xga": 1.8,
+  "h_oshots": 12,
+  "h_osot": 5,
+  "a_poss": 52,
+  "a_shots": 12,
+  "a_sot": 4,
+  "a_bc": 2,
+  "a_xg": 1.3,
+  "a_goals": 1,
+  "a_xga": 0.6,
+  "a_oshots": 7,
+  "a_osot": 2,
+  "home_prob": 63,
+  "draw_prob": 22,
+  "home_odds": "-220",
+  "draw_odds": "+300",
+  "away_odds": "+650",
+  "home_form": "4-2-3-1",
+  "away_form": "4-3-3",
+  "home_strategy": "凯恩支点、贝林前插，控场争小组头名",
+  "away_strategy": "快速反击、库杜斯威廉姆斯冲击身后",
+  "home_tactics": [
+   "边路传中",
+   "贝林后插上",
+   "高位控球"
+  ],
+  "away_tactics": [
+   "快速反击",
+   "前场逼抢",
+   "库杜斯持球突破"
+  ],
+  "home_mentality": [
+   {
+    "title": "状态火热",
+    "desc": "首战4球开门红，全队信心十足",
+    "quote": "保持势头、拿下头名。"
+   },
+   {
+    "title": "夺冠预期",
+    "desc": "夺冠热门不容有失",
+    "quote": "继续证明我们的实力。"
+   }
+  ],
+  "away_mentality": [
+   {
+    "title": "黑马气势",
+    "desc": "首胜巴拿马后士气高昂",
+    "quote": "敢于和英格兰对攻。"
+   },
+   {
+    "title": "无惧强敌",
+    "desc": "非洲速度冲击豪门",
+    "quote": "用速度撕开他们。"
+   }
+  ],
+  "metric_labels": [
+   "当前信心",
+   "求胜紧迫",
+   "进攻实力",
+   "防守组织",
+   "战术执行",
+   "无压力感"
+  ],
+  "home_metrics": [
+   9,
+   7,
+   9,
+   6,
+   8,
+   6
+  ],
+  "away_metrics": [
+   7,
+   7,
+   7,
+   7,
+   7,
+   7
+  ],
+  "home_comeback": 8,
+  "home_comeback_note": "进攻火力充沛，落后后翻盘能力强。",
+  "away_comeback": 6,
+  "away_comeback_note": "速度反击型，落后后仍具威胁。",
+  "home_scorers": [
+   {
+    "name": "凯恩",
+    "prob": 36
+   },
+   {
+    "name": "贝林厄姆",
+    "prob": 24
+   },
+   {
+    "name": "福登",
+    "prob": 18
+   }
+  ],
+  "away_scorers": [
+   {
+    "name": "库杜斯",
+    "prob": 26
+   },
+   {
+    "name": "I·威廉姆斯",
+    "prob": 20
+   },
+   {
+    "name": "J·阿尤",
+    "prob": 16
+   }
+  ],
+  "group_standings": [
+   {
+    "team": "英格兰",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "p": 1,
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "gf": 4,
+    "ga": 2,
+    "gd": 2,
+    "pts": 3
+   },
+   {
+    "team": "加纳",
+    "flag": "🇬🇭",
+    "p": 1,
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "gf": 1,
+    "ga": 0,
+    "gd": 1,
+    "pts": 3
+   },
+   {
+    "team": "克罗地亚",
+    "flag": "🇭🇷",
+    "p": 1,
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "gf": 2,
+    "ga": 4,
+    "gd": -2,
+    "pts": 0
+   },
+   {
+    "team": "巴拿马",
+    "flag": "🇵🇦",
+    "p": 1,
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "gf": 0,
+    "ga": 1,
+    "gd": -1,
+    "pts": 0
+   }
+  ],
+  "over25": 62,
+  "over35": 34,
+  "away_score_prob": 48,
+  "handicap": 52,
+  "handicap_label": "英格兰 -1",
+  "likely_scores": [
+   "2-1",
+   "2-0",
+   "3-1",
+   "1-1"
+  ],
+  "home_risks": [
+   "首战后防漏2球、防线仍有隐患",
+   "若被加纳速度打身后易失球"
+  ],
+  "away_risks": [
+   "面对强强对话经验与厚度不足",
+   "反击不成易被英格兰控死"
+  ],
+  "verdict_rec": "英格兰胜 · 过2.5",
+  "verdict_score": "2-1",
+  "verdict_stars": 4,
+  "verdict_logic": [
+   "英格兰整体实力与火力明显占优，争小组头名",
+   "加纳速度反击有威胁，英格兰防线首战暴露漏洞",
+   "英格兰应取胜但难零封，双方有望均有进球"
+  ]
+ },
+ {
+  "home_flag": "🇵🇦",
+  "home_name": "巴拿马",
+  "home_prev": "0-1 ❌ 负加纳",
+  "home_pts": 0,
+  "away_flag": "🇭🇷",
+  "away_name": "克罗地亚",
+  "away_prev": "2-4 ❌ 负英格兰",
+  "away_pts": 0,
+  "match_group": "L组 第2轮 (生死战)",
+  "match_date": "6月24日 · 北京时间 07:00（多伦多当地23日19:00）",
+  "match_venue": "多伦多 BMO Field",
+  "h_poss": 44,
+  "h_shots": 8,
+  "h_sot": 2,
+  "h_bc": 1,
+  "h_xg": 0.7,
+  "h_goals": 0,
+  "h_xga": 1.2,
+  "h_oshots": 12,
+  "h_osot": 4,
+  "a_poss": 52,
+  "a_shots": 14,
+  "a_sot": 5,
+  "a_bc": 3,
+  "a_xg": 1.9,
+  "a_goals": 2,
+  "a_xga": 2.6,
+  "a_oshots": 18,
+  "a_osot": 8,
+  "home_prob": 16,
+  "draw_prob": 24,
+  "home_odds": "+600",
+  "draw_odds": "+310",
+  "away_odds": "-200",
+  "home_form": "4-4-2",
+  "away_form": "4-3-3",
+  "home_strategy": "全员退防、定位球与反击搏机会",
+  "away_strategy": "莫德里奇中场控场、必须取胜避免出局",
+  "home_tactics": [
+   "低位铁桶",
+   "定位球争顶",
+   "快速反击"
+  ],
+  "away_tactics": [
+   "中场控球",
+   "两翼齐飞",
+   "前场围抢"
+  ],
+  "home_mentality": [
+   {
+    "title": "背水一战",
+    "desc": "首战告负，再输基本出局",
+    "quote": "拼到最后一刻。"
+   },
+   {
+    "title": "弱旅无畏",
+    "desc": "无包袱放手一搏",
+    "quote": "守住、博一个冷门。"
+   }
+  ],
+  "away_mentality": [
+   {
+    "title": "必须取胜",
+    "desc": "首战意外负英格兰，已无退路",
+    "quote": "这场只能赢。"
+   },
+   {
+    "title": "老将责任",
+    "desc": "黄金一代尾声急需正名",
+    "quote": "用经验掌控比赛。"
+   }
+  ],
+  "metric_labels": [
+   "当前信心",
+   "求胜紧迫",
+   "进攻实力",
+   "防守组织",
+   "战术执行",
+   "无压力感"
+  ],
+  "home_metrics": [
+   5,
+   8,
+   4,
+   7,
+   6,
+   7
+  ],
+  "away_metrics": [
+   6,
+   9,
+   7,
+   5,
+   7,
+   4
+  ],
+  "home_comeback": 4,
+  "home_comeback_note": "进攻乏力，落后后攻坚极难。",
+  "away_comeback": 6,
+  "away_comeback_note": "中场创造力强，落后后能持续施压。",
+  "home_scorers": [
+   {
+    "name": "伊斯梅尔·迪亚斯",
+    "prob": 16
+   },
+   {
+    "name": "卡拉斯基亚",
+    "prob": 12
+   }
+  ],
+  "away_scorers": [
+   {
+    "name": "布迪米尔",
+    "prob": 26
+   },
+   {
+    "name": "克拉马里奇",
+    "prob": 20
+   },
+   {
+    "name": "佩里西奇",
+    "prob": 16
+   }
+  ],
+  "group_standings": [
+   {
+    "team": "英格兰",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "p": 1,
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "gf": 4,
+    "ga": 2,
+    "gd": 2,
+    "pts": 3
+   },
+   {
+    "team": "加纳",
+    "flag": "🇬🇭",
+    "p": 1,
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "gf": 1,
+    "ga": 0,
+    "gd": 1,
+    "pts": 3
+   },
+   {
+    "team": "克罗地亚",
+    "flag": "🇭🇷",
+    "p": 1,
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "gf": 2,
+    "ga": 4,
+    "gd": -2,
+    "pts": 0
+   },
+   {
+    "team": "巴拿马",
+    "flag": "🇵🇦",
+    "p": 1,
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "gf": 0,
+    "ga": 1,
+    "gd": -1,
+    "pts": 0
+   }
+  ],
+  "over25": 48,
+  "over35": 22,
+  "away_score_prob": 78,
+  "handicap": 56,
+  "handicap_label": "克罗地亚 -0.5/-1",
+  "likely_scores": [
+   "0-2",
+   "1-2",
+   "0-1",
+   "1-1"
+  ],
+  "home_risks": [
+   "进攻能力有限、难创造有效机会",
+   "防线被持续围攻易丢球"
+  ],
+  "away_risks": [
+   "后防首战丢4球、稳定性存疑",
+   "急于取胜压上后易被反击"
+  ],
+  "verdict_rec": "克罗地亚胜 · 比分谨慎",
+  "verdict_score": "0-2",
+  "verdict_stars": 3,
+  "verdict_logic": [
+   "克罗地亚中前场实力与必胜动机占优",
+   "巴拿马防守顽强但进攻乏力、难以取分",
+   "克罗地亚应能拿下，但其防线漏洞或让巴拿马进球"
+  ]
+ },
+ {
+  "home_flag": "🇨🇴",
+  "home_name": "哥伦比亚",
+  "home_prev": "3-1 ✅ 胜乌兹别克",
+  "home_pts": 3,
+  "away_flag": "🇨🇩",
+  "away_name": "刚果(金)",
+  "away_prev": "1-1 ⚪ 平葡萄牙",
+  "away_pts": 1,
+  "match_group": "K组 第2轮 (出线关键)",
+  "match_date": "6月24日 · 北京时间 10:00（瓜达拉哈拉当地23日20:00）",
+  "match_venue": "瓜达拉哈拉 Estadio Akron",
+  "h_poss": 58,
+  "h_shots": 15,
+  "h_sot": 6,
+  "h_bc": 3,
+  "h_xg": 2.3,
+  "h_goals": 3,
+  "h_xga": 1.0,
+  "h_oshots": 9,
+  "h_osot": 3,
+  "a_poss": 36,
+  "a_shots": 8,
+  "a_sot": 3,
+  "a_bc": 1,
+  "a_xg": 0.8,
+  "a_goals": 1,
+  "a_xga": 1.6,
+  "a_oshots": 16,
+  "a_osot": 5,
+  "home_prob": 60,
+  "draw_prob": 23,
+  "home_odds": "-195",
+  "draw_odds": "+320",
+  "away_odds": "+600",
+  "home_form": "4-2-3-1",
+  "away_form": "4-4-2",
+  "home_strategy": "控球主导、迪亚斯突击，争取提前锁定出线",
+  "away_strategy": "稳守反击、维萨支点，力争再抢分",
+  "home_tactics": [
+   "控球组织",
+   "迪亚斯边路爆点",
+   "高位逼抢"
+  ],
+  "away_tactics": [
+   "中场密集",
+   "快速反击",
+   "定位球争顶"
+  ],
+  "home_mentality": [
+   {
+    "title": "趁势取分",
+    "desc": "首胜后士气正盛，胜则基本出线",
+    "quote": "拿下就提前晋级。"
+   },
+   {
+    "title": "主场般氛围",
+    "desc": "墨西哥球场南美球迷众多",
+    "quote": "把气势打出来。"
+   }
+  ],
+  "away_mentality": [
+   {
+    "title": "历史突破渴望",
+    "desc": "首战逼平葡萄牙信心大增",
+    "quote": "我们能和任何人掰手腕。"
+   },
+   {
+    "title": "稳中求进",
+    "desc": "拿分即保留出线主动",
+    "quote": "防守扎实、抓住机会。"
+   }
+  ],
+  "metric_labels": [
+   "当前信心",
+   "求胜紧迫",
+   "进攻实力",
+   "防守组织",
+   "战术执行",
+   "无压力感"
+  ],
+  "home_metrics": [
+   8,
+   7,
+   8,
+   7,
+   8,
+   6
+  ],
+  "away_metrics": [
+   7,
+   6,
+   6,
+   7,
+   7,
+   7
+  ],
+  "home_comeback": 7,
+  "home_comeback_note": "技术流中场+迪亚斯，落后后有破密集能力。",
+  "away_comeback": 5,
+  "away_comeback_note": "依赖反击与维萨，落后后攻坚有限。",
+  "home_scorers": [
+   {
+    "name": "路易斯·迪亚斯",
+    "prob": 32
+   },
+   {
+    "name": "杜兰",
+    "prob": 22
+   },
+   {
+    "name": "J罗",
+    "prob": 18
+   }
+  ],
+  "away_scorers": [
+   {
+    "name": "维萨",
+    "prob": 24
+   },
+   {
+    "name": "巴坎布",
+    "prob": 18
+   }
+  ],
+  "group_standings": [
+   {
+    "team": "哥伦比亚",
+    "flag": "🇨🇴",
+    "p": 1,
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "gf": 3,
+    "ga": 1,
+    "gd": 2,
+    "pts": 3
+   },
+   {
+    "team": "葡萄牙",
+    "flag": "🇵🇹",
+    "p": 1,
+    "w": 0,
+    "d": 1,
+    "l": 0,
+    "gf": 1,
+    "ga": 1,
+    "gd": 0,
+    "pts": 1
+   },
+   {
+    "team": "刚果(金)",
+    "flag": "🇨🇩",
+    "p": 1,
+    "w": 0,
+    "d": 1,
+    "l": 0,
+    "gf": 1,
+    "ga": 1,
+    "gd": 0,
+    "pts": 1
+   },
+   {
+    "team": "乌兹别克斯坦",
+    "flag": "🇺🇿",
+    "p": 1,
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "gf": 1,
+    "ga": 3,
+    "gd": -2,
+    "pts": 0
+   }
+  ],
+  "over25": 50,
+  "over35": 24,
+  "away_score_prob": 50,
+  "handicap": 54,
+  "handicap_label": "哥伦比亚 -0.5/-1",
+  "likely_scores": [
+   "2-1",
+   "2-0",
+   "1-0",
+   "1-1"
+  ],
+  "home_risks": [
+   "若迪亚斯被锁死、进攻略显单一",
+   "急于求胜后防压上易遭反击"
+  ],
+  "away_risks": [
+   "控球与场面被压制、长时间挨打",
+   "锋无力、反击转化率低"
+  ],
+  "verdict_rec": "哥伦比亚小胜 · 比分谨慎",
+  "verdict_score": "2-1",
+  "verdict_stars": 3,
+  "verdict_logic": [
+   "哥伦比亚技术与状态占优，主场氛围加成",
+   "刚果(金)防守组织出色、逼平过葡萄牙不可小觑",
+   "哥伦比亚应能取胜，但刚果有望破门、比分不会悬殊"
+  ]
+ }
+]

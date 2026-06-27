@@ -175,6 +175,30 @@ def render_detail(p, actual, scored):
        f'<div style="font-size:34px;font-weight:700;color:#0F6E56">{esc(g("verdict_score","-"))}</div>'
        f'<div style="font-size:12px;color:#0F6E56">把握度 {stars(g("verdict_stars",0))}</div></div></div></div>')
 
+    # 两队本届全部比赛（精简内嵌 + 链接到完整战绩页）
+    try:
+        from core import team_history as _TH
+        st.subheader("📋 两队本届全部比赛")
+        _cc = st.columns(2)
+        for _col, _side in ((_cc[0], "home"), (_cc[1], "away")):
+            _nm = g(f"{_side}_name", "")
+            with _col:
+                st.markdown(f"**{g(f'{_side}_flag', '')} {esc(_nm)}**")
+                _rows = _TH.team_matches(_nm)
+                if not _rows:
+                    st.caption("（暂无更早比赛数据）")
+                for _r in _rows:
+                    _res = _r["actual"] or "待赛"
+                    _oc = _r["outcome"] or ""
+                    st.markdown(f"- {_r['date']} vs {esc(_r['opponent'])}："
+                                f"预测 {esc(_r['pred'])} · 实际 **{esc(_res)}** {_oc}")
+                if st.button(f"查看 {esc(_nm)} 全部比赛 →", key=f"th_{_side}", use_container_width=True):
+                    st.session_state["team_pick"] = _nm
+                    st.query_params["team"] = _nm
+                    st.switch_page("pages/5_球队战绩.py")
+    except Exception as _e:
+        st.caption(f"球队战绩暂不可用：{_e}")
+
     st.caption("⚠ 分析由模型基于公开数据自动生成，仅供参考。体育赛事充满不确定性，请理性博彩，量力而行。")
 
 

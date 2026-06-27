@@ -5,7 +5,7 @@
 import pandas as pd
 import streamlit as st
 
-from core import champion, view
+from core import champion, view, standings
 
 st.set_page_config(page_title="夺冠专题", page_icon="🏆", layout="wide")
 view.inject_css()
@@ -53,7 +53,63 @@ for i, t in enumerate(ff):
         view.md(view.bar("", t.get("sf_prob", 0), 100, "#1D9E75", "%"))
         st.caption(t.get("why", ""))
 
+# ── 分组积分榜（12组）──
+st.divider()
+st.subheader("📊 分组积分榜")
+st.caption("按当前已赛累计；前两名（绿底）直接出线。小组赛进行中，最终以官方为准。")
+try:
+    _cur = standings.current_standings()
+    _flags = standings.discover_flags()
+    _gcols = st.columns(3)
+    for _gi, _g in enumerate(sorted(standings.GROUPS)):
+        _rows = _cur.get(_g, [])
+        with _gcols[_gi % 3]:
+            _h = [f'<div class="wc-card" style="padding:10px 12px;margin-bottom:10px">'
+                  f'<div style="font-weight:700;margin-bottom:6px">{_g} 组</div>'
+                  '<table style="width:100%;border-collapse:collapse;font-size:12px">'
+                  '<tr style="color:#999;font-size:10px"><th style="text-align:left">#&nbsp;队</th>'
+                  '<th>赛</th><th>积</th><th>净</th></tr>']
+            for _i, _r in enumerate(_rows, 1):
+                _bg = "background:#eaf3de;" if _i <= 2 else ""
+                _fl = _flags.get(_r["team"], "")
+                _gd = _r["gd"]
+                _h.append(f'<tr style="{_bg}"><td style="text-align:left">{_i}&nbsp;{_fl}{view.esc(_r["team"])}</td>'
+                          f'<td style="text-align:center">{_r["p"]}</td>'
+                          f'<td style="text-align:center;font-weight:700">{_r["pts"]}</td>'
+                          f'<td style="text-align:center">{"+" if _gd > 0 else ""}{_gd}</td></tr>')
+            _h.append('</table></div>')
+            view.md("".join(_h))
+except Exception as _e:
+    st.caption(f"积分榜暂不可用：{_e}")
+
+# ── 32强对阵图（淘汰赛签表）──
+st.divider()
+st.subheader("🗺️ 32强对阵（淘汰赛签表）")
+st.caption("已确定的填队名；未定的显示占位（「C组第1」「最佳第三」）。各组踢满3轮并回填赛果后自动补齐。")
+try:
+    _br = standings.bracket(standings.current_standings())
+    _bf = standings.discover_flags()
+
+    def _disp(_name, _settled):
+        _flag = _bf.get(_name, "") if _settled else ""
+        _clr = "#1c1c1a;font-weight:700" if _settled else "#999"
+        return f'<span style="color:{_clr}">{_flag}{view.esc(_name)}</span>'
+
+    _bcols = st.columns(2)
+    for _i, _m in enumerate(_br):
+        with _bcols[_i % 2]:
+            view.md(
+                '<div class="wc-card" style="padding:8px 12px;margin-bottom:8px;display:flex;'
+                'justify-content:space-between;align-items:center;gap:10px">'
+                f'<div style="font-size:10px;color:#bbb;flex-shrink:0">R32-{_i + 1}</div>'
+                f'<div style="font-size:13px;text-align:right;flex:1">'
+                f'{_disp(_m["a"], _m["a_settled"])} <span style="color:#ccc">vs</span> '
+                f'{_disp(_m["b"], _m["b_settled"])}</div></div>')
+except Exception as _e:
+    st.caption(f"对阵图暂不可用：{_e}")
+
 # ── 夺冠梯队总表 ──
+st.divider()
 st.subheader("夺冠梯队（三档概率）")
 if champs:
     table = pd.DataFrame([{

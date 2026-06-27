@@ -59,6 +59,20 @@ def _load_results(path):
     return out
 
 
+def reconcile_scores(p):
+    """一致性保护：⑧『最可能比分(likely_scores[0])』必须与⑩『综合推荐比分(verdict_score)』一致。
+    以 verdict_score 为准（它同时是回测精确比分的评分依据），把它排到 likely_scores 首位；
+    若 verdict_score 缺失，则反向用 likely_scores[0] 回填 verdict_score。原地修改并返回 p。"""
+    vs = str(p.get("verdict_score", "")).strip()
+    ls = [str(x).strip() for x in (p.get("likely_scores") or []) if str(x).strip()]
+    if vs and vs not in ("-", "—"):
+        ls = [vs] + [x for x in ls if x != vs]
+        p["likely_scores"] = ls[:4]
+    elif ls:
+        p["verdict_score"] = ls[0]
+    return p
+
+
 def load_day(date, data_dir=DATA_DIR):
     """返回 (preds:list, results:dict)。"""
     d = Path(data_dir) / date
@@ -66,6 +80,7 @@ def load_day(date, data_dir=DATA_DIR):
         preds = json.load(f)
     if isinstance(preds, dict):
         preds = [preds]
+    preds = [reconcile_scores(p) for p in preds]
     results = _load_results(d / "results.json")
     return preds, results
 

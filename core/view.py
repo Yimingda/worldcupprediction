@@ -84,124 +84,36 @@ def result_badges(scored):
 
 # ───────────── 单场完整详情 ─────────────
 def render_detail(p, actual, scored):
+    """单场完整详情：正文复用渲染库 detail_render.render_body（与原静态页同源 = 单一真相源），
+    再叠加 Streamlit 专属的实际比分横幅与「球队战绩」跳转按钮。"""
     g = p.get
-    md(f'<h2>⚽ {g("home_flag","")} {esc(g("home_name",""))} '
-       f'<span style="color:#aaa">vs</span> {g("away_flag","")} {esc(g("away_name",""))}</h2>'
-       f'<div style="color:#888;font-size:13px;margin-bottom:6px">{esc(g("match_group",""))} · '
-       f'{esc(g("match_date",""))} · {esc(g("match_venue",""))}</div>')
+    import re as _re
+    from core import detail_render as _dr
 
+    # 实际比分横幅（Streamlit 专属）
     if actual:
         md(f'<div class="wc-card wc-teal"><b>实际比分 {actual[0]}-{actual[1]}</b> &nbsp; {result_badges(scored)}</div>')
     else:
         md(f'<div class="wc-card">{badge("尚未开赛 / 等待赛果", "gray")}</div>')
 
-    # 胜负概率
-    hp, dp = int(g("home_prob", 0)), int(g("draw_prob", 0))
-    ap = int(g("away_prob", 100 - hp - dp))
-    st.subheader("② 胜负概率 & 赔率")
-    c1, c2, c3 = st.columns(3)
-    for col, prob, lab, odds, clr in [
-        (c1, hp, f'{g("home_flag","")} {g("home_name","")}赢', g("home_odds", "-"), H),
-        (c2, dp, "平局", g("draw_odds", "-"), "#888"),
-        (c3, ap, f'{g("away_flag","")} {g("away_name","")}赢', g("away_odds", "-"), A)]:
-        col.markdown(f'<div class="wc-card" style="text-align:center"><div style="font-size:30px;font-weight:700;color:{clr}">{prob}%</div>'
-                     f'<div style="font-size:11px;color:#888">{esc(lab)}</div>'
-                     f'<div style="font-size:12px;font-weight:600;margin-top:4px">赔率 {esc(odds)}</div></div>',
-                     unsafe_allow_html=True)
-    md(prob_split(hp, dp, ap))
+    # 完整正文（① 前两轮 / ②-⑩ / ⑪ 全部板块，含 ⑧ 字典修复、一致性保护等，只此一份实现）
+    _body = _re.sub(r'<div[^>]*><a href="\.\./index\.html".*?</a></div>', "", _dr.render_body(p), count=1)
+    _override = ("body{background:transparent!important;padding:0!important}"
+                 ".wrap{max-width:100%!important;margin:0!important}")
+    md("<style>" + _dr.CSS + _override + "</style><div class=\"wrap\">" + _body + "</div>")
 
-    # 上轮数据
-    st.subheader("① 上轮表现")
-    lc, rc = st.columns(2)
-    _last_round(lc, g("home_flag", ""), g("home_name", ""), g("home_prev", ""),
-                g("h_poss", 50), g("h_shots", 0), g("h_sot", 0), g("h_bc", 0),
-                g("h_xg", 0), g("h_goals", 0), g("h_xga", 0), g("h_oshots", 0), g("h_osot", 0), H)
-    _last_round(rc, g("away_flag", ""), g("away_name", ""), g("away_prev", ""),
-                g("a_poss", 50), g("a_shots", 0), g("a_sot", 0), g("a_bc", 0),
-                g("a_xg", 0), g("a_goals", 0), g("a_xga", 0), g("a_oshots", 0), g("a_osot", 0), A)
-
-    # 战术
-    st.subheader("④ 阵型 & 战术")
-    lc, rc = st.columns(2)
-    _tactics(lc, p, "home", H)
-    _tactics(rc, p, "away", A)
-
-    # 心态
-    st.subheader("⑤ 球员心态")
-    lc, rc = st.columns(2)
-    _mentality(lc, g("home_flag", ""), g("home_name", ""), g("home_mentality", []))
-    _mentality(rc, g("away_flag", ""), g("away_name", ""), g("away_mentality", []))
-
-    # 心态指标雷达
-    labels = g("metric_labels", ["当前信心", "求胜紧迫", "进攻实力", "防守组织", "战术执行", "无压力感"])
-    hm, am = g("home_metrics", []), g("away_metrics", [])
-    if hm and am:
-        st.subheader("⑦ 心态指标对比（满分10）")
-        rows = "".join(
-            f'<div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">'
-            f'<div style="font-size:11px;color:#888;width:70px;text-align:right">{esc(labels[i])}</div>'
-            f'<div style="flex:1">{bar(g("home_name",""), hm[i], 10, H)}{bar(g("away_name",""), am[i], 10, A)}</div></div>'
-            for i in range(min(len(labels), len(hm), len(am))))
-        md(f'<div class="wc-card">{rows}</div>')
-
-    # 进球数量 + 比分
-    st.subheader("⑧ 进球数量 & 最可能比分")
-    c1, c2, c3, c4 = st.columns(4)
-    c1.metric("过 2.5 球", f'{g("over25", 0)}%')
-    c2.metric("过 3.5 球", f'{g("over35", 0)}%')
-    c3.metric(f'{g("away_name","")}进球', f'{g("away_score_prob", 0)}%')
-    c4.metric(esc(g("handicap_label", "让球")), f'{g("handicap", 0)}%')
-    scores = g("likely_scores", [])
-    if scores:
-        chips = "".join(
-            f'<span class="wc-badge {"b-green" if i == 0 else "b-gray"}" style="font-size:14px;font-weight:700">'
-            f'{esc(s["score"] if isinstance(s, dict) else s)}'
-            f'<span style="font-size:9px;font-weight:400"> {"最高" if i == 0 else "次选"}</span></span>'
-            for i, s in enumerate(scores))
-        md(f'<div style="margin-top:6px">{chips}</div>')
-
-    # 风险点
-    st.subheader("⑨ 风险点")
-    lc, rc = st.columns(2)
-    _risks(lc, "⚠ " + g("home_name", ""), g("home_risks", []))
-    _risks(rc, "⚠ " + g("away_name", ""), g("away_risks", []))
-
-    # 综合推荐
-    st.subheader("⑩ 综合推荐")
-    logic = "<br>".join("· " + esc(x) for x in g("verdict_logic", []))
-    md(f'<div class="wc-card wc-teal"><div style="display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap">'
-       f'<div><div class="wc-label" style="color:#0F6E56">综合推荐</div>'
-       f'<div style="font-size:17px;font-weight:700;color:#0F6E56">{esc(g("verdict_rec",""))}</div>'
-       f'<div style="font-size:12px;color:#0F6E56;margin-top:6px;line-height:1.7">{logic}</div></div>'
-       f'<div style="text-align:right"><div class="wc-label" style="color:#0F6E56">最可能比分</div>'
-       f'<div style="font-size:34px;font-weight:700;color:#0F6E56">{esc(g("verdict_score","-"))}</div>'
-       f'<div style="font-size:12px;color:#0F6E56">把握度 {stars(g("verdict_stars",0))}</div></div></div></div>')
-
-    # 两队本届全部比赛（精简内嵌 + 链接到完整战绩页）
+    # 交互：跳转到完整「球队战绩」页（正文 ⑪ 已含两队全部比赛列表）
     try:
-        from core import team_history as _TH
-        st.subheader("📋 两队本届全部比赛")
         _cc = st.columns(2)
         for _col, _side in ((_cc[0], "home"), (_cc[1], "away")):
             _nm = g(f"{_side}_name", "")
-            with _col:
-                st.markdown(f"**{g(f'{_side}_flag', '')} {esc(_nm)}**")
-                _rows = _TH.team_matches(_nm)
-                if not _rows:
-                    st.caption("（暂无更早比赛数据）")
-                for _r in _rows:
-                    _res = _r["actual"] or "待赛"
-                    _oc = _r["outcome"] or ""
-                    st.markdown(f"- {_r['date']} vs {esc(_r['opponent'])}："
-                                f"预测 {esc(_r['pred'])} · 实际 **{esc(_res)}** {_oc}")
-                if st.button(f"查看 {esc(_nm)} 全部比赛 →", key=f"th_{_side}", use_container_width=True):
-                    st.session_state["team_pick"] = _nm
-                    st.query_params["team"] = _nm
-                    st.switch_page("pages/5_球队战绩.py")
-    except Exception as _e:
-        st.caption(f"球队战绩暂不可用：{_e}")
-
-    st.caption("⚠ 分析由模型基于公开数据自动生成，仅供参考。体育赛事充满不确定性，请理性博彩，量力而行。")
+            if _col.button(f"📋 {g(f'{_side}_flag', '')} {esc(_nm)} 全部比赛 →",
+                           key=f"th_{_side}", use_container_width=True):
+                st.session_state["team_pick"] = _nm
+                st.query_params["team"] = _nm
+                st.switch_page("pages/5_球队战绩.py")
+    except Exception:
+        pass
 
 
 def _grade_boxes(xg, xga):

@@ -1,20 +1,8 @@
 {
-  "哥伦比亚 vs 葡萄牙": {
-    "status": "scheduled"
-  },
-  "阿尔及利亚 vs 奥地利": {
-    "status": "scheduled"
-  },
-  "克罗地亚 vs 加纳": {
-    "status": "scheduled"
-  },
-  "巴拿马 vs 英格兰": {
-    "status": "scheduled"
-  },
-  "约旦 vs 阿根廷": {
-    "status": "scheduled"
-  },
-  "刚果(金) vs 乌兹别克斯坦": {
-    "status": "scheduled"
-  }
+  "哥伦比亚 vs 葡萄牙": {"h": 0, "a": 0, "status": "final"},
+  "阿尔及利亚 vs 奥地利": {"h": 3, "a": 3, "status": "final"},
+  "克罗地亚 vs 加纳": {"h": 2, "a": 1, "status": "final"},
+  "巴拿马 vs 英格兰": {"h": 0, "a": 2, "status": "final"},
+  "约旦 vs 阿根廷": {"h": 1, "a": 3, "status": "final"},
+  "刚果(金) vs 乌兹别克斯坦": {"h": 3, "a": 1, "status": "final"}
 }

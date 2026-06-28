@@ -1,0 +1,44 @@
+[
+  {
+    "home_flag": "🇿🇦", "home_name": "南非", "home_prev": "1-0 ✅ 胜韩国", "home_pts": 4,
+    "away_flag": "🇨🇦", "away_name": "加拿大", "away_prev": "0-1 ❌ 负瑞士", "away_pts": 4,
+    "match_group": "32强 · 1/16决赛", "match_date": "6月28日 · 北京时间 6月29日 03:00（洛杉矶当地28日12:00）",
+    "match_venue": "洛杉矶 SoFi Stadium",
+    "h_poss": 45, "h_shots": 11, "h_sot": 4, "h_bc": 2, "h_xg": 1.1, "h_goals": 1, "h_xga": 1.0, "h_oshots": 12, "h_osot": 4,
+    "a_poss": 52, "a_shots": 13, "a_sot": 3, "a_bc": 1, "a_xg": 1.0, "a_goals": 0, "a_xga": 1.4, "a_oshots": 14, "a_osot": 5,
+    "home_prev2": "1-1 🤝 平捷克",
+    "h2_poss": 44, "h2_shots": 9, "h2_sot": 3, "h2_bc": 1, "h2_xg": 0.9, "h2_goals": 1, "h2_xga": 1.1, "h2_oshots": 13, "h2_osot": 4,
+    "away_prev2": "6-0 ✅ 大胜卡塔尔",
+    "a2_poss": 60, "a2_shots": 20, "a2_sot": 10, "a2_bc": 6, "a2_xg": 3.5, "a2_goals": 6, "a2_xga": 0.4, "a2_oshots": 5, "a2_osot": 2,
+    "home_prob": 30, "draw_prob": 32, "home_odds": "+180", "draw_odds": "+210", "away_odds": "+140",
+    "home_form": "4-5-1", "away_form": "4-3-3",
+    "home_comeback": 6, "home_comeback_note": "首进世界杯淘汰赛士气高涨，逆境敢拼，但缺乏淘汰赛经验。",
+    "away_comeback": 6, "away_comeback_note": "东道主有韧性，落后时能靠戴维斯等快马反扑。",
+    "home_tactics": ["低位防守", "快速反击", "定位球"],
+    "away_tactics": ["控球压上", "边路快马", "高位逼抢"],
+    "home_tactic_notes": ["收缩防线压缩空间，减少加拿大进攻机会", "断球后快速出球找前锋", "定位球是为数不多的得分点"],
+    "away_tactic_notes": ["控球主导、边路快马冲击", "戴维斯左路爆点是关键", "上轮负瑞士需找回进攻效率"],
+    "home_strategy": "稳守反击，拖入加时或点球博冷门",
+    "away_strategy": "主动进攻，争取90分钟内解决战斗",
+    "home_mentality": [
+      {"title": "历史首次", "desc": "首进世界杯淘汰赛，放手一搏、无包袱", "quote": "我们已经创造历史，继续梦想。"},
+      {"title": "黑马气质", "desc": "小组赛末轮绝杀韩国出线，势头正盛"}
+    ],
+    "away_mentality": [
+      {"title": "东道主使命", "desc": "主场作战渴望更进一步、创造历史", "quote": "我们要积极地开局。 — Marsch"},
+      {"title": "反弹需求", "desc": "末轮负瑞士丢了头名，需要一场胜利重整旗鼓"}
+    ],
+    "metric_labels": ["当前信心", "求胜紧迫", "进攻实力", "防守组织", "战术执行", "无压力感"],
+    "home_metrics": [7, 8, 6, 7, 7, 8],
+    "away_metrics": [8, 8, 7, 7, 8, 5],
+    "over25": 38, "over35": 15, "away_score_prob": 62, "handicap": 40, "handicap_label": "加拿大让球 -0.5 胜",
+    "likely_scores": [{"score": "1-1", "prob": 18}, {"score": "0-1", "prob": 14}, {"score": "1-0", "prob": 13}, {"score": "0-0", "prob": 12}],
+    "home_scorers": [{"name": "马塞科", "prob": 30}, {"name": "姆贝凯", "prob": 22}],
+    "away_scorers": [{"name": "阿方索·戴维斯", "prob": 38}, {"name": "乔纳森·大卫", "prob": 34}, {"name": "拉林", "prob": 26}],
+    "group_standings": [],
+    "home_risks": ["进攻火力有限，破加拿大防线难度大", "球员淘汰赛经验欠缺，关键球易处理失当"],
+    "away_risks": ["上轮负瑞士状态需调整", "过于压上易被南非快速反击打身后"],
+    "verdict_rec": "加拿大不败（90分钟易平，倾向加时晋级）", "verdict_score": "1-1", "verdict_stars": 3,
+    "verdict_logic": ["加拿大纸面实力与攻击线占优，控球主导", "南非防守顽强+首进淘汰赛拼劲足，90分钟难分高下", "看好低进球、易平局，加拿大点球/加时晋级概率更高"]
+  }
+]

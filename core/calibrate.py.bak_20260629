@@ -16,10 +16,6 @@
   R3 全局自信封顶：任一 1X2 概率封顶 85，多余给平局（防爆冷 Brier 崩盘）。
   R4 内部一致性旗标：若"按概率的大热"其 xG 反而低于对手 → 仅给出告警 note，
       不强改（方向通常没错，提示分析者复核 xG）。（对应：荷兰 50% 却 xG 2.1<瑞典 3.0）
-  R5 平局对齐：close 场(头号概率≤r5_close)且 verdict_score 为平局比分(净差=0)却把
-      1X2 判给某一方 → 抬 draw_prob 使"平"成为头号、推荐补"偏平局"。修正"模型从不预测平"。
-      （依据 06-29 复盘 40 场：predicted draws=0 / actual draws=10；其中 5 场自身 1-1
-      预测却押单边 → 内部自相矛盾。仅动逻辑自相矛盾的 close 场，幂等、不过拟合。）
 
 用法： calibrate_all(matches) -> (new_matches, notes)
 CLI ：python3 calibrate.py in.json out.json
@@ -36,7 +32,6 @@ PARAMS = {
     "r2_cap": 62, "r2_over25_cap": 48, "r2_over35_cap": 40,
     "r3_cap": 85,
     "r4_lead": 10, "r4_xg_margin": 0.0,
-    "r5_close": 62,
 }
 
 
@@ -167,23 +162,6 @@ def calibrate_match(m):
     # ---- R4 内部一致性旗标（仅告警，不强改）----
     if fav_p >= dp and (fav_p - opp_p) >= P["r4_lead"] and xg_gap < -P["r4_xg_margin"]:
         notes.append(f"⚠ R4 一致性：{fav_name} 被看好({fav_p}%) 但 xG 低于对手({xg_gap:+.1f})，请复核 xG/比分")
-
-    # ---- R5 平局对齐推荐对冲（不动概率，仅降级推荐）----
-    # 模型自身 modal 比分是平局却推荐"买某边赢"= 内部不自洽；且 06-29 复盘里 9 场
-    # 自身 1-1 预测中实际 5 场打平、仅 1 场单边命中。把"赢/胜"降级为"不败"(平局不再判负)
-    # —— 与 R2b 同philosophy、无条件更稳、幂等。不改概率(单边概率经分桶检验反而偏保守)。
-    hp, dp, ap = _probs(m)
-    ps = _parse(m.get("verdict_score"))
-    level = ps is not None and ps[0] == ps[1]
-    lead = max(hp, ap)
-    if level and lead <= P["r5_close"]:
-        rec = str(m.get("verdict_rec", ""))
-        if ("赢" in rec or "胜" in rec) and "不败" not in rec:
-            m["verdict_rec"] = rec.replace("赢", "不败").replace("胜", "不败")
-            notes.append(f"R5 平局对冲：自身预测平局比分({ps[0]}-{ps[1]}) → 推荐由「赢/胜」降级为「不败」")
-        elif "平" not in rec and "不败" not in rec:
-            m["verdict_rec"] = (rec + " · 平局可接受").strip(" ·")
-            notes.append(f"R5 平局对冲：自身预测平局比分({ps[0]}-{ps[1]}) → 推荐补「平局可接受」")
 
     return m, notes
 

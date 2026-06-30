@@ -1,6 +1,6 @@
 {
- "as_of": "2026-06-28",
- "stage": "32强淘汰赛(R32)首日6/28开打 · 加拿大vs南非揭幕(SoFi) · 赔率盘口微调：法国firming至~+350继续独占一档、西班牙拉长至+600被阿根廷甩开、德国(+1500)反超荷兰(+1600) · R32对阵全部落定",
+ "as_of": "2026-06-30",
+ "stage": "32强淘汰赛(R32)进行中 · 首日6/28-6/29四场爆冷连连：德国点球负巴拉圭出局、荷兰点球负摩洛哥出局、巴西2-1逆转日本、加拿大1-0南非 · 6/30今日：科特迪瓦vs挪威、法国vs瑞典 · 赔率：法国+340独占一档、阿根廷+410紧追、西班牙+650/英格兰+700第二档、巴西胜日本后由+1300暴涨至+950",
  "title": "2026 世界杯 · 四强 & 冠军预测",
  "final_info": "决赛 7月19日 · 纽约/新泽西 MetLife Stadium；R32 6/28-7/3",
  "method_weights": {
@@ -15,33 +15,33 @@
    "team": "法国",
    "flag": "🇫🇷",
    "half": "待定",
-   "sf_prob": 54,
-   "proj_path": "清盘I组头名，R32(6/30 MetLife)对阵瑞典",
-   "why": "赔率continue firming至~+350独占一档(隐含~22%)，R32抽到瑞典签运偏软，稳坐头号热门"
+   "sf_prob": 56,
+   "proj_path": "R32(6/30 MetLife)对阵瑞典",
+   "why": "赔率收紧至+340独占一档(隐含~23%)，签运偏软，稳坐头号热门"
   },
   {
    "team": "阿根廷",
    "flag": "🇦🇷",
    "half": "待定",
-   "sf_prob": 47,
-   "proj_path": "头名出线，R32(7/3迈阿密)对阵佛得角",
-   "why": "Polymarket/Kalshi隐含~14%稳居第二、压过西班牙与英格兰；梅西领衔+防守稳，对佛得角签运极佳"
+   "sf_prob": 50,
+   "proj_path": "R32(7/3迈阿密)对阵佛得角",
+   "why": "赔率+410紧追法国稳居第二，梅西领衔+防守稳，对佛得角签运极佳"
   },
   {
    "team": "西班牙",
    "flag": "🇪🇸",
    "half": "待定",
-   "sf_prob": 45,
-   "proj_path": "夺H组头名，R32(7/2)对阵奥地利",
-   "why": "夺冠赔率由+550拉长至~+600、被阿根廷甩开退居第三档，控球体系仍稳但热度回落"
+   "sf_prob": 44,
+   "proj_path": "R32(7/3)对阵奥地利",
+   "why": "赔率回收至+650重回第二档前列，控球体系仍是底牌"
   },
   {
    "team": "英格兰",
    "flag": "🏴",
    "half": "待定",
-   "sf_prob": 42,
-   "proj_path": "L组头名，R32(7/1亚特兰大)对阵刚果(金)",
-   "why": "赔率firming至~+650稳居第四，阵容厚度第一、R32对刚果(金)签运不差，兑现力仍是门槛"
+   "sf_prob": 43,
+   "proj_path": "R32(7/2)对阵刚果(金)",
+   "why": "赔率firming至+700紧贴西班牙，阵容厚度第一，兑现力是门槛"
   }
  ],
  "champions": [
@@ -50,10 +50,10 @@
    "team": "法国",
    "flag": "🇫🇷",
    "tier": "夺冠热门",
-   "champ_prob": 22,
-   "final_prob": 33,
-   "sf_prob": 54,
-   "odds": "+350",
+   "champ_prob": 23,
+   "final_prob": 35,
+   "sf_prob": 56,
+   "odds": "+340",
    "rating": {
     "attack": 10,
     "defense": 8,
@@ -68,24 +68,24 @@
     "登贝莱"
    ],
    "strengths": [
-    "三战10-2清盘I组、火力全开",
+    "小组三战火力全开(含4-1挪威)清盘I组",
     "顶级个人能力+板凳深度俱佳"
    ],
    "risks": [
     "防线轮换稳定性",
     "潜在半区偏硬"
    ],
-   "rationale": "赔率继续收紧至~+350独占一档，R32抽到瑞典签运偏软，夺冠头号地位进一步巩固。"
+   "rationale": "赔率收紧至+340独占一档(隐含~23%)，R32对瑞典签运偏软，夺冠头名进一步巩固。"
   },
   {
    "rank": 2,
    "team": "阿根廷",
    "flag": "🇦🇷",
    "tier": "夺冠热门",
-   "champ_prob": 16,
-   "final_prob": 30,
-   "sf_prob": 47,
-   "odds": "+500",
+   "champ_prob": 19,
+   "final_prob": 31,
+   "sf_prob": 50,
+   "odds": "+410",
    "rating": {
     "attack": 8,
     "defense": 9,
@@ -107,17 +107,17 @@
     "核心老化与体能",
     "长途旅行+气候适应"
    ],
-   "rationale": "预测市场隐含~14%稳居第二、压过西班牙与英格兰，R32(迈阿密)对佛得角晋级形势大好。"
+   "rationale": "赔率+410紧追法国稳居第二，R32(迈阿密)对佛得角晋级形势大好。"
   },
   {
    "rank": 3,
    "team": "西班牙",
    "flag": "🇪🇸",
    "tier": "夺冠热门",
-   "champ_prob": 14,
-   "final_prob": 26,
-   "sf_prob": 45,
-   "odds": "+600",
+   "champ_prob": 13,
+   "final_prob": 25,
+   "sf_prob": 44,
+   "odds": "+650",
    "rating": {
     "attack": 9,
     "defense": 8,
@@ -137,19 +137,19 @@
    ],
    "risks": [
     "锋线效率仍是变量",
-    "夺冠赔率拉长、热度被阿根廷甩开"
+    "淘汰赛硬仗兑现"
    ],
-   "rationale": "夺冠赔率由+550拉长至~+600退居第三档，R32对阵奥地利，体系仍稳但市场热度回落。"
+   "rationale": "赔率回收至+650重回第二档前列，R32(7/3)对奥地利，体系仍稳。"
   },
   {
    "rank": 4,
    "team": "英格兰",
    "flag": "🏴",
    "tier": "夺冠热门",
-   "champ_prob": 13,
-   "final_prob": 25,
-   "sf_prob": 42,
-   "odds": "+650",
+   "champ_prob": 11,
+   "final_prob": 24,
+   "sf_prob": 43,
+   "odds": "+700",
    "rating": {
     "attack": 9,
     "defense": 8,
@@ -170,22 +170,54 @@
    "risks": [
     "进攻兑现与临场调整存疑"
    ],
-   "rationale": "赔率firming至~+650稳居第四档，L组头名晋级、R32(亚特兰大)对刚果(金)，兑现力仍是上限门槛。"
+   "rationale": "赔率firming至+700紧贴西班牙，R32(7/2)对刚果(金)，兑现力仍是上限门槛。"
   },
   {
    "rank": 5,
-   "team": "葡萄牙",
-   "flag": "🇵🇹",
-   "tier": "二档",
+   "team": "巴西",
+   "flag": "🇧🇷",
+   "tier": "夺冠热门",
    "champ_prob": 9,
-   "final_prob": 18,
-   "sf_prob": 33,
-   "odds": "+1000",
+   "final_prob": 19,
+   "sf_prob": 36,
+   "odds": "+950",
    "rating": {
     "attack": 9,
     "defense": 7,
     "squad_depth": 8,
     "form": 8,
+    "path_ease": 7,
+    "experience": 8
+   },
+   "key_players": [
+    "维尼修斯",
+    "马丁内利",
+    "卡塞米罗"
+   ],
+   "strengths": [
+    "R32 2-1逆转日本(马丁内利绝杀)晋级16强",
+    "边路爆点多、转换快"
+   ],
+   "risks": [
+    "后腰与防线稳定性",
+    "逆风球心态"
+   ],
+   "rationale": "赔率本轮最大赢家、由+1300暴涨至+950，已晋级R16，状态回暖跻身第一集团边缘。"
+  },
+  {
+   "rank": 6,
+   "team": "葡萄牙",
+   "flag": "🇵🇹",
+   "tier": "二档",
+   "champ_prob": 6,
+   "final_prob": 14,
+   "sf_prob": 30,
+   "odds": "+1500",
+   "rating": {
+    "attack": 9,
+    "defense": 7,
+    "squad_depth": 8,
+    "form": 7,
     "path_ease": 6,
     "experience": 8
    },
@@ -195,56 +227,25 @@
     "维蒂尼亚"
    ],
    "strengths": [
-    "中前场创造力强、火力全开"
+    "中前场创造力强、火力足"
    ],
    "risks": [
     "防线年龄",
     "R32对克罗地亚抽到硬签"
    ],
-   "rationale": "赔率~+1000、二档头名，R32(多伦多)对克罗地亚抽到偏硬签，仍是最具冲击四强黑马。"
-  },
-  {
-   "rank": 6,
-   "team": "巴西",
-   "flag": "🇧🇷",
-   "tier": "二档",
-   "champ_prob": 8,
-   "final_prob": 16,
-   "sf_prob": 34,
-   "odds": "+1200",
-   "rating": {
-    "attack": 9,
-    "defense": 7,
-    "squad_depth": 8,
-    "form": 7,
-    "path_ease": 6,
-    "experience": 8
-   },
-   "key_players": [
-    "维尼修斯",
-    "罗德里戈",
-    "拉菲尼亚"
-   ],
-   "strengths": [
-    "边路爆点多、转换快、C组头名出线"
-   ],
-   "risks": [
-    "后腰与防线稳定性",
-    "R32对阵日本需提防爆冷"
-   ],
-   "rationale": "赔率小幅拉长至~+1200，C组头名晋级；R32(6/29休斯顿)对阵日本，需先稳住爆冷风险。"
+   "rationale": "赔率~+1500、二档头号，R32(7/3)对克罗地亚抽到偏硬签，最具冲击四强黑马。"
   },
   {
    "rank": 7,
-   "team": "德国",
-   "flag": "🇩🇪",
+   "team": "比利时",
+   "flag": "🇧🇪",
    "tier": "黑马",
-   "champ_prob": 7,
-   "final_prob": 14,
-   "sf_prob": 31,
-   "odds": "+1500",
+   "champ_prob": 4,
+   "final_prob": 10,
+   "sf_prob": 22,
+   "odds": "~+2500",
    "rating": {
-    "attack": 9,
+    "attack": 8,
     "defense": 7,
     "squad_depth": 8,
     "form": 7,
@@ -252,60 +253,29 @@
     "experience": 8
    },
    "key_players": [
-    "穆西亚拉",
-    "维尔茨",
-    "哈弗茨"
+    "德布劳内",
+    "卢卡库",
+    "多库"
    ],
    "strengths": [
-    "年轻中场崛起、拿下E组头名",
-    "R32对巴拉圭签运占优"
+    "黄金一代余韵、中前场创造力",
+    "出线晋级R32"
    ],
    "risks": [
-    "后防隐患",
-    "硬仗经验"
+    "防线老化",
+    "R32对塞内加尔非软签"
    ],
-   "rationale": "赔率firming至~+1500反超荷兰回到前七，R32(6/29福克斯堡)对阵巴拉圭签运不差。"
+   "rationale": "赔率约+2500，R32(7/2)对塞内加尔，黄金一代仍有冲击力但签运一般。"
   },
   {
    "rank": 8,
-   "team": "荷兰",
-   "flag": "🇳🇱",
-   "tier": "黑马",
-   "champ_prob": 6,
-   "final_prob": 13,
-   "sf_prob": 28,
-   "odds": "+1600",
-   "rating": {
-    "attack": 8,
-    "defense": 8,
-    "squad_depth": 8,
-    "form": 7,
-    "path_ease": 6,
-    "experience": 7
-   },
-   "key_players": [
-    "加克波",
-    "X.西蒙斯",
-    "范迪克"
-   ],
-   "strengths": [
-    "攻守均衡、F组头名出线"
-   ],
-   "risks": [
-    "中场硬度",
-    "R32对摩洛哥抽到硬签"
-   ],
-   "rationale": "赔率回落至~+1600被德国反超退居第八，R32(6/29蒙特雷)对摩洛哥不轻松。"
-  },
-  {
-   "rank": 9,
    "team": "美国",
    "flag": "🇺🇸",
    "tier": "东道主黑马",
    "champ_prob": 3,
-   "final_prob": 7,
-   "sf_prob": 15,
-   "odds": "+2800",
+   "final_prob": 8,
+   "sf_prob": 17,
+   "odds": "+3000",
    "rating": {
     "attack": 8,
     "defense": 7,
@@ -320,23 +290,54 @@
     "亚当斯"
    ],
    "strengths": [
-    "东道主主场+签运占优",
-    "中前场旅欧球员多"
+    "D组头名、东道主主场+签运占优",
+    "赔率由60-1收紧至30-1"
    ],
    "risks": [
-    "末轮2-3负土耳其暴露防守",
-    "硬仗上限有限"
+    "淘汰赛硬仗上限有限"
    ],
-   "rationale": "赔率维持~+2800，主场之利仍在榜，淘汰赛硬仗上限有限。"
+   "rationale": "赔率大幅firming至~+3000，R32对波黑(旧金山)，主场之利持续推高人气。"
+  },
+  {
+   "rank": 9,
+   "team": "哥伦比亚",
+   "flag": "🇨🇴",
+   "tier": "黑马",
+   "champ_prob": 3,
+   "final_prob": 7,
+   "sf_prob": 16,
+   "odds": "~+3500",
+   "rating": {
+    "attack": 8,
+    "defense": 7,
+    "squad_depth": 7,
+    "form": 8,
+    "path_ease": 7,
+    "experience": 7
+   },
+   "key_players": [
+    "J.罗德里格斯",
+    "路易斯·迪亚斯",
+    "穆尼奥斯"
+   ],
+   "strengths": [
+    "攻击组织出色、状态在线",
+    "出线晋级R32"
+   ],
+   "risks": [
+    "防线深度",
+    "硬仗经验"
+   ],
+   "rationale": "赔率约+3500，R32(7/3堪萨斯城)对加纳，迪亚斯+J罗组合有冲击上限。"
   },
   {
    "rank": 10,
    "team": "墨西哥",
    "flag": "🇲🇽",
    "tier": "东道主黑马",
-   "champ_prob": 3,
-   "final_prob": 7,
-   "sf_prob": 15,
+   "champ_prob": 2,
+   "final_prob": 6,
+   "sf_prob": 14,
    "odds": "+5000",
    "rating": {
     "attack": 8,
@@ -352,184 +353,192 @@
     "阿尔瓦雷斯"
    ],
    "strengths": [
-    "A组头名出线、东道主主场+签运占优"
+    "A组头名、东道主主场+签运占优"
    ],
    "risks": [
-    "硬仗上限",
-    "面对顶级强队经验不足"
+    "面对顶级强队经验不足",
+    "硬仗上限"
    ],
-   "rationale": "A组头名晋级，赔率维持~+5000，东道主主场仍是底牌。"
+   "rationale": "赔率维持~+5000，R32(7/1)对厄瓜多尔，东道主主场仍是底牌。"
   },
   {
    "rank": 11,
-   "team": "瑞士",
-   "flag": "🇨🇭",
+   "team": "摩洛哥",
+   "flag": "🇲🇦",
    "tier": "黑马",
    "champ_prob": 2,
    "final_prob": 5,
    "sf_prob": 13,
-   "odds": "+6000",
+   "odds": "~+6000",
    "rating": {
     "attack": 7,
     "defense": 8,
     "squad_depth": 7,
-    "form": 9,
+    "form": 8,
     "path_ease": 7,
     "experience": 7
    },
    "key_players": [
-    "恩博洛",
-    "扎卡",
-    "恩多耶"
+    "哈基米",
+    "齐耶赫",
+    "恩内斯里"
    ],
    "strengths": [
-    "防守纪律好、击败加拿大爆冷夺B组"
+    "R32点球淘汰荷兰、复刻2022黑马成色",
+    "防守纪律好"
    ],
    "risks": [
     "锋无力、上限有限"
    ],
-   "rationale": "爆冷夺B组头名后赔率维持~+6000，防守纪律是底牌但锋线上限有限。"
+   "rationale": "点球爆冷淘汰荷兰晋级R16，赔率约+6000，防守与韧性是底牌。"
   }
  ],
  "group_advance": [
   {
-   "team": "法国",
-   "flag": "🇫🇷",
-   "group": "I组",
-   "status": "清盘I组(3战10-2)头名，R32(6/30 MetLife)对阵瑞典",
-   "advance_prob": 100
-  },
-  {
-   "team": "阿根廷",
-   "flag": "🇦🇷",
-   "group": "J组",
-   "status": "头名出线，R32(7/3迈阿密)对阵佛得角",
-   "advance_prob": 100
-  },
-  {
-   "team": "西班牙",
-   "flag": "🇪🇸",
-   "group": "H组",
-   "status": "1-0乌拉圭夺H组头名，R32(7/2)对阵奥地利",
-   "advance_prob": 100
-  },
-  {
-   "team": "英格兰",
-   "flag": "🏴",
-   "group": "L组",
-   "status": "L组头名出线，R32(7/1亚特兰大)对阵刚果(金)",
-   "advance_prob": 100
-  },
-  {
-   "team": "葡萄牙",
-   "flag": "🇵🇹",
-   "group": "小组",
-   "status": "头名出线，R32(7/2多伦多)对阵克罗地亚",
-   "advance_prob": 100
-  },
-  {
    "team": "巴西",
    "flag": "🇧🇷",
-   "group": "C组",
-   "status": "C组头名出线，R32(6/29休斯顿)对阵日本",
-   "advance_prob": 100
-  },
-  {
-   "team": "荷兰",
-   "flag": "🇳🇱",
-   "group": "F组",
-   "status": "F组头名出线，R32(6/29蒙特雷)对阵摩洛哥",
-   "advance_prob": 100
-  },
-  {
-   "team": "德国",
-   "flag": "🇩🇪",
-   "group": "E组",
-   "status": "E组头名出线，R32(6/29福克斯堡)对阵巴拉圭",
-   "advance_prob": 100
-  },
-  {
-   "team": "美国",
-   "flag": "🇺🇸",
-   "group": "D组",
-   "status": "末轮2-3负土耳其，仍出线晋级R32",
-   "advance_prob": 100
-  },
-  {
-   "team": "墨西哥",
-   "flag": "🇲🇽",
-   "group": "A组",
-   "status": "东道主A组头名出线，晋级R32",
-   "advance_prob": 100
-  },
-  {
-   "team": "瑞士",
-   "flag": "🇨🇭",
-   "group": "B组",
-   "status": "击败加拿大夺B组头名，晋级R32",
-   "advance_prob": 100
-  },
-  {
-   "team": "挪威",
-   "flag": "🇳🇴",
-   "group": "小组",
-   "status": "出线晋级R32，R32(6/30阿灵顿)对阵科特迪瓦",
+   "group": "R32",
+   "status": "R32 2-1逆转日本(马丁内利绝杀)，晋级16强",
    "advance_prob": 100
   },
   {
    "team": "摩洛哥",
    "flag": "🇲🇦",
-   "group": "C组",
-   "status": "C组次名晋级，R32对阵荷兰",
+   "group": "R32",
+   "status": "R32点球淘汰荷兰，晋级16强",
+   "advance_prob": 100
+  },
+  {
+   "team": "巴拉圭",
+   "flag": "🇵🇾",
+   "group": "R32",
+   "status": "R32点球爆冷淘汰德国，晋级16强",
    "advance_prob": 100
   },
   {
    "team": "加拿大",
    "flag": "🇨🇦",
-   "group": "B组",
-   "status": "B组次名晋级，R32(6/28 SoFi)对阵南非·揭幕战",
+   "group": "R32",
+   "status": "R32 1-0南非(揭幕战)，晋级16强",
    "advance_prob": 100
   },
   {
-   "team": "南非",
-   "flag": "🇿🇦",
-   "group": "A组",
-   "status": "A组次名晋级，R32(6/28 SoFi)对阵加拿大·揭幕战",
+   "team": "法国",
+   "flag": "🇫🇷",
+   "group": "R32",
+   "status": "R32(6/30 MetLife)今日对阵瑞典",
    "advance_prob": 100
+  },
+  {
+   "team": "挪威",
+   "flag": "🇳🇴",
+   "group": "R32",
+   "status": "R32(6/30阿灵顿)今日对阵科特迪瓦",
+   "advance_prob": 100
+  },
+  {
+   "team": "科特迪瓦",
+   "flag": "🇨🇮",
+   "group": "R32",
+   "status": "R32(6/30)今日对阵挪威",
+   "advance_prob": 100
+  },
+  {
+   "team": "墨西哥",
+   "flag": "🇲🇽",
+   "group": "R32",
+   "status": "R32(7/1)对阵厄瓜多尔",
+   "advance_prob": 100
+  },
+  {
+   "team": "美国",
+   "flag": "🇺🇸",
+   "group": "R32",
+   "status": "R32(7/1旧金山)对阵波黑",
+   "advance_prob": 100
+  },
+  {
+   "team": "英格兰",
+   "flag": "🏴",
+   "group": "R32",
+   "status": "R32(7/2)对阵刚果(金)",
+   "advance_prob": 100
+  },
+  {
+   "team": "比利时",
+   "flag": "🇧🇪",
+   "group": "R32",
+   "status": "R32(7/2)对阵塞内加尔",
+   "advance_prob": 100
+  },
+  {
+   "team": "葡萄牙",
+   "flag": "🇵🇹",
+   "group": "R32",
+   "status": "R32(7/3)对阵克罗地亚",
+   "advance_prob": 100
+  },
+  {
+   "team": "西班牙",
+   "flag": "🇪🇸",
+   "group": "R32",
+   "status": "R32(7/3)对阵奥地利",
+   "advance_prob": 100
+  },
+  {
+   "team": "阿根廷",
+   "flag": "🇦🇷",
+   "group": "R32",
+   "status": "R32(7/3迈阿密)对阵佛得角",
+   "advance_prob": 100
+  },
+  {
+   "team": "哥伦比亚",
+   "flag": "🇨🇴",
+   "group": "R32",
+   "status": "R32(7/3堪萨斯城)对阵加纳",
+   "advance_prob": 100
+  },
+  {
+   "team": "德国",
+   "flag": "🇩🇪",
+   "group": "R32",
+   "status": "❌已出局：R32点球负巴拉圭",
+   "advance_prob": 0
+  },
+  {
+   "team": "荷兰",
+   "flag": "🇳🇱",
+   "group": "R32",
+   "status": "❌已出局：R32点球负摩洛哥",
+   "advance_prob": 0
   },
   {
    "team": "日本",
    "flag": "🇯🇵",
-   "group": "F组",
-   "status": "F组次名晋级，R32对阵巴西",
-   "advance_prob": 100
+   "group": "R32",
+   "status": "❌已出局：R32 1-2负巴西",
+   "advance_prob": 0
   },
   {
-   "team": "佛得角",
-   "flag": "🇨🇻",
-   "group": "小组",
-   "status": "晋级R32，对阵阿根廷",
-   "advance_prob": 100
-  },
-  {
-   "team": "克罗地亚",
-   "flag": "🇭🇷",
-   "group": "小组",
-   "status": "晋级R32，R32(多伦多)对阵葡萄牙",
-   "advance_prob": 100
+   "team": "南非",
+   "flag": "🇿🇦",
+   "group": "R32",
+   "status": "❌已出局：R32 0-1负加拿大",
+   "advance_prob": 0
   }
  ],
  "verdict": {
   "champion": "法国",
   "runner_up": "阿根廷",
-  "dark_horse": "葡萄牙",
+  "dark_horse": "巴西",
   "final_pick": "2-1",
   "stars": 3,
   "logic": [
-   "32强淘汰赛6/28开打、R32对阵全部落定：法国赔率continue firming至~+350独占一档，抽到瑞典签运偏软，夺冠头名进一步巩固",
-   "阿根廷预测市场隐含~14%稳居第二、压过西班牙与英格兰，R32对佛得角晋级形势大好",
-   "西班牙夺冠赔率由+550拉长至~+600被甩开退居第三，热度回落",
-   "本轮看点：德国(+1500)反超荷兰(+1600)回到前七；葡萄牙抽到克罗地亚硬签、巴西防日本爆冷"
+   "R32首日爆冷连连：德国(点球负巴拉圭)、荷兰(点球负摩洛哥)双双出局，夺冠榜两大热门蒸发",
+   "法国赔率收紧至+340独占一档、阿根廷+410紧追，两强格局稳固",
+   "西班牙(+650)、英格兰(+700)回收firming组成第二档；巴西胜日本后赔率由+1300暴涨至+950，状态回暖",
+   "黑马更替：德荷出局后，葡萄牙/比利时/摩洛哥(淘汰荷兰)成新一批冲击四强候选"
   ]
  },
  "disclaimer": "夺冠/晋级为整届概率推断，淘汰赛单场定胜负、不确定性仍高，仅供参考，请理性博彩。",
